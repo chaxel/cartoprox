@@ -1,0 +1,18 @@
+******************************************************************
+ Emissions : region_ARN
+ Selection : _grandlyon
+ Cadastre  : 2009v89
+ Mini-domaine 620500_5065500 (1 sur 164)
+ Occup. sol: RURALE
+ Profil emi: 7
+ Nous sommes le : Wed Aug 17 11:48:37 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : region_ARN
+ Selection : _grandlyon
+ Cadastre  : 2009v89
+ Mini-domaine 620500_5068500 (2 sur 164)
+ Occup. sol: RURALE
+ Profil emi: 7
+ Nous sommes le : Wed Aug 17 11:48:47 UTC 2011
+******************************************************************

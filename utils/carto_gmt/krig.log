@@ -1,0 +1,32 @@
+
+ KB2D Version: 2.000
+
+  data file = .input                                  
+  columns for X,Y, VR =            1           2           3
+  trimming limits =   -100000.0       100000.0    
+  debugging level =            1
+  debugging file = kb2d.dbg                                
+  output file = kb2d.out                                
+  nx, xmn, xsiz =         1000   798.0000      8.0000004E-03
+  ny, ymn, ysiz =          125   1985.000      8.0000004E-03
+  discretization =            1           1
+  min max data =            2          50
+  isotropic radius =    8.000000    
+  ktype,skmea =            1   2.302000    
+  nst, nugget =            1  0.0000000E+00
+  it,cc,ang,a_max,a_min =            1   8.000000      0.0000000E+00
+   10.00000       10.00000    
+ 
+
+ There are     3481 data with:
+   mean value          =     21.60558
+   standard deviation  =     16.73196
+
+
+Estimated     125000 blocks 
+  average     15.1360
+  variance   224.4207
+
+
+ KB2D Version: 2.000 Finished
+

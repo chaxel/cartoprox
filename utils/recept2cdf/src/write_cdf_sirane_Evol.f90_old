@@ -1,0 +1,204 @@
+      program write_cdf_sirane_evol
+! ********************************************************************
+! * ECRIT DANS UN FICHIER NETCDF LES RESULTATS AU RECEPTEURS ou RUES *
+! * AUTHOR:	  E. CHAXEL					     *
+! *		  COPARLY	                                     *
+! * LAST MODIFICATION: FEB. 2010				     *
+! ********************************************************************
+
+      use netcdf
+      use typesizes
+
+      implicit none
+      
+!-----Input 
+      character(len=256) :: dir_out   ! repertoire sorties /chemin/RESULTAT_2008
+      character(len=256) :: fn_evol   ! fichier Evol-recept
+      character(len=256) :: fn_cdf    ! fichier NetCDF sorties
+      
+!-----dimensions                 
+      integer :: npts,nvars 
+
+!-----noms des recepteurs et des variables
+      character(len=256), allocatable :: pts_name(:)            
+      character(len=256), allocatable :: var_name(:)     
+
+!-----local
+      integer :: n, it, l
+      character(len=1)  :: str_tmp
+      integer,parameter  :: nmax = 24*31*12
+      integer,parameter  :: npolmax = 3      
+      character(len=10)  :: datestr1
+      character(len=5)   :: heurestr1
+      real,allocatable   :: conc1(:) 
+      integer :: ios
+      
+!-----sortie
+      integer :: ligne
+      integer, external  :: interdat
+      integer :: idate, jdate
+      character(len=19),allocatable :: datestr(:)
+      integer,allocatable :: it_cdf(:)       
+      real,allocatable    :: conc(:,:,:)      
+            
+!-----lecture temp      
+      integer :: Year1  !Four-digit year of start time
+      integer :: Mnth1  !Month of start time
+      integer :: Day1   !Day of start time
+      integer :: Hour1  !Hour of start time
+      integer :: Min1   !Minute of start time
+      
+!-----inutile          
+      integer :: Year  !Four-digit year of start time
+      integer :: Mnth  !Month of start time
+      
+      integer :: numFrTimes
+      real    :: timestep 
+      
+      character(len=4) :: Yearstr 
+      character(len=2) :: Mnthstr 
+      character(len=2) :: Daystr
+      character(len=2) :: Hourstr
+      character(len=2) :: Minstr
+      character(len=2) :: Secstr        
+                    
+ !----netcdf related
+      integer :: ncFileID, frTimeDimID, frTimeVarID, ptsDimID, varsDimID
+      integer :: xVarID         
+      character(len=39) :: tunits  
+
+!-----CORPS DU PROGRAMME---------------------------------      
+      
+      ! lit l'argument
+      call getarg(1,dir_out)      
+      call getarg(2,fn_cdf)
+
+      if ( trim(dir_out) == '' ) then 
+        write(*,*) 'Syntaxe : dir_out [fn_cdf] '
+	stop
+      end if
+      
+      if ( index(fn_cdf,'.nc') .eq. 0 ) then 
+        fn_cdf='defaut.nc'
+        write(*,*) 'Utilise defaut : '//trim(fn_cdf)
+      end if
+
+! Lit les données 
+
+      call check(nf90_open(trim(fn_cdf), nf90_write, ncFileID))  
+      
+      call check(nf90_inq_dimid(ncFileID, 'Time', frTimeDimID)) 
+      call check(nf90_Inquire_Dimension(ncFileID, frTimeDimID, len= numFrTimes))
+      
+      call check(nf90_inq_dimid(ncFileID, 'Point',  ptsDimID)) 
+      call check(nf90_Inquire_Dimension(ncFileID, ptsDimID, len= npts))      
+
+      call check(nf90_inq_dimid(ncFileID, 'Variable', varsDimID)) 
+      call check(nf90_Inquire_Dimension(ncFileID, varsDimID, len= nvars))
+          
+      write(*,*) 'Dimensions OK'
+      
+      allocate(pts_name(npts))
+      allocate(var_name(nvars))
+      
+       ! tableaux lecture
+      allocate(datestr(nmax))
+      allocate(it_cdf(nmax))
+      allocate(conc(npts,nvars,nmax))
+      allocate(conc1(nvars))
+            
+      ! Recupere le nom des points et des variables
+      call check(nf90_inq_varid(ncFileID, 'pts', xVarID) )
+      call check(nf90_get_var(ncFileID, xVarID, pts_name, start = (/1,1/) ))  
+
+      call check(nf90_inq_varid(ncFileID, 'vars', xVarID) )
+      call check(nf90_get_var(ncFileID, xVarID, var_name, start = (/1,1/) ))             
+   
+      !!! Boucle sur les mois de l'année !!!
+      do Mnth = 1, 12
+      
+      if (Mnth.le.9) write(Mnthstr,'("0",I1)') Mnth
+      if (Mnth.gt.9) write(Mnthstr,'(    I2)') Mnth
+      
+      !!! Boucle sur les recepteurs !!!      
+      do n = 1, npts
+
+      ligne = 0
+      
+      fn_evol = trim(dir_out)//trim(Mnthstr)//'/Evol-recept-'//trim(pts_name(n))//'.csv'            
+      open(unit=10,file=trim(fn_evol),status='old',iostat=ios)
+
+      if (ios.eq.0) then ! fichier existe ?
+      !write(*,*) 'Lit dans '//trim(fn_evol)      
+        
+      do l= 1, 10000
+        
+      read(10,fmt=*,end=91) it ,Day1,  Mnth1, Year1 ,Hour1, Min1 ,conc1(1:nvars)  
+      
+      if ( l.eq.1) then
+        Year=Year1
+        call rdate(Year,1,1,0,idate) 
+        write(Yearstr,'(I4)') Year		
+      end if              
+      call rdate(Year1,Mnth1,Day1,Hour1,jdate) 
+            
+      if ( maxval(conc1(1:nvars)).gt.1.e-4 ) then
+        ligne = ligne + 1 	
+	it_cdf(ligne) = it ! interdat(idate,jdate) + 1
+	conc(n,1:nvars,ligne) = conc1(1:nvars)
+	write(datestr(ligne),'(I4,"/",I2,"/",I2," ",I2,":00:00")') Year1,Mnth1,Day1,Hour1 	
+	!write(*,'("Recept ",I4," Iter ",I5," date ",A19," conc",3F7.2)')  n,ligne,datestr(ligne),conc(n,1:nvars,ligne)
+      end if
+	 
+      end do     
+
+91    continue      
+      
+      close(10)
+      
+      ! Calcule les indices pour le mois x
+
+      ! Lit les données dans le fichier fn_evol pour le mois x au recepteur y
+     
+      else
+      
+        go to 92 ! -> passe au mois suivant
+     
+      end if
+
+      end do ! npts
+      
+      ! Ecrit les concentrations dans le NetCDF pour le mois x pour tous les recepteurs 
+      if ( ligne .ne. 0 ) then
+        write(*,'("annee=",I4," mois=",I2," nb dates=",I4," it=",I4)') Year,Mnth,ligne,it_cdf(1) 
+        do n= 1, nvars
+        call check(nf90_inq_varid(ncFileID, trim(var_name(n)), xVarID) )
+        call check(nf90_put_var(ncFileID, xVarID, conc(:,n,1:ligne), start = (/1,it_cdf(1)/) )) !, count = (/npts,ligne/) ))                    
+        !write(*,*) 'Ecrit variable '//trim(var_name(n))//' pour mois:', Mnth
+        end do        
+      end if         
+
+92    continue
+                  
+      end do ! Mnth
+                
+      call check(nf90_close(ncFileID))
+      
+      end program
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     
+      subroutine check(status)
+  ! Internal subroutine - checks error status after each netcdf, prints out text message each time
+  !   an error code is returned. 
+  
+      use netcdf
+      use typesizes  
+  
+      integer, intent ( in) :: status
+      if(status /= nf90_noerr) then 
+      print*, trim(nf90_strerror(status))
+      print *, 'status=',status
+      stop    
+      end if
+      end subroutine check  
+

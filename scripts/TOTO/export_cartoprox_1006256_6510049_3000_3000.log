@@ -1,0 +1,285 @@
+selection_user=_user_oper
+Parametre du domaine d extraction(UTM 31) :
+xmin_p_utm31=801998
+ymin_p_utm31=5054995
+xmax_p_utm31=811019
+ymax_p_utm31=5064003
+Parametre du domaine de PLOT (UTM 31) :
+xmin_plot_utm31=805005
+ymin_plot_utm31=5057998
+xmax_plot_utm31=808012
+ymax_plot_utm31=5061000
+Parametre du domaine d extraction(lambert93) :
+xmin_p=1001756
+ymin_p=6505549
+xmax_p=1010756
+ymax_p=6514549
+Parametre du domaine de PLOT (lambert93) :
+xmin_plot=1004756
+ymin_plot=6508549
+xmax_plot=1007756
+ymax_plot=6511549
+Travaille dans /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper
+Recherche les domaines dans /mnt/mod4/appli/CARTOPROX_V352/selections/mailles_region_A6_A89_vallees_MT.txt compris dans le domaine d extraction
+cartoprox_domaine=region_A6_A89
+Liste des 6 domaine(s) : 
+803500_5062500
+803500_5059500
+806500_5062500
+806500_5059500
+809500_5062500
+809500_5059500
+/mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt
+fic_recept_nc=/home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/803500_5062500/stat.2011010100_2011123123.nc
+../utils/carto_gmt/export_cdf_ascii.sh /home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/803500_5062500/stat.2011010100_2011123123.nc no2_moy_an    > /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/conc.tmp
+[1/6] -> extrait SIRANE a 19 points de /home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/803500_5062500/stat.2011010100_2011123123.nc
+fic_recept_nc=/home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/803500_5059500/stat.2011010100_2011123123.nc
+../utils/carto_gmt/export_cdf_ascii.sh /home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/803500_5059500/stat.2011010100_2011123123.nc no2_moy_an    > /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/conc.tmp
+[2/6] -> extrait SIRANE a 19 points de /home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/803500_5059500/stat.2011010100_2011123123.nc
+fic_recept_nc=/home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/806500_5062500/stat.2011010100_2011123123.nc
+N EXISTE PAS!
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/806500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/806500_5062500/brin_pts_brin5.txt
+Liste fichier de maillage /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/prevalp.tmp
+805005.0 5061005.0 0.
+806745.0 5061005.0 0.
+805875.0 5061505.0 0.
+807615.0 5061505.0 0.
+805005.0 5062015.0 0.
+806745.0 5062015.0 0.
+807655.0 5062505.0 0.
+805875.0 5062515.0 0.
+806785.0 5063015.0 0.
+805005.0 5063025.0 0.
+807865.0 5063485.0 0.
+805915.0 5063515.0 0.
+806995.0 5063995.0 0.
+[3/6] -> Extrait de /mnt/mod4/appli/CARTOPROX_V352/inputs/RASTER/region_A6_A89/stat_nox.2011010100_2011123123_REG01KM_vallees_MT.nc var no2_moy_an a 13 points de 806500_5062500
+var_fac=1.
+seuil_var=-999
+xmin_p_utm31=801998
+xmax_p_utm31=811019
+ymin_p_utm31=5054995
+ymax_p_utm31=5064003
+805005.0 5061005. 0.975578
+806745.0 5061005. 0.734286
+805875.0 5061505. 0.667602
+807615.0 5061505. 0.692047
+805005.0 5062015. 0.727096
+806745.0 5062015. 0.428411
+807655.0 5062505. 0.340469
+805875.0 5062515. 0.460362
+806785.0 5063015. 0.509065
+805005.0 5063025. 0.620865
+807865.0 5063485. 0.574112
+805915.0 5063515. 0.576969
+806995.0 5063995. 0.756545
+Extraction de 13 valeurs OK
+fic_recept_nc=/home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/806500_5059500/stat.2011010100_2011123123.nc
+N EXISTE PAS!
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/806500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/806500_5059500/brin_pts_brin5.txt
+Liste fichier de maillage /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/prevalp.tmp
+805500.0 5058500.0 0.
+806500.0 5058500.0 0.
+807500.0 5058500.0 0.
+805500.0 5059500.0 0.
+806500.0 5059500.0 0.
+807500.0 5059500.0 0.
+805500.0 5060500.0 0.
+806500.0 5060500.0 0.
+807500.0 5060500.0 0.
+[4/6] -> Extrait de /mnt/mod4/appli/CARTOPROX_V352/inputs/RASTER/region_A6_A89/stat_nox.2011010100_2011123123_REG01KM_vallees_MT.nc var no2_moy_an a 9 points de 806500_5059500
+var_fac=1.
+seuil_var=-999
+xmin_p_utm31=801998
+xmax_p_utm31=811019
+ymin_p_utm31=5054995
+ymax_p_utm31=5064003
+805500.0 5058500. 45075996
+806500.0 5058500. 1.10055
+807500.0 5058500. 45075996
+805500.0 5059500. 2.12722
+806500.0 5059500. 1.38627
+807500.0 5059500. 1.01431
+805500.0 5060500. 1.35993
+806500.0 5060500. 0.871622
+807500.0 5060500. 1.17184
+Extraction de 9 valeurs OK
+fic_recept_nc=/home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/809500_5062500/stat.2011010100_2011123123.nc
+N EXISTE PAS!
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/809500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/809500_5062500/brin_pts_brin5.txt
+Liste fichier de maillage /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/prevalp.tmp
+808500.0 5061500.0 0.
+809500.0 5061500.0 0.
+810500.0 5061500.0 0.
+808500.0 5062500.0 0.
+809500.0 5062500.0 0.
+810500.0 5062500.0 0.
+808500.0 5063500.0 0.
+809500.0 5063500.0 0.
+810500.0 5063500.0 0.
+[5/6] -> Extrait de /mnt/mod4/appli/CARTOPROX_V352/inputs/RASTER/region_A6_A89/stat_nox.2011010100_2011123123_REG01KM_vallees_MT.nc var no2_moy_an a 9 points de 809500_5062500
+var_fac=1.
+seuil_var=-999
+xmin_p_utm31=801998
+xmax_p_utm31=811019
+ymin_p_utm31=5054995
+ymax_p_utm31=5064003
+808500.0 5061500. 45075996
+809500.0 5061500. 0.346434
+810500.0 5061500. 45075996
+808500.0 5062500. 0.385804
+809500.0 5062500. 0.222077
+810500.0 5062500. 0.234317
+808500.0 5063500. 0.405197
+809500.0 5063500. 0.20961
+810500.0 5063500. 0.302788
+Extraction de 9 valeurs OK
+fic_recept_nc=/home/oper/data/CARTOPROX/res_V352_aera_ssPL_2011/809500_5059500/stat.2011010100_2011123123.nc
+N EXISTE PAS!
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/809500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
+Utilise /mnt/mod4/appli/CARTOPROX_V352/inputs/RECEPT_1.03/region_A6_A89/809500_5059500/brin_pts_brin5.txt
+Liste fichier de maillage /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/prevalp.tmp
+808500.0 5058500.0 0.
+809500.0 5058500.0 0.
+810500.0 5058500.0 0.
+808500.0 5059500.0 0.
+809500.0 5059500.0 0.
+810500.0 5059500.0 0.
+808500.0 5060500.0 0.
+809500.0 5060500.0 0.
+810500.0 5060500.0 0.
+[6/6] -> Extrait de /mnt/mod4/appli/CARTOPROX_V352/inputs/RASTER/region_A6_A89/stat_nox.2011010100_2011123123_REG01KM_vallees_MT.nc var no2_moy_an a 9 points de 809500_5059500
+var_fac=1.
+seuil_var=-999
+xmin_p_utm31=801998
+xmax_p_utm31=811019
+ymin_p_utm31=5054995
+ymax_p_utm31=5064003
+808500.0 5058500. 45075996
+809500.0 5058500. 0.483572
+810500.0 5058500. 45075996
+808500.0 5059500. 0.671524
+809500.0 5059500. 0.416778
+810500.0 5059500. 0.239775
+808500.0 5060500. 0.88193
+809500.0 5060500. 0.487899
+810500.0 5060500. 0.264636
+Extraction de 9 valeurs OK
+-> /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6511549.oper/tmp.no2_moy_an OK
+Points pour carte = 78 
+*** info: creer XYZ sur domaine region_A6_A89 minidomaine  var no2_moy_an agregation 
+-> /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt OK
+ Ouverture de /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_6
+ 511549.oper/tmp.xy_utm OK
+Trouve points:      78
+ -> Ecrit /mnt/mod8/data/AERA/6a_plot_CARTOPROX.sh.1004756_6508549_1007756_65115
+ 49.oper/tmp.lambert93
+Conversion /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt UTM 31 -> lambert93 OK
+./recept2grid.sh /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt no2_moy_an /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.nc /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.grd /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.vm 10 1001756 6505549 1010756 6514549 3000
+cartoprox.inc:periode_loc=9999
+./recept2grid.sh: aucune periode (AAAAMMJJ_AAAAMMJJ) specifie dans cartoprox.inc
+polluant=no2_moy_an
+GRILLE ENTREE (AVEC DONNEES)
+xmini=1001756
+ymini=6505549
+xmaxi=1010756
+ymaxi=6514549
+taille_xi=9000
+taille_yi=9000
+cadre_interp=3000
+Force la resolution dx=10m dy=10m
+Travaille dans /mnt/mod8/data/AERA/recept2grid.sh.1004756_1007756_1007756_6511549_no2_moy_an.21168
+Fichier entree
+-> /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt 78 points
+/mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt -> 78 points
+Grille sortie -> 90000 points
+-> Interpolation R
+-> /mnt/mod8/data/AERA/recept2grid.sh.1004756_1007756_1007756_6511549_no2_moy_an.21168/interp2d.R
+Elimine les doublons->moyenne sur la grille d interpolation
+fichier_xyz=/mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.txt
+xmini=1001756
+ymini=6505549
+nxi=900
+nyi=900
+dx=10
+dy=10
+-------------------------------------
+1003066.00000000 6511550.00000000 1.897
+1004245.00000000 6511551.00000000 1.481
+1001758.00000000 6511829.00000000 2.841
+1002507.00000000 6512139.00000000 2.457
+1004563.00000000 6512500.00000000 1.542
+-------------------------------------
+-> /mnt/mod8/data/AERA/recept2grid.sh.1004756_1007756_1007756_6511549_no2_moy_an.21168/points.xyz 78 points
+-------------------------------------
+1005622.;6512051.;0.6676020;1002425.
+1006739.;6514538.;0.7565450;1000165.
+1006530.;6513560.;0.5090650;999601.0
+1006490.;6512561.;0.4284110;999601.0
+1005661.;6514058.;0.5769690;997604.0
+-------------------------------------
+Points XYZ=78
+Points GRILLE=810000
+Genere la grille
+-> /mnt/mod8/data/AERA/recept2grid.sh.1004756_1007756_1007756_6511549_no2_moy_an.21168/grille.xy 90000 points
+Interpolation R en cours
+GRILLE DE SORTIE
+periode=20110101_20111231
+xmino=1004756
+ymino=6508549
+xmaxo=1007756
+ymaxo=6511549
+taille_xo=3000
+taille_yo=3000
+nxo=300
+nyo=300
+Converti /mnt/mod8/data/AERA/recept2grid.sh.1004756_1007756_1007756_6511549_no2_moy_an.21168/grille.input -> NetCDF
+ Dimensions
+ Data
+ Dimensions OK
+ Redefinition en cours pour creer no2_moy_an...
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+grille2nc.exe      000000000040970D  Unknown               Unknown  Unknown
+grille2nc.exe      00000000004080B1  Unknown               Unknown  Unknown
+grille2nc.exe      0000000000404911  Unknown               Unknown  Unknown
+grille2nc.exe      000000000040346C  Unknown               Unknown  Unknown
+libc.so.6          000000355041D994  Unknown               Unknown  Unknown
+grille2nc.exe      0000000000403379  Unknown               Unknown  Unknown
+-> /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.nc
+netcdf conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93 {
+dimensions:
+	west_east = 300 ;
+	south_north = 300 ;
+variables:
+	float easting(south_north, west_east) ;
+		easting:long_name = "Coord centre mailles" ;
+		easting:units = "m" ;
+		easting:_FillValue = -9999.f ;
+	float northing(south_north, west_east) ;
+		northing:long_name = "Coord centre mailles" ;
+		northing:units = "m" ;
+		northing:_FillValue = -9999.f ;
+	float lon(south_north, west_east) ;
+		lon:long_name = "Longitude WGS84 centre mailles" ;
+		lon:units = "m" ;
+		lon:_FillValue = -9999.f ;
+	float lat(south_north, west_east) ;
+		lat:long_name = "Latitude WGS84 centre mailles" ;
+		lat:units = "m" ;
+		lat:_FillValue = -9999.f ;
+	float no2_moy_an(south_north, west_east) ;
+		no2_moy_an:long_name = "Estimation variable" ;
+		no2_moy_an:units = "none" ;
+		no2_moy_an:_FillValue = -9999.f ;
+
+// global attributes:
+		:title = "Cartoprox 20110101_20111231 - (c) AtmoRA 2011" ;
+}
+OK... Fichier de sortie : /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.nc
+fin du script ./recept2grid.sh
+-> /mnt/mod8/data/AERA/cartoprox_user_oper/conc_2011010100_2011123123_no2_moy_an_user_oper_1006256_6510049_res10_lambert93.nc
+***info: Fin du script ./6a_map_recepteur_l93.sh

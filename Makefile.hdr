@@ -1,0 +1,20 @@
+#-*-makefile-*-
+
+NETCDFHOME = /opt/netcdf-4.0.1-gfortran-64
+F90 = ifort
+FFLAGS = -ffree-form -ffree-line-length-none -fbounds-check
+FCOPT = -O2 -xW -fno-alias -prec_div -ip
+NETCDFHOME = /opt/netcdf-4.0.1-ifort-gcc
+PROJECTIONLIB = /mnt/mod4/appli/CARTOPROX_V31/utils/projection
+PROJECTIONLIB_IFORT = /mnt/mod4/appli/CARTOPROX_V31/utils/projection
+
+# Misc. commands
+RM	=	/bin/rm -f
+AR	=	/usr/bin/ar r
+CPP	=	/usr/bin/cpp
+LN	=	/bin/ln -sf
+CD	=	cd
+CP	=	/bin/cp
+
+.SUFFIXES:
+

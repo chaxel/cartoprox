@@ -1,0 +1,21 @@
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include wcal2.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include julian.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include check.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include daymon.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include calcvent.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include get_wdot_nc_stations.f90
+(ifort -o get_wdot_nc_stations.e  get_wdot_nc_stations.o wcal2.o julian.o check.o daymon.o calcvent.o -L/opt/netcdf-4.0.1-ifort-fpic/lib -L/mnt/mod3/appli/PREVALP_OP/utils/projection_ifort -lnetcdf -lproj  -I/opt/netcdf-4.0.1-ifort-fpic/include)
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include wcal2.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include julian.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include check.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include daymon.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include calcvent.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include get_wdot_nc_stations.f90
+(ifort -o get_wdot_nc_stations.e  get_wdot_nc_stations.o wcal2.o julian.o check.o daymon.o calcvent.o -L/opt/netcdf-4.0.1-ifort-fpic/lib -L/mnt/mod3/appli/PREVALP_OP/utils/projection_ifort -lnetcdf -lproj  -I/opt/netcdf-4.0.1-ifort-fpic/include)
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include wcal2.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include julian.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include check.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include daymon.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include calcvent.f90
+ifort -c -I/opt/netcdf-4.0.1-ifort-fpic/include get_wdot_nc_stations.f90
+(ifort -o get_wdot_nc_stations.e  get_wdot_nc_stations.o wcal2.o julian.o check.o daymon.o calcvent.o -L/opt/netcdf-4.0.1-ifort-fpic/lib -L/mnt/mod3/appli/PREVALP_OP/utils/projection_ifort -lnetcdf -lproj  -I/opt/netcdf-4.0.1-ifort-fpic/include)

@@ -1,0 +1,13 @@
+        double precision  lat_origin    !Origin latitude
+        double precision  false_east    !False easting
+        double precision  false_north   !False northing
+        double precision  scale_fact    !Scale factor
+!-------Paramètres des projections UTM et LAMBERTCC
+        double precision  c_lat_D       !center latitude in degree
+        double precision  c_lon_D       !center longitude in degree
+        double precision  lat1_D        !first standard parallel in degree
+        double precision  lat2_D        !second standard parallel in degree
+        double precision  false_east_D  !x offset in meters
+        double precision  false_north_D ! y offset in meters
+	
+	integer :: typ_proj 

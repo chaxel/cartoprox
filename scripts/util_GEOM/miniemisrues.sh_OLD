@@ -1,0 +1,50 @@
+#!/bin/ksh
+#
+# FT 2009/09/03
+#############################
+code_domaine=$1
+ChemRes=$2
+nom_polluant=$3
+
+echo "==========================================================="
+echo "====== extraction emissions ${polluant} pour ${code_domaine} ======="
+echo "==========================================================="
+
+ficres=${ChemRes}/infoGEOM_${code_domaine}_pol${polluant}.sh
+. ${ficres}
+
+mkdir -p ${ChemRes}
+
+#..Recup num des rues
+if [ ! -f ${ficrues} ] ; then
+ echo "fichier inexistant !! ${ficrues}"
+ echo "bye bye"
+ exit
+fi
+ 
+list=`awk '{ if(NR>1) {printf("%s\n",$1)}  }' ${ficrues}`
+nb=`awk '{ if(NR==1) {printf("%s\n",$1)}  }' ${ficrues}`
+
+echo "fichier source : ${ficemisruesrc}"
+rm -f ${ficemisrues}
+rm -rf ${ficemisrues}.tmp
+touch ${ficemisrues}.tmp
+for nrue in ${list} ; do
+case ${nom_polluant} in
+NOx)awk '{ if($1==nrue) print($1"\t"$2) }' nrue=${nrue} ${ficemisruesrc} >> ${ficemisrues}.tmp;;
+NO2)awk '{ if($1==nrue) print($1"\t"$3) }' nrue=${nrue} ${ficemisruesrc} >> ${ficemisrues}.tmp;;
+PM10)awk '{ if($1==nrue) print($1"\t"$4) }' nrue=${nrue} ${ficemisruesrc} >> ${ficemisrues}.tmp;;
+esac
+done #ntyp
+#
+#...format sirane
+echo ${nb}              >  ${ficemisrues}
+cat  ${ficemisrues}.tmp >> ${ficemisrues}
+rm   ${ficemisrues}.tmp
+
+#..menage
+echo "-> ${ficemisrues}"
+head -n 5 ${ficemisrues}
+
+echo "fichier cree : ${ficemisrues}"
+echo "fin normale de $0"

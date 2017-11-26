@@ -1,0 +1,21 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.1  
+ ! Linux(g77) 2.6.9-22. - 03/26/08
+ !  7-Dec-10 08:21     
+
+use /data/CARTOPROX/res2009_V2_region_ARN_grenoble_w10m/728500_4999500/sirane_nox.2009010100_2009010200.nc
+use "/data/CARTOPROX/res2009_V2_region_ARN_grenoble_w10m/728500_4999500/sirane_nox.2009010100_2009010200.nc"
+sh d
+can d /a;use "/data/CARTOPROX/res2009_V2_region_ARN_grenoble_w10m/728500_4999500/sirane_nox.2009010100_2009010200.nc"
+sh d
+sha O3_FOND
+plot O3_FOND
+plot NO2_FOND
+can d /a;use "/data/CARTOPROX/res2009_V2_region_ARN_grenoble_w10m/728500_4999500/sirane_nox.2009010100_2009010200.nc"
+plot NO2_FOND
+plot NO2_FOND,o3_fond,no_fond
+can d /a;use "/data/CARTOPROX/res2009_V2_region_ARN_grenoble_w10m/728500_4999500/sirane_nox.2009010100_2009010200.nc"
+plot NO2_FOND,o3_fond,no_fond
+can d /a;use "/data/CARTOPROX/res2009_V2_region_ARN_grenoble_w10m/728500_4999500/sirane_nox.2009010100_2009010200.nc"
+plot NO2_FOND,o3_fond,no_fond
+exit

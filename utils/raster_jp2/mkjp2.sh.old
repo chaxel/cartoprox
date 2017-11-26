@@ -1,0 +1,98 @@
+#!/bin/bash
+
+## Création d'un raster au format jpg2000 ##
+
+kdu_home=/opt/kakadu
+
+case $# in
+  4)
+    indir=$1
+    outdir=$2
+    var=$3
+    epsg=$4
+    ;;
+  *)
+    echo "usage: $0 indir outdir var epsg"
+    exit 1
+    ;;
+esac
+
+# tmp dir
+if [ "${cartoprox_scratch}" != "" ]; then
+	tmpdir=${cartoprox_scratch}
+else
+	if [ "${SCRATCH}" == "" ]; then
+		tmpdir=/tmp
+	else
+		tmpdir=${SCRATCH}
+	fi
+fi
+tmpdir=${tmpdir}/`basename $0`.$$
+
+cdfs=`ls ${indir}/cdf/*.cdf 2>/dev/null`
+[ "${cdfs}" == "" ] && { echo "erreur: pas de fichier .cdf dans ${indir}/cdf !"; exit 1; }
+
+mkdir -p ${tmpdir} ${outdir}
+log=${outdir}/raster_${var}.log
+rm -f ${log}
+echo "log > ${log}"
+echo "tmp dir > ${tmpdir}"
+
+dalles=""
+
+echo "génération des rasters" | tee -a ${log}
+for cdf in ${cdfs}; do
+	xc=`basename ${cdf} | cut -d'_' -f3`
+	yc=`basename ${cdf} | cut -d'_' -f4`
+	dx=`basename ${cdf} | cut -d'_' -f5`
+	dy=`basename ${cdf} | cut -d'_' -f6`
+	xmin=`echo ${xc} ${dx} | gawk '{ print $1 - $2 / 2 }'`
+	xmax=`echo ${xc} ${dx} | gawk '{ print $1 + $2 / 2 }'`
+	ymin=`echo ${yc} ${dy} | gawk '{ print $1 - $2 / 2 }'`
+	ymax=`echo ${yc} ${dy} | gawk '{ print $1 + $2 / 2 }'`
+
+	echo "traitement de ${cdf}" >>${log}
+	
+	[ -e echelle_${var}.txt ] || { echo "erreur: pas d'echelle de couleur pour la variable ${var} (echelle_${var}.txt) !"; exit 1; }
+	
+	cmd="gdaldem color-relief NETCDF:\"${cdf}\":${var} echelle_${var}.txt -of GTiff ${tmpdir}/img_${xc}_${yc}_${var}.tif"
+	echo ${cmd} >>${log}
+	${cmd} 1>>${log} 2>>${log}
+	[ $? -ne 0 ] && { echo "erreur dans la création de l'image coloré img_${xc}_${yc}_${var}.tif"; exit 1; }
+	
+	cmd="convert ${tmpdir}/img_${xc}_${yc}_${var}.tif -flip ${tmpdir}/img_${xc}_${yc}_${var}.flip.tif"
+	echo ${cmd} >>${log}
+	${cmd} 1>>${log} 2>>${log}
+	[ $? -ne 0 ] && { echo "erreur dans la correction Y de l'image coloré img_${xc}_${yc}_${var}.flip.tif"; exit 1; }
+	
+	cmd="gdal_translate -a_ullr ${xmin} ${ymax} ${xmax} ${ymin} -a_srs EPSG:${epsg} -of GTiff ${tmpdir}/img_${xc}_${yc}_${var}.flip.tif ${tmpdir}/raster_${xc}_${yc}_${var}.tif"
+	echo ${cmd} >>${log}
+	${cmd} 1>>${log} 2>>${log}
+	[ $? -ne 0 ] && { echo "erreur dans la création du raster raster_${xc}_${yc}_${var}.tif !"; exit 1; }
+
+	rm -f ${tmpdir}/img_${xc}_${yc}_${var}.tif ${tmpdir}/img_${xc}_${yc}_${var}.flip.tif
+
+	echo " -> raster_${xc}_${yc}_${var}.tif [ok]" | tee -a ${log}
+	echo >>${log}
+	dalles="${dalles}${tmpdir}/raster_${xc}_${yc}_${var}.tif "
+
+done
+
+echo "fusion des rasters" | tee -a ${log}
+cmd="gdal_merge.py -o ${tmpdir}/raster_merge_${var}.tif -of GTiff ${dalles}"
+echo ${cmd} >>${log}
+${cmd} 1>>${log} 2>>${log}
+[ $? -ne 0 ] && { echo "erreur dans la fusion des rasters"; exit 1; }
+echo >>${log}
+
+echo "compression en jp2" | tee -a ${log}
+cmd="${kdu_home}/kdu_compress -i ${tmpdir}/raster_merge_${var}.tif -o ${outdir}/raster_${var}.jp2"
+echo ${cmd} >>${log}
+${cmd} 1>>${log} 2>>${log}
+[ $? -ne 0 ] && { echo "erreur dans la création du raster jp2"; exit 1; }
+
+rm -f ${tmpdir}/raster_merge_${var}.tif ${dalles}
+echo " -> ${outdir}/raster_${var}.jp2"
+
+rm -rf ${tmpdir}
+exit 0

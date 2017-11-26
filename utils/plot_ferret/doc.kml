@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>Cartoprox</name>
+	<color>99ffffff</color>
+	<Icon>
+		<href>files/carto_no2_moy_an.gif</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>-1000000000</north>
+		<south>1000000000</south>
+		<east>5</east>
+		<west>4</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

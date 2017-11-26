@@ -1,0 +1,48 @@
+ ******************************************
+ * PREVALP - STATISTIQUES CHIMERE        
+ * (c)Atmo Rhone-Alpes 2010      
+ * version       1.00
+ * contact: echaxel@atmo-rhonealpes.org
+ ******************************************
+ Determine le type de fichier/mnt/mod4/data/PREVALP_DATA/cartos/carto_2007_annue
+ l/emi2007v31/out.20070101_20080101_REG06KM.nc
+ -> Grille
+ Read existing CDF /mnt/mod4/data/PREVALP_DATA/cartos/carto_2007_annuel/emi2007v
+ 31/out.20070101_20080101_REG06KM.nc
+ Trouve pas de temps :         8761
+ Lit date de CHIMERE
+ Trouve date initiale : 2007-01-01_00:00:00
+ distgrid(degrees)=  7.5000048E-02
+ Lit la date dans /mnt/mod4/data/PREVALP_DATA/cartos/carto_2007_annuel/emi2007v3
+ 1/out.20070101_20080101_REG06KM.nc
+ Ouvre les fichiers NetCDF
+ Verifie la presence de PM10
+ > AEROSOLS TOTAUX DISPONIBLES
+ Verifie la presence de NO2/PM10
+ > GAZ O3/NO2 DISPONIBLES
+ Verifie la presence de tem2
+ > TEMPERATURE 2M INDISPONIBLE
+ Verifie la presence de pHNO3
+ > pHNO3 INDISPONIBLE
+ Dimensions          47          46           1
+ Allocations...
+ Creer le NetCDF de sortie ? -> seulement si n existe pas
+ F
+ Dimensions OK
+ Lit les coordonnees
+ Ecrit les coordonnees lon,lat ou x_pts, y_pts
+ Ecrit longitude lon
+ Ecrit latitude lat
+ Ecrit id_maille
+ Ecrit id_maille_vm
+ Nombre de pas de temps pour une année=        8761
+ ... O3 ndims=           4
+ ... NO2 ndims=           4
+ ... PM10 ndims=           4
+      Date AOT_foret AOT_veget    O3 max   NO2 max  PM10 max ecart max
+2007-01-01_00                         43.49     15.13     18.99      0.00 correction PM10   0.00
+ Pas de temps dans entree par jour:          24
+ -> Ecrit donnees pour it=           1 nheures=          24
+ Heures par jour=          24
+2007-01-02_00                         44.03     21.77     18.80      0.00 correction PM10   0.00
+ -> Ecrit donnees pour it=           2 nheures=          24

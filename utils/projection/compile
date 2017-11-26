@@ -1,0 +1,14 @@
+rm *.o
+
+FC=$F90
+
+echo $FC
+
+$FC -w -c -I./ F_projection.f90
+$FC -w -c -I./ R_georef.f
+$FC -w -c -I./ R_project2.f
+$FC -w -c -I./ R_usgs.f90
+
+rm -rf libproj.a
+ar rf libproj.a F_projection.o R_georef.o R_project2.o R_usgs.o
+

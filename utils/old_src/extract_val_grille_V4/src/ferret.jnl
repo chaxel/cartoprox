@@ -1,0 +1,9 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.1  
+ ! Linux(g77) 2.6.9-22. - 03/26/08
+ !  6-Dec-10 17:23     
+
+use sirane_nox.2009010100_2009010200.nc
+sh d
+sha no2
+exit

@@ -1,0 +1,29 @@
+        double precision  lat_origin    !Origin latitude
+        double precision  false_east    !False easting
+        double precision  false_north   !False northing
+        double precision  scale_fact    !Scale factor
+!-------Paramètres des projections UTM et LAMBERTCC
+        double precision  c_lat_D       !center latitude in degree
+        double precision  c_lon_D       !center longitude in degree
+        double precision  lat1_D        !first standard parallel in degree
+        double precision  lat2_D        !second standard parallel in degree
+        double precision  false_east_D  !x offset in meters
+        double precision  false_north_D ! y offset in meters
+        parameter ( lat_origin=0      ) !UTM
+        parameter ( false_east=500000 ) !UTM
+        parameter ( false_north=0     ) !UTM
+        parameter ( scale_fact=0.9996 ) !UTM
+!        parameter ( c_lat_D=40	    ) !LAMBCC CMAQ
+!        parameter ( c_lon_D=-9     ) !LAMBCC CMAQ
+!        parameter ( lat1_D=30	    ) !LAMBCC CMAQ
+!        parameter ( lat2_D=60	    ) !LAMBCC CMAQ
+!        parameter ( false_east_D=0 ) !LAMBCC CMAQ
+!        parameter ( false_north_D=0) !LAMBCC CMAQ
+!        parameter ( scale_fact=1            ) !LAMBCC LAMB2 ETENDU
+        parameter ( c_lat_D=46.8	    ) !LAMBCC LAMB2 ETENDU
+        parameter ( c_lon_D= 2.33722917     ) !LAMBCC LAMB2 ETENDU
+        parameter ( lat1_D=45.898919	    ) !LAMBCC LAMB2 ETENDU
+        parameter ( lat2_D=47.696014	    ) !LAMBCC LAMB2 ETENDU
+        parameter ( false_east_D=600000     ) !LAMBCC LAMB2 ETENDU
+        parameter ( false_north_D=2200000   ) !LAMBCC LAMB2 ETENDU	
+	

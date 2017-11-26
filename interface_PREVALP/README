@@ -1,0 +1,132 @@
+Interface PREVALP/SIRANE (juillet 2009)
+auteur : Eric Chaxel
+
+Entrées: 
+- fichier de sortie WRF wrfout_*.nc
+- fichier de meteo de CHIMERE meteo.*.nc
+
+
+1. Description des variables en entrée du préprocesseur de SIRANE
+-----------------------------------------------------------------
+
+Le préprocesseur météo de SIRANE lit un fichier INPUT_Bron_2008.txt
+
+Les champs contenus dans ce fichier sont :
+date          date dans le format JJ/MM/AAAA HH:MM
+vitesse       vitesse du vent à 10 m (m/s)
+direction     direction du vent à 10 m
+temperature   température à 2 m (°C)
+nebulosité    nébulosité (octas)
+precipitation précipitations (mm/h)
+
+
+	            vitesse	direction	temperature	nebulosité	precipitation
+01/01/2008 00:00	2.1	360	0.4	8	0
+01/01/2008 01:00	2.4	10	1.3	8	0
+01/01/2008 02:00	3.5	10	1.4	8	0
+01/01/2008 03:00	3	10	1.3	8	0
+01/01/2008 04:00	2	10	1.6	8	0
+
+
+2. Description des variables en sortie du préprocesseur de SIRANE
+-----------------------------------------------------------------
+
+Le préprocesseur météo de SIRANE produit les fichiers Evol-meteo-200803.dat de SIRANE
+
+i          indice de l'heure de l'année
+Date       date dans le format JJ/MM/AAAA
+Heure      heure TU dans le format HH:MM
+Uext       Vitesse du vent à 10 m (m/s)
+Direct     Direction du vent
+Uh         Vitesse du vent au-dessus des toits (m/s)
+To         Température (°C)
+h          Hauteur de la couche limite (m)
+us         Vitesse de frottement (m/s)
+sigmatheta Fluctutation de la direction du vent
+Cld        Couverture nuageuse (octas)
+Fo         Flux thermique au sol (W/m^2)
+Lmo        Longueur de Monin-Obukhov (m)
+thetas     Temperature de friction
+k1         Constante en ciel clair de la reaction NO + O3 -> NO2 + O2 (en s/ppb)
+k3         constante avec atténuation nuageuse de la reaction NO + O3 -> NO2 + O2 (en s/ppb)
+
+Exemple de fichier :
+i       Date    Heure   Uext    Direct  Uh      To      h       us      sigmatheta      Cld     Fo      Lmo     thetas  k1      k3
+1       01/01/2008      00:00   2.10    360.0   1.16    0.40    135.2   0.18    8.40    8.0     -10.37  90.00   0.045   0.00e+00        3.12e-04
+2       01/01/2008      01:00   2.40    10.0    1.31    1.30    145.5   0.21    7.88    8.0     -11.76  90.00   0.045   0.00e+00        3.16e-04
+3       01/01/2008      02:00   3.50    10.0    1.95    1.40    248.4   0.33    6.51    8.0     -18.80  167.57  0.045   0.00e+00        3.17e-04
+4       01/01/2008      03:00   3.00    10.0    1.65    1.30    183.5   0.27    7.04    8.0     -15.22  109.64  0.045   0.00e+00        3.16e-04
+5       01/01/2008      04:00   2.00    10.0    1.10    1.60    131.6   0.17    8.60    8.0     -9.82   90.00   0.045   0.00e+00        3.18e-04
+
+3. Calcul des variables pour SIRANE à partir de WRF et CHIMERE
+--------------------------------------------------------------
+
+i          
+Date       
+Heure      
+Uext       Lu          wrfout WRF
+Direct     Lu          wrfout WRF
+Uh         Calculé     à partir de w10m (meteo CHIMERE)
+To         Lu          wrfout WRF
+h          Lu          meteo CHIMERE 
+us         Lu          wrfout WRF
+sigmatheta Calculé     à partir de wrfout WRF 
+Cld        Calculé     à partir de atte (meteo CHIMERE)
+Fo         Lu          wrfout WRF
+Lmo        Lu          meteo CHIMERE
+thetas     Calculé     à partir de Fo et ustar (wrfout WRF )
+k1         Calculé     à partir de k1_clear et atte (meteo CHIMERE)
+k3         Calculé     à partir de tem2 (meteo CHIMERE)
+
+
+3.a. Vitesse au niveau des toits Uh
+-----------------------------------
+Utilise le profil de vitesse dans le cas neutre Uh=usta*ln(z/z0)
+
+3.b. Fluctuation de la direction du vent sigmatheta
+---------------------------------------------------
+sigmatheta=0.065*sqrt(7/w10m)*180/pi
+
+3.c. Nebulosite Cld
+-------------------
+atte = 0.75 * (Cld/8)^3.4
+Cld = 8*(atte/0.75)^(1/3.4)
+
+3.d. Temperature de friction thetas
+-----------------------------------
+thetas=Fo/(rho*Cp*ustar)
+
+3.e. Constante de la reaction NO2+hv k1
+---------------------------------------
+Il faut calculer la constante par ciel clair k1_clear
+
+DBL elevation_solaire(DBL jour,DBL heure)
+{
+  DBL decl_sol;
+  decl_sol=23.45*sin((jour+284.0)/365.0*2.0*pi);
+  
+  return sin(Don.Lat*pi/180.0)*sin(decl_sol*pi/180.0)+
+    cos(Don.Lat*pi/180.0)*cos(decl_sol*pi/180.0)*
+    cos((heure-12.0)/24.0*2.0*pi);
+}
+/*---------------------------------------------*/
+
+k1_clear=(0.5699-pow(9.056E-3*(90.0-180.0*asin(elev_sol)/pi),2.546))/60.0;
+
+ensuite k1=k1_clear*(1-0.75*(Cld/8)^3.4)
+
+3.f. Constante de la reaction NO+O3 k3
+--------------------------------------
+k3=2*1.e-12*exp(-1430/Tkelv)*Na/(Vo*1000*1.e-9) resutat en s/ppb
+
+# CAS TEST #################################################################
+Generer les fichiers d'entree pour Bourgoin-Jalieu :
+
+# ANNEE 2008
+export_vers_SIRANE_CARTOPROX.sh 45.58453 5.27526 bourgoin  /appli/SIRANE/inputs/INPUT/bourgoin  2008
+
+# ANNEE 2009
+export_vers_SIRANE_CARTOPROX.sh 45.58453 5.27526 bourgoin  /appli/SIRANE/inputs/INPUT/bourgoin  2009
+
+
+

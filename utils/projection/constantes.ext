@@ -1,0 +1,20 @@
+      INTEGER	MAX_VAL
+      double precision   MAXLONG ! Valeur maximum entier
+      double precision   DBLLONG ! Valeur maximum d'un réel
+      double precision   PI	 ! Pi number
+      double precision   HALF_PI ! Pi/2
+      double precision   TWO_PI  ! 2*Pi
+      double precision   EPSLN   ! Epsilon
+      double precision   R2D	 ! Radians   ->Degrees
+      double precision   D2R	 ! Degrees   ->Radians
+      double precision   S2R	 ! Steradians->Radians
+      parameter( MAX_VAL=4		   )
+      parameter( MAXLONG=2147483647	   )
+      parameter( DBLLONG=4.61168601D+018   )
+      parameter( PI=3.141592653589793238   )
+      parameter( HALF_PI=1.57079632679     )
+      parameter( TWO_PI=6.28318530718	   )
+      parameter( EPSLN=0.0000000001	   )
+      parameter( R2D=57.2957795131	   )
+      parameter( D2R=.0174532925199	   )
+      parameter( S2R=4.848136811095359D-005)

@@ -1,0 +1,2061 @@
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 632500_4909500 (1 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:57:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 632500_4912500 (2 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:57:17 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 632500_4915500 (3 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:57:28 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 632500_4918500 (4 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:57:41 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 632500_4921500 (5 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:57:54 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 632500_4924500 (6 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:58:03 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4909500 (7 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:58:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4912500 (8 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:58:23 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4915500 (9 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:58:42 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4918500 (10 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:59:04 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4921500 (11 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:59:19 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4924500 (12 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:59:29 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4927500 (13 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:59:38 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4930500 (14 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:59:44 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4933500 (15 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 11:59:51 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4936500 (16 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:00:03 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4939500 (17 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:00:14 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4942500 (18 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:00:23 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4951500 (19 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:00:30 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4954500 (20 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:00:37 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_4957500 (21 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:00:46 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5017500 (22 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 12
+ Nous sommes le : Wed Aug 17 12:00:53 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5020500 (23 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:01:00 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5023500 (24 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:01:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5026500 (25 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:01:21 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5029500 (26 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:01:28 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5032500 (27 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:01:35 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5035500 (28 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:01:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5047500 (29 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:01:49 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5050500 (30 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:02:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5053500 (31 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:02:22 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5056500 (32 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:02:40 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 635500_5059500 (33 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:02:47 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4909500 (34 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:02:57 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4912500 (35 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:03:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4915500 (36 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:03:19 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4918500 (37 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:03:37 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4921500 (38 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:03:52 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4924500 (39 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:04:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4927500 (40 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:04:20 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4930500 (41 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:04:32 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4933500 (42 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:04:45 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4936500 (43 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:04:57 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4939500 (44 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:05:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4942500 (45 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:05:24 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4945500 (46 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:05:35 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4948500 (47 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:05:48 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4951500 (48 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:06:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4954500 (49 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:06:21 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4957500 (50 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:06:39 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4960500 (51 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:06:55 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4963500 (52 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:07:10 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5008500 (53 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:07:17 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5011500 (54 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:07:24 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5014500 (55 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:07:33 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5017500 (56 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:07:47 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5020500 (57 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:08:14 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5023500 (58 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:08:47 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5026500 (59 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:09:12 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5029500 (60 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:09:29 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5032500 (61 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:09:47 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5035500 (62 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:10:06 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5038500 (63 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:10:26 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5041500 (64 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:10:38 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5044500 (65 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:10:52 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5047500 (66 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:11:09 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5050500 (67 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:11:58 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5053500 (68 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:12:52 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5056500 (69 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:13:48 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5059500 (70 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:14:18 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5062500 (71 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:14:58 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5065500 (72 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:16:12 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5068500 (73 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:18:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 638500_5071500 (74 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:19:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4909500 (75 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:21:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4912500 (76 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:21:17 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4915500 (77 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:21:25 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4918500 (78 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:21:36 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4921500 (79 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:21:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4924500 (80 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:21:52 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4927500 (81 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:22:02 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4930500 (82 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:22:14 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4933500 (83 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:22:27 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4936500 (84 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:22:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4939500 (85 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:23:03 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4942500 (86 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:23:18 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4945500 (87 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:23:32 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4948500 (88 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:23:47 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4951500 (89 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:24:01 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4954500 (90 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:24:15 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4957500 (91 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:24:36 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4960500 (92 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:25:00 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4963500 (93 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:25:20 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4966500 (94 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:25:33 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4969500 (95 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:25:40 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4984500 (96 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:25:44 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4987500 (97 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:25:50 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4990500 (98 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:25:56 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4993500 (99 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:04 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4996500 (100 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4999500 (101 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:16 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5002500 (102 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:19 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5005500 (103 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:24 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5008500 (104 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:32 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5011500 (105 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:44 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5014500 (106 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:26:58 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5017500 (107 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:27:16 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5020500 (108 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:27:36 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5023500 (109 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:27:57 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5026500 (110 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:28:17 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5029500 (111 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:28:30 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5032500 (112 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:28:45 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5035500 (113 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:28:58 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5038500 (114 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:29:21 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5041500 (115 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:29:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5044500 (116 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:30:18 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5047500 (117 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:30:53 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5050500 (118 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:31:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5053500 (119 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:32:28 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5056500 (120 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:33:13 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5059500 (121 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 12:33:52 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5062500 (122 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:34:54 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5065500 (123 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:36:25 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5068500 (124 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:38:28 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 641500_5071500 (125 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 12:40:30 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4930500 (126 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:43:32 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4933500 (127 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:43:52 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4936500 (128 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:44:18 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4939500 (129 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:44:44 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4942500 (130 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:45:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4945500 (131 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:45:42 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4948500 (132 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:46:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4951500 (133 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:46:39 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4954500 (134 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:47:08 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4957500 (135 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:47:23 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4960500 (136 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:47:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4963500 (137 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:48:07 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4966500 (138 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:48:24 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4969500 (139 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:48:39 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4972500 (140 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:49:00 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4975500 (141 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:49:39 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4978500 (142 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:50:42 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4981500 (143 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 12:51:36 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4984500 (144 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:52:15 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4987500 (145 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:52:42 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4990500 (146 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:53:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4993500 (147 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:53:36 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4996500 (148 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:54:04 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4999500 (149 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:54:20 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5002500 (150 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:54:32 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5005500 (151 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:54:51 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5008500 (152 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:55:14 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5011500 (153 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:55:38 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5014500 (154 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:56:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5017500 (155 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:56:33 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5020500 (156 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:57:00 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5023500 (157 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:57:24 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5026500 (158 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:57:49 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5029500 (159 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:58:12 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5032500 (160 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:58:33 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5035500 (161 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:58:55 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5038500 (162 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:59:15 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5041500 (163 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 12:59:37 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5044500 (164 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:00:16 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5047500 (165 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:00:50 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5050500 (166 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:01:28 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5053500 (167 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:01:56 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5056500 (168 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:02:27 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5059500 (169 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:02:57 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5062500 (170 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:03:45 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5065500 (171 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:04:57 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5068500 (172 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:06:54 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 644500_5071500 (173 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:08:53 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4954500 (174 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:10:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4957500 (175 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:10:17 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4960500 (176 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:10:29 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4963500 (177 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:10:41 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4966500 (178 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:10:56 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4969500 (179 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:11:13 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4972500 (180 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:11:41 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4975500 (181 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:12:32 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4978500 (182 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:13:30 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4981500 (183 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:14:25 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4984500 (184 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:15:06 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4987500 (185 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:15:28 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4990500 (186 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:15:45 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4993500 (187 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:16:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4996500 (188 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:16:23 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_4999500 (189 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:16:37 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5002500 (190 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:16:48 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5005500 (191 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:17:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5008500 (192 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:17:23 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5011500 (193 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:17:40 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5014500 (194 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:17:54 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5038500 (195 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:18:03 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5041500 (196 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:18:23 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5044500 (197 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:18:56 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5047500 (198 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:19:24 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5050500 (199 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:19:46 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5053500 (200 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:19:56 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5056500 (201 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:20:07 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5059500 (202 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:20:29 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5062500 (203 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:20:58 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5065500 (204 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:22:02 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5068500 (205 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:23:18 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 647500_5071500 (206 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 9
+ Nous sommes le : Wed Aug 17 13:24:19 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4963500 (207 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:25:01 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4966500 (208 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:25:09 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4969500 (209 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:25:22 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4972500 (210 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:25:47 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4975500 (211 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:26:43 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4978500 (212 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:27:51 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4981500 (213 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:28:56 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4984500 (214 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:29:35 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4987500 (215 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:29:55 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4990500 (216 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:30:11 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4993500 (217 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:30:31 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4996500 (218 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:30:50 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_4999500 (219 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:31:06 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_5002500 (220 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:31:16 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_5005500 (221 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:31:30 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_5008500 (222 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 6
+ Nous sommes le : Wed Aug 17 13:31:42 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_5056500 (223 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:31:53 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 650500_5059500 (224 sur 229)
+ Occup. sol: URBAINE
+ Profil emi: 11
+ Nous sommes le : Wed Aug 17 13:32:00 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 653500_4972500 (225 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:32:10 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 653500_4975500 (226 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:32:35 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 653500_4978500 (227 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:33:15 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 653500_4981500 (228 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:33:55 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : 
+ Cadastre  : 2009v89
+ Mini-domaine 653500_4984500 (229 sur 229)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Wed Aug 17 13:34:40 UTC 2011
+******************************************************************

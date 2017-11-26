@@ -1,0 +1,93 @@
+/******************************************
+/** Donnees pour l'utilisation de SIRANE **
+/******************************************
+/**    ATTENTION ! DONNEES PAR DEFAUT    **
+/**      NE PAS MODIFIER CE FICHIER      **
+/**           SANS PRECAUTIONS           **
+/******************************************
+/ Donnees spatiales :
+/--------------------
+Fichier de rue = INPUT/rue.dat
+Fichier de noeud = INPUT/noeud.dat
+Fichier de sources ponctuelles = INPUT/sources-ponct.dat
+/ Donnees temporelles :
+/----------------------
+Nombre de pas de temps = 4
+Pas de temps de debut = 1
+Pas de temps de fin = 1
+Donnees sequentielles [0/1] = 0
+Activation du modele de dispersion [0/1] = 1
+Fichier meteo = INPUT/meteo.dat
+Fichier meteo diagnostique = INPUT/evol-meteo.dat
+Fichier d'emissions des rues = INPUT/evol-emis-rue.dat
+Fichier d'emissions des noeuds = INPUT/evol-emis-noeud.dat
+Fichier d'emissions ponctuelles = INPUT/evol-emis-ponct.dat
+Fichier de pollution de fond = INPUT/conc-fond.dat
+/ Caracteristiques du quartier :
+/-------------------------------
+Latitude [deg] = 45.598351
+Rugosite aerodynamique du quartier [m] = 1.0
+Epaisseur de deplacement du quartier [m] = 0.0
+Hauteur moyenne des batiments [m] = 0.0
+Rugosite aerodynamique des batiments [m] = 0.05
+Albedo = 0.1873
+Emissivite = 0.88
+Coefficient de Priestley-Taylor = 1.0
+/ Conditions meteorologiques :
+/-----------------------------
+Conditions meteorologiques [0/1] = 0
+Prise en compte des precipitations [0/1] = 0
+Type de mesure du vent [0/1] = 1
+Altitude du vent mesure [m] = 20.0
+Rugosite aerodynamique du site de mesure [m] = 1.0
+Epaisseur de deplacement du site de mesure [m] = 0.0
+Calcul de la hauteur de la CLA [0/1] = 1
+Gradient thermique dans l'atmosphere libre [deg C/m] = -0.0065
+Pression de reference [Pa] = 101300.0
+Longueur de Monin-Obukhov minimale [m] = 60.0
+Vitesse du vent minimale [m/s] = 1.0
+Ecart-type de vitesse sigmav minimal [m/s] = 0.5
+Ecart-type de vitesse sigmaw minimal [m/s] = 0.5
+/ Type de polluant :
+/-------------------
+Type de polluant [0/1/2] = 0
+Taux de NO2 a l'emission = 0.05
+Modele de constantes chimiques [0/1] = 0
+Rapport k1/k3 [ppb] = 10.0
+Diametre moyen des particules [m] = 1.0e-5
+Masse volumique des particules [kg/m3] = 1000.0
+/ Lessivage :
+/------------
+Constante a du modele de lessivage [h/mm/s] = 1.0e-4
+Constante b du modele de lessivage [-] = 1.0
+/ Turbulence :
+/-------------
+Modele de diffusion [0/1/2] = 1
+Diffusivite turbulente [m2/s] = 10.0
+Sigma theta [deg] = 10.0
+/ Sortie des resultats :
+/-----------------------
+Fichier de position des recepteurs ponctuels = INPUT/Recepteurs.dat
+Fichier de definition des parametres statistiques = INPUT/Stat.dat
+Niveau d'affichage [0/1/2] = 0
+Calcul des statistiques [0/1] = 0
+Classement des resultats [0/1] = 0
+Sortie des champs [0/1/2] = 0
+Repertoire d'ecriture des resultats = RESUL
+Repertoire d'ecriture des fichiers de champs = SURFER
+Nombre de points selon X du maillage de sortie = 57
+Nombre de points selon Y du maillage de sortie = 65
+Abscisse minimum du maillage de sortie [m] = 794700.0
+Abscisse maximum du maillage de sortie [m] = 796100.0
+Ordonnee minimum du maillage de sortie [m] = 2087800.0
+Ordonnee maximum du maillage de sortie [m] = 2089400.0
+Ratio d'interpolation de la grille de sortie = 4
+/ Parametres de calcul :
+/-----------------------
+Nombre de cellules selon X du maillage de calcul = 4
+Nombre de cellules selon Y du maillage de calcul = 4
+Abscisse minimum du maillage de calcul [m] = 794500.0
+Abscisse maximum du maillage de calcul [m] = 796500.0
+Ordonnee minimum du maillage de calcul [m] = 2087500.0
+Ordonnee maximum du maillage de calcul [m] = 2089500.0
+Nombre de cellules d'influence du maillage de calcul = 1

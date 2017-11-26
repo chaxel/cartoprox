@@ -1,0 +1,62 @@
+	## 
+      #####	    # 
+     ########	  ###	 # 
+##  ########## #######  ### 
+###########################################################
+# PREVALP - Générateur de maillage optimal
+# (c)Atmo Rhone-Alpes 2011
+# version 1.03 (01/12/2010)
+# contact: echaxel@atmo-rhonealpes.org									       
+###########################################################
+# # ## ### #### ##### ####### ######## ######### ##########
+
+Requis : 
+*****************
+Un compilateur fortran 90 declare dans la variable F90.
+
+Compilation : 
+*****************
+Utiliser le script install.sh
+
+Aide : 
+*****************
+Pour avoir de l'aide sur le mailleur :
+mailleur.e -h
+
+Exemples :
+*****************
+1. Modelisation regionale
+Generer un maillage optimal de stations virtuelles sur Rhone-Alpes a 10 km des grands axes :
+mailleur.e -optimal data/RA_autoroute_nat.MIF  -brin_dx 50. -recept_dx 10000. -cadre_dx 5000.
+
+2. Modelisation urbaine
+Generer un maillage optimal de stations virtuelles pour Bourgoin a 10 m de resolution (cadre de 0 m autour)
+mailleur.e -optimal -i /appli/SIRANE/inputs/MIF/bourgoin_toutes/sirane_BJ_LII.MIF -o recept.txt   -brin_dx 5. -recept_dx 10. -xc 829412. -yc 2070464. -dx 4000.
+
+Autres options pour le domaine (V1.01):
+-xc   : specifie la coordonnee X du centre du domaine
+-yc   : specifie la coordonnee Y du centre domaine
+-dx   : specifie la taille du domaine selon Y
+-dy   : specifie la taille du domaine selon Y
+-xmin : specifie la borne X inferieure
+-xmax : specifie la borne X superieure
+-ymin : specifie la borne Y inferieure
+-ymax : specifie la borne Y superieure
+
+Options de projection des données d'entrees (V1.02)
+-utm 31  : indique au mailleur d'utiliser l'UTM 31 (en entrée)
+-geo     : indique au mailleur d'utiliser les coordonnees geographiques (en entrée)
+-l2      : indique au mailleur d'utiliser le Lambert 2 etendu (en entrée)
+-geoid x : defini la geoid d'entree parmi WGS84 ou ED50 (par defaut WGS84)
+
+ATTENTION: le mailleur optimal travaille en Lambert 2 etendu mais ecrit les coordonnees des recepteurs dans le format d'entree (V1.02)
+
+**** Bonne utilisation !
+
+#######################################################################
+Version 1.03
+
+- Ajout de la fonctionnalité de création d'un maillage régulier de x m si aucun brin n'est disponible dans le domaine de calcul
+  routine calul_grille_secours dans calcul_grille.f90
+- Correction d'un bug sur les conversions geographiques NTF -> WGS84
+- Borne la distance inter-recepteur a dx_recept_max = 1000.0 metres (params.f90)

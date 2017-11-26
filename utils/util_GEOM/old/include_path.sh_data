@@ -1,0 +1,7 @@
+#!/bin/ksh
+ChemProg=/appli/CARTOPROX/Util
+ChemData=/data/CARTOPROX
+ChemInput=/appli/CARTOPROX/INPUT_$YEAR
+ChemTMP=/data/CARTOPROX/tmp
+ChemSir=/appli/CARTOPROX/$vsirane
+ChemRes=/data/CARTOPROX/m${YEAR}_ct

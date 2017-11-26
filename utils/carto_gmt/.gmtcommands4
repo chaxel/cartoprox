@@ -1,0 +1,6 @@
+# GMT common arguments shelf
+-Bf0.5a1:easting_km:/f0.5a1:northing_km:WeSn
+-JX14/14
+-R798/806/1985/1986
+-jX14/14
+EOF

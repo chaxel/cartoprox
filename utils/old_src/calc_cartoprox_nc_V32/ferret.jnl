@@ -1,0 +1,9 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.1  
+ ! Linux(g77) 2.6.9-22. - 03/26/08
+ ! 21-Dec-10 09:35     
+
+use tes.nc
+sh d
+plot no[i=@ave]
+exit

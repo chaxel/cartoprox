@@ -1,0 +1,4935 @@
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.54875770539231 deg E
+latc=45.7325595229377 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=825
+recepteurs brins=197
+***Calcul du barycentre MAILLAGE***
+xb=619472 m
+yb=5.06678e+06 m
+lonb=4.53586566682848 deg E
+latb=45.7442546662654 deg N
+urbain=0
+nurbain=0/825
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7325595229377
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.54950449956694 deg E
+latc=45.7595518775119 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3016
+recepteurs brins=776
+***Calcul du barycentre MAILLAGE***
+xb=620955 m
+yb=5.06845e+06 m
+lonb=4.55534065044568 deg E
+latb=45.7590225211606 deg N
+urbain=0
+nurbain=0/3016
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7595518775119
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.55025235729067 deg E
+latc=45.7865440944922 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=230
+recepteurs brins=50
+***Calcul du barycentre MAILLAGE***
+xb=621794 m
+yb=5070302 m
+lonb=4.56659164900086 deg E
+latb=45.7755382515971 deg N
+urbain=0
+nurbain=3/230
+fraction urbaine = 1 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7865440944922
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.55100128043238 deg E
+latc=45.8135361738645 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=15
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=620358 m
+yb=5.07458e+06 m
+lonb=4.54919418237016 deg E
+latb=45.8142807531500 deg N
+urbain=0
+nurbain=0/15
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8135361738645
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.55175127086557 deg E
+latc=45.8405281156150 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=46
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=621092 m
+yb=5.07796e+06 m
+lonb=4.55948762301446 deg E
+latb=45.8445630839438 deg N
+urbain=0
+nurbain=0/46
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8405281156150
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.55250233046838 deg E
+latc=45.8675199197298 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3086
+recepteurs brins=762
+***Calcul du barycentre MAILLAGE***
+xb=620411 m
+yb=5.08024e+06 m
+lonb=4.55129100800650 deg E
+latb=45.8651962052721 deg N
+urbain=0
+nurbain=0/3086
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8675199197298
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.55325446112362 deg E
+latc=45.8945115861952 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=19
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=620116 m
+yb=5.08312e+06 m
+lonb=4.54821147606463 deg E
+latb=45.8911598050431 deg N
+urbain=0
+nurbain=0/19
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8945115861952
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 623500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=623500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.58730123158108 deg E
+latc=45.7320304155451 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/623500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=12
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=623467 m
+yb=5.06546e+06 m
+lonb=4.58686706393021 deg E
+latb=45.7316764139686 deg N
+urbain=0
+nurbain=0/12
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7320304155451
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 623500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=623500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.58806659222152 deg E
+latc=45.7590222745399 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/623500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=78
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=622356 m
+yb=5.06945e+06 m
+lonb=4.57360205533236 deg E
+latb=45.7677732180353 deg N
+urbain=0
+nurbain=0/78
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7590222745399
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 623500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=623500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.58883304282530 deg E
+latc=45.7860139954665 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/623500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2575
+recepteurs brins=658
+***Calcul du barycentre MAILLAGE***
+xb=622861 m
+yb=5.07157e+06 m
+lonb=4.58063325183158 deg E
+latb=45.7867578056868 deg N
+urbain=0
+nurbain=0/2575
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7860139954665
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 623500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=623500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.58960058530763 deg E
+latc=45.8130055783102 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/623500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2855
+recepteurs brins=721
+***Calcul du barycentre MAILLAGE***
+xb=624257 m
+yb=5.07443e+06 m
+lonb=4.59932227331600 deg E
+latb=45.8122398328597 deg N
+urbain=0
+nurbain=873/2855
+fraction urbaine = 30 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8130055783102
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 623500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=623500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.59036922158846 deg E
+latc=45.8399970230559 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/623500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3674
+recepteurs brins=908
+***Calcul du barycentre MAILLAGE***
+xb=623545 m
+yb=5.07783e+06 m
+lonb=4.59103313021273 deg E
+latb=45.8429580070106 deg N
+urbain=0
+nurbain=0/3674
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8399970230559
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 623500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=623500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.59113895359249 deg E
+latc=45.8669883296891 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/623500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=390
+recepteurs brins=96
+***Calcul du barycentre MAILLAGE***
+xb=622286 m
+yb=5.07919e+06 m
+lonb=4.57517118033867 deg E
+latb=45.8554187439951 deg N
+urbain=0
+nurbain=0/390
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8669883296891
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 626500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=626500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.62116345313700 deg E
+latc=45.5695372944101 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/626500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=14
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=626424 m
+yb=5.04743e+06 m
+lonb=4.62017175383166 deg E
+latb=45.5689212908321 deg N
+urbain=0
+nurbain=0/14
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5695372944101
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 626500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=626500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.62741263648342 deg E
+latc=45.7854708746055 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/626500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=13
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=626278 m
+yb=5.07137e+06 m
+lonb=4.62452380256283 deg E
+latb=45.7843418936887 deg N
+urbain=0
+nurbain=3/13
+fraction urbaine = 23 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7854708746055
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 626500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=626500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.62819879638643 deg E
+latc=45.8124619487329 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/626500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=40
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=625618 m
+yb=5074964 m
+lonb=4.61697188289286 deg E
+latb=45.8167977588998 deg N
+urbain=0
+nurbain=6/40
+fraction urbaine = 15 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8124619487329
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 626500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=626500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.62898607659021 deg E
+latc=45.8394528842748 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/626500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3797
+recepteurs brins=1013
+***Calcul du barycentre MAILLAGE***
+xb=626223 m
+yb=5.0773e+06 m
+lonb=4.62536809486178 deg E
+latb=45.8377042785237 deg N
+urbain=1
+nurbain=1978/3797
+fraction urbaine = 52 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8394528842748
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 626500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=626500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.62977447906600 deg E
+latc=45.8664436812156 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/626500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=16
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=626664 m
+yb=5080165 m
+lonb=4.63179831425100 deg E
+latb=45.8633995683774 deg N
+urbain=0
+nurbain=1/16
+fraction urbaine = 6 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8664436812156
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 629500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=629500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.65959395318837 deg E
+latc=45.5689853020428 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/629500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=34
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=629987 m
+yb=5046995 m
+lonb=4.66569806882639 deg E
+latb=45.5643508797389 deg N
+urbain=0
+nurbain=0/34
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5689853020428
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 629500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=629500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.66679588716671 deg E
+latc=45.8119052861093 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/629500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1308
+recepteurs brins=308
+***Calcul du barycentre MAILLAGE***
+xb=630213 m
+yb=5.07567e+06 m
+lonb=4.67628486157522 deg E
+latb=45.8222972982652 deg N
+urbain=0
+nurbain=430/1308
+fraction urbaine = 32 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8119052861093
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 629500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=629500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.66760180932219 deg E
+latc=45.8388957002499 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/629500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2604
+recepteurs brins=623
+***Calcul du barycentre MAILLAGE***
+xb=628856 m
+yb=5.07721e+06 m
+lonb=4.65923482576501 deg E
+latb=45.8364073304352 deg N
+urbain=0
+nurbain=880/2604
+fraction urbaine = 33 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8388957002499
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 629500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=629500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.66840888029360 deg E
+latc=45.8658859752890 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/629500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=15
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=629283 m
+yb=5.08017e+06 m
+lonb=4.66552567808582 deg E
+latb=45.8629578264375 deg N
+urbain=0
+nurbain=5/15
+fraction urbaine = 33 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8658859752890
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 629500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=629500 m
+yc=5089500 m
+dx=3000 m
+lonc=4.67083700635648 deg E
+latc=45.9468559656321 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/629500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=15
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=629361 m
+yb=5089575 m
+lonb=4.66906462512156 deg E
+latb=45.9475569132401 deg N
+urbain=0
+nurbain=0/15
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9468559656321
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.69802332438148 deg E
+latc=45.5684203868697 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2805
+recepteurs brins=713
+***Calcul du barycentre MAILLAGE***
+xb=632710 m
+yb=5.04708e+06 m
+lonb=4.70059927876561 deg E
+latb=45.5646015939152 deg N
+urbain=0
+nurbain=0/2805
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5684203868697
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5050500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5050500 m
+dx=3000 m
+lonc=4.69883740056199 deg E
+latc=45.5954115231341 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5050500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=20
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=632754 m
+yb=5050030 m
+lonb=4.70196473347946 deg E
+latb=45.5911344599222 deg N
+urbain=0
+nurbain=2/20
+fraction urbaine = 10 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5954115231341
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.70456844235245 deg E
+latc=45.7843455712998 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=15
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=632546 m
+yb=5.07142e+06 m
+lonb=4.70513800377374 deg E
+latb=45.7836170072506 deg N
+urbain=0
+nurbain=3/15
+fraction urbaine = 20 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7843455712998
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.70539183115128 deg E
+latc=45.8113355914392 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2573
+recepteurs brins=614
+***Calcul du barycentre MAILLAGE***
+xb=632515 m
+yb=5.07544e+06 m
+lonb=4.70584307360298 deg E
+latb=45.8197895536344 deg N
+urbain=0
+nurbain=12/2573
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8113355914392
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.70621639324067 deg E
+latc=45.8383254719826 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=58
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=632804 m
+yb=5.07708e+06 m
+lonb=4.71001349861639 deg E
+latb=45.8344883938077 deg N
+urbain=0
+nurbain=21/58
+fraction urbaine = 36 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8383254719826
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.70704213068493 deg E
+latc=45.8653152129127 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=27
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=632912 m
+yb=5.08013e+06 m
+lonb=4.71224545147430 deg E
+latb=45.8619070906033 deg N
+urbain=0
+nurbain=3/27
+fraction urbaine = 11 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8653152129127
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.70786904555349 deg E
+latc=45.8923048142118 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=76
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=633434 m
+yb=5.08408e+06 m
+lonb=4.72006357665937 deg E
+latb=45.8973422236504 deg N
+urbain=0
+nurbain=1/76
+fraction urbaine = 1 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8923048142118
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.70869713992088 deg E
+latc=45.9192942758624 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2733
+recepteurs brins=680
+***Calcul du barycentre MAILLAGE***
+xb=633830 m
+yb=5.08683e+06 m
+lonb=4.72593283348844 deg E
+latb=45.9220053845091 deg N
+urbain=0
+nurbain=0/2733
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9192942758624
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 632500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=632500 m
+yc=5089500 m
+dx=3000 m
+lonc=4.70952641586682 deg E
+latc=45.9462835978470 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/632500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5239
+recepteurs brins=1354
+***Calcul du barycentre MAILLAGE***
+xb=633190 m
+yb=5.08942e+06 m
+lonb=4.71840256916868 deg E
+latb=45.9454303912323 deg N
+urbain=0
+nurbain=1997/5239
+fraction urbaine = 38 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9462835978470
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.73645154063766 deg E
+latc=45.5678425498988 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1508
+recepteurs brins=386
+***Calcul du barycentre MAILLAGE***
+xb=634862 m
+yb=5.04863e+06 m
+lonb=4.72859119237817 deg E
+latb=45.5781330359682 deg N
+urbain=0
+nurbain=0/1508
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5678425498988
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5050500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5050500 m
+dx=3000 m
+lonc=4.73728401796245 deg E
+latc=45.5948331450397 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5050500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1230
+recepteurs brins=298
+***Calcul du barycentre MAILLAGE***
+xb=636275 m
+yb=5.04939e+06 m
+lonb=4.74690595565671 deg E
+latb=45.5846951771938 deg N
+urbain=1
+nurbain=863/1230
+fraction urbaine = 70 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5948331450397
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5053500 m
+dx=3000 m
+lonc=4.73811767836506 deg E
+latc=45.6218236002133 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=511
+recepteurs brins=109
+***Calcul du barycentre MAILLAGE***
+xb=636824 m
+yb=5.05464e+06 m
+lonb=4.75541340409121 deg E
+latb=45.6318202302815 deg N
+urbain=0
+nurbain=13/511
+fraction urbaine = 2 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6218236002133
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.73895252391502 deg E
+latc=45.6488139154004 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2791
+recepteurs brins=667
+***Calcul du barycentre MAILLAGE***
+xb=636551 m
+yb=5.05651e+06 m
+lonb=4.75243710297149 deg E
+latb=45.6486978125938 deg N
+urbain=0
+nurbain=6/2791
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6488139154004
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.73978855668695 deg E
+latc=45.6758040905820 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=235
+recepteurs brins=51
+***Calcul du barycentre MAILLAGE***
+xb=636718 m
+yb=5.05823e+06 m
+lonb=4.75506277888850 deg E
+latb=45.6641391780574 deg N
+urbain=1
+nurbain=220/235
+fraction urbaine = 93 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6758040905820
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.74230379915792 deg E
+latc=45.7567737759044 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=517
+recepteurs brins=109
+***Calcul du barycentre MAILLAGE***
+xb=636684 m
+yb=5.06977e+06 m
+lonb=4.75787975818619 deg E
+latb=45.7679661726621 deg N
+urbain=1
+nurbain=505/517
+fraction urbaine = 97 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7567737759044
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.74314460166678 deg E
+latc=45.7837633908749 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2727
+recepteurs brins=680
+***Calcul du barycentre MAILLAGE***
+xb=635864 m
+yb=5.07149e+06 m
+lonb=4.74782228253107 deg E
+latb=45.7836019024661 deg N
+urbain=1
+nurbain=1804/2727
+fraction urbaine = 66 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7837633908749
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.74398660184793 deg E
+latc=45.8107528657457 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2395
+recepteurs brins=560
+***Calcul du barycentre MAILLAGE***
+xb=634873 m
+yb=5.07431e+06 m
+lonb=4.73586727732598 deg E
+latb=45.8091663959650 deg N
+urbain=0
+nurbain=150/2395
+fraction urbaine = 6 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8107528657457
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.74482980180695 deg E
+latc=45.8377422004979 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5990
+recepteurs brins=1506
+***Calcul du barycentre MAILLAGE***
+xb=635815 m
+yb=5.07747e+06 m
+lonb=4.74887568291343 deg E
+latb=45.8374103082914 deg N
+urbain=1
+nurbain=3569/5990
+fraction urbaine = 59 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8377422004979
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.74567420365465 deg E
+latc=45.8647313951132 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4939
+recepteurs brins=1272
+***Calcul du barycentre MAILLAGE***
+xb=635172 m
+yb=5.0805e+06 m
+lonb=4.74145048848735 deg E
+latb=45.8647958614929 deg N
+urbain=0
+nurbain=1512/4939
+fraction urbaine = 30 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8647313951132
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.74651980950707 deg E
+latc=45.8917204495728 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4920
+recepteurs brins=1259
+***Calcul du barycentre MAILLAGE***
+xb=634822 m
+yb=5.0835e+06 m
+lonb=4.73778484139186 deg E
+latb=45.8918536588492 deg N
+urbain=0
+nurbain=756/4920
+fraction urbaine = 15 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8917204495728
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.74736662148549 deg E
+latc=45.9187093638583 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4563
+recepteurs brins=1137
+***Calcul du barycentre MAILLAGE***
+xb=635010 m
+yb=5.08677e+06 m
+lonb=4.74112668497528 deg E
+latb=45.9212347966955 deg N
+urbain=0
+nurbain=794/4563
+fraction urbaine = 17 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9187093638583
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 635500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=635500 m
+yc=5089500 m
+dx=3000 m
+lonc=4.74821464171647 deg E
+latc=45.9456981379512 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/635500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=438
+recepteurs brins=98
+***Calcul du barycentre MAILLAGE***
+xb=634278 m
+yb=5.08821e+06 m
+lonb=4.73209426974819 deg E
+latb=45.9343329432121 deg N
+urbain=0
+nurbain=7/438
+fraction urbaine = 1 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9456981379512
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.77487857588325 deg E
+latc=45.5672517921612 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1353
+recepteurs brins=317
+***Calcul du barycentre MAILLAGE***
+xb=639380 m
+yb=5.04855e+06 m
+lonb=4.78644983570769 deg E
+latb=45.5765225255251 deg N
+urbain=1
+nurbain=1050/1353
+fraction urbaine = 77 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5672517921612
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5050500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5050500 m
+dx=3000 m
+lonc=4.77572945228789 deg E
+latc=45.5942418340902 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5050500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5161
+recepteurs brins=1296
+***Calcul du barycentre MAILLAGE***
+xb=638371 m
+yb=5.05018e+06 m
+lonb=4.77398559002011 deg E
+latb=45.5913885928695 deg N
+urbain=1
+nurbain=5161/5161
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5942418340902
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5053500 m
+dx=3000 m
+lonc=4.77658153788464 deg E
+latc=45.6212317355258 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2273
+recepteurs brins=563
+***Calcul du barycentre MAILLAGE***
+xb=637685 m
+yb=5.05328e+06 m
+lonb=4.76607014800959 deg E
+latb=45.6194145402534 deg N
+urbain=1
+nurbain=1304/2273
+fraction urbaine = 57 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6212317355258
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.77743483478861 deg E
+latc=45.6482214964477 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=59
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=637535 m
+yb=5.05636e+06 m
+lonb=4.76501691890205 deg E
+latb=45.6471539439752 deg N
+urbain=1
+nurbain=31/59
+fraction urbaine = 52 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6482214964477
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.77828934512013 deg E
+latc=45.6752111168360 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2872
+recepteurs brins=748
+***Calcul du barycentre MAILLAGE***
+xb=638439 m
+yb=5.05924e+06 m
+lonb=4.77743243471363 deg E
+latb=45.6728842072746 deg N
+urbain=0
+nurbain=1094/2872
+fraction urbaine = 38 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6752111168360
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5062500 m
+dx=3000 m
+lonc=4.77914507100476 deg E
+latc=45.7022005966707 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=18
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=638641 m
+yb=5.06223e+06 m
+lonb=4.78087830450628 deg E
+latb=45.6997433363713 deg N
+urbain=1
+nurbain=11/18
+fraction urbaine = 61 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7022005966707
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.78000201457330 deg E
+latc=45.7291899359318 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=18
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=638507 m
+yb=5.06555e+06 m
+lonb=4.78010622818514 deg E
+latb=45.7296383556482 deg N
+urbain=1
+nurbain=15/18
+fraction urbaine = 83 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7291899359318
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.78086017796183 deg E
+latc=45.7561791345995 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2372
+recepteurs brins=586
+***Calcul du barycentre MAILLAGE***
+xb=638405 m
+yb=5.06962e+06 m
+lonb=4.77995971912192 deg E
+latb=45.7662741024067 deg N
+urbain=1
+nurbain=2372/2372
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7561791345995
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.78171956331171 deg E
+latc=45.7831681926540 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5492
+recepteurs brins=1404
+***Calcul du barycentre MAILLAGE***
+xb=639014 m
+yb=5.07146e+06 m
+lonb=4.78831710897748 deg E
+latb=45.7827050572821 deg N
+urbain=1
+nurbain=5492/5492
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7831681926540
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.78258017276959 deg E
+latc=45.8101571100754 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5492
+recepteurs brins=1403
+***Calcul du barycentre MAILLAGE***
+xb=637846 m
+yb=5.07444e+06 m
+lonb=4.77414973490600 deg E
+latb=45.8097483159844 deg N
+urbain=1
+nurbain=4692/5492
+fraction urbaine = 85 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8101571100754
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.78344200848744 deg E
+latc=45.8371458868441 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=128
+recepteurs brins=35
+***Calcul du barycentre MAILLAGE***
+xb=637276 m
+yb=5.07639e+06 m
+lonb=4.76737216715784 deg E
+latb=45.8274048420098 deg N
+urbain=1
+nurbain=119/128
+fraction urbaine = 92 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8371458868441
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.78430507262255 deg E
+latc=45.8641345229405 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=12
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=638224 m
+yb=5.08043e+06 m
+lonb=4.78073097158318 deg E
+latb=45.8635602459565 deg N
+urbain=0
+nurbain=4/12
+fraction urbaine = 33 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8641345229405
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.78516936733756 deg E
+latc=45.8911230183450 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=125
+recepteurs brins=13
+***Calcul du barycentre MAILLAGE***
+xb=639578 m
+yb=5.08468e+06 m
+lonb=4.79940007955984 deg E
+latb=45.9015205064434 deg N
+urbain=0
+nurbain=7/125
+fraction urbaine = 5 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8911230183450
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.78603489480047 deg E
+latc=45.9181113730379 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3066
+recepteurs brins=749
+***Calcul du barycentre MAILLAGE***
+xb=638551 m
+yb=5.08614e+06 m
+lonb=4.78658827818934 deg E
+latb=45.9148625001622 deg N
+urbain=0
+nurbain=0/3066
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9181113730379
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 638500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=638500 m
+yc=5089500 m
+dx=3000 m
+lonc=4.78690165718467 deg E
+latc=45.9450995870000 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/638500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=13
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=638150 m
+yb=5.08921e+06 m
+lonb=4.78230460576546 deg E
+latb=45.9425612315438 deg N
+urbain=0
+nurbain=4/13
+fraction urbaine = 30 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9450995870000
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.81330440404967 deg E
+latc=45.5666481147108 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5463
+recepteurs brins=1328
+***Calcul du barycentre MAILLAGE***
+xb=641352 m
+yb=5.04731e+06 m
+lonb=4.81135380356211 deg E
+latb=45.5649688590281 deg N
+urbain=1
+nurbain=4474/5463
+fraction urbaine = 81 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5666481147108
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5050500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5050500 m
+dx=3000 m
+lonc=4.81417367742427 deg E
+latc=45.5936375913413 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5050500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4848
+recepteurs brins=1265
+***Calcul du barycentre MAILLAGE***
+xb=640897 m
+yb=5.05027e+06 m
+lonb=4.80638008220875 deg E
+latb=45.5916908854929 deg N
+urbain=1
+nurbain=3205/4848
+fraction urbaine = 66 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5936375913413
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5053500 m
+dx=3000 m
+lonc=4.81504418610006 deg E
+latc=45.6206269269408 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2691
+recepteurs brins=665
+***Calcul du barycentre MAILLAGE***
+xb=641277 m
+yb=5.05347e+06 m
+lonb=4.81217647399541 deg E
+latb=45.6204024365936 deg N
+urbain=1
+nurbain=1496/2691
+fraction urbaine = 55 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6206269269408
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.81591593223773 deg E
+latc=45.6476161214881 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1793
+recepteurs brins=431
+***Calcul du barycentre MAILLAGE***
+xb=642390 m
+yb=5.05595e+06 m
+lonb=4.82717083710107 deg E
+latb=45.6424860579350 deg N
+urbain=1
+nurbain=1471/1793
+fraction urbaine = 82 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6476161214881
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.81678891800328 deg E
+latc=45.6746051749620 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1130
+recepteurs brins=281
+***Calcul du barycentre MAILLAGE***
+xb=640646 m
+yb=5.06056e+06 m
+lonb=4.80613638996324 deg E
+latb=45.6843151427019 deg N
+urbain=1
+nurbain=952/1130
+fraction urbaine = 84 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6746051749620
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5062500 m
+dx=3000 m
+lonc=4.81766314556805 deg E
+latc=45.7015940873416 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3523
+recepteurs brins=904
+***Calcul du barycentre MAILLAGE***
+xb=642230 m
+yb=5.06239e+06 m
+lonb=4.82700344772524 deg E
+latb=45.7004549541451 deg N
+urbain=1
+nurbain=2797/3523
+fraction urbaine = 79 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7015940873416
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.81853861710876 deg E
+latc=45.7285828586059 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2600
+recepteurs brins=655
+***Calcul du barycentre MAILLAGE***
+xb=641524 m
+yb=5.06551e+06 m
+lonb=4.81884982575517 deg E
+latb=45.7286679119244 deg N
+urbain=1
+nurbain=1768/2600
+fraction urbaine = 68 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7285828586059
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.81941533480750 deg E
+latc=45.7555714887340 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3058
+recepteurs brins=759
+***Calcul du barycentre MAILLAGE***
+xb=641321 m
+yb=5.06832e+06 m
+lonb=4.81706234009608 deg E
+latb=45.7539887938542 deg N
+urbain=1
+nurbain=3050/3058
+fraction urbaine = 99 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7555714887340
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.82029330085176 deg E
+latc=45.7825599777051 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3571
+recepteurs brins=936
+***Calcul du barycentre MAILLAGE***
+xb=641142 m
+yb=5.07232e+06 m
+lonb=4.81592982170105 deg E
+latb=45.7900100898026 deg N
+urbain=1
+nurbain=3571/3571
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7825599777051
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.82117251743442 deg E
+latc=45.8095483254983 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=57
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=641420 m
+yb=5.07366e+06 m
+lonb=4.81989723655549 deg E
+latb=45.8020080013815 deg N
+urbain=1
+nurbain=57/57
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8095483254983
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.82381769242332 deg E
+latc=45.8905125216035 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1501
+recepteurs brins=366
+***Calcul du barycentre MAILLAGE***
+xb=640894 m
+yb=5.0848e+06 m
+lonb=4.81639221034754 deg E
+latb=45.9023316686705 deg N
+urbain=0
+nurbain=35/1501
+fraction urbaine = 2 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8905125216035
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 641500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.82470193319736 deg E
+latc=45.9175003044784 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/641500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1184
+recepteurs brins=285
+***Calcul du barycentre MAILLAGE***
+xb=642267 m
+yb=5.08533e+06 m
+lonb=4.83424073415090 deg E
+latb=45.9068168148431 deg N
+urbain=0
+nurbain=245/1184
+fraction urbaine = 20 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9175003044784
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.85172899907354 deg E
+latc=45.5660315186247 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2556
+recepteurs brins=630
+***Calcul du barycentre MAILLAGE***
+xb=645089 m
+yb=5.04747e+06 m
+lonb=4.85926397442970 deg E
+latb=45.5656390546285 deg N
+urbain=0
+nurbain=527/2556
+fraction urbaine = 20 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5660315186247
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5050500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5050500 m
+dx=3000 m
+lonc=4.85261666726274 deg E
+latc=45.5930204178719 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5050500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4916
+recepteurs brins=1262
+***Calcul du barycentre MAILLAGE***
+xb=644532 m
+yb=5.05067e+06 m
+lonb=4.85307706913619 deg E
+latb=45.5945431313587 deg N
+urbain=0
+nurbain=0/4916
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5930204178719
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5053500 m
+dx=3000 m
+lonc=4.85350559685692 deg E
+latc=45.6200091755390 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3547
+recepteurs brins=866
+***Calcul du barycentre MAILLAGE***
+xb=644856 m
+yb=5.05322e+06 m
+lonb=4.85798637657322 deg E
+latb=45.6174160717755 deg N
+urbain=0
+nurbain=664/3547
+fraction urbaine = 18 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6200091755390
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.85439579006230 deg E
+latc=45.6469977916037 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3683
+recepteurs brins=873
+***Calcul du barycentre MAILLAGE***
+xb=644319 m
+yb=5.05672e+06 m
+lonb=4.85213945654250 deg E
+latb=45.6490146269054 deg N
+urbain=0
+nurbain=1639/3683
+fraction urbaine = 44 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6469977916037
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.85528724909054 deg E
+latc=45.6739862660440 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=6855
+recepteurs brins=1726
+***Calcul du barycentre MAILLAGE***
+xb=644467 m
+yb=5.0598e+06 m
+lonb=4.85495296957110 deg E
+latb=45.6766919848701 deg N
+urbain=1
+nurbain=5917/6855
+fraction urbaine = 86 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6739862660440
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5062500 m
+dx=3000 m
+lonc=4.85617997615877 deg E
+latc=45.7009745988378 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5831
+recepteurs brins=1410
+***Calcul du barycentre MAILLAGE***
+xb=644028 m
+yb=5.06245e+06 m
+lonb=4.85010523769937 deg E
+latb=45.7006231194511 deg N
+urbain=1
+nurbain=5831/5831
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7009745988378
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.85707397348957 deg E
+latc=45.7279627899629 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2445
+recepteurs brins=609
+***Calcul du barycentre MAILLAGE***
+xb=644611 m
+yb=5.06432e+06 m
+lonb=4.85814769706554 deg E
+latb=45.7173242684708 deg N
+urbain=1
+nurbain=2445/2445
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7279627899629
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.85796924331105 deg E
+latc=45.7549508393975 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=22
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=644092 m
+yb=5.0683e+06 m
+lonb=4.85266643008080 deg E
+latb=45.7532368074449 deg N
+urbain=1
+nurbain=22/22
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7549508393975
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.85886578785680 deg E
+latc=45.7819387471197 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2535
+recepteurs brins=650
+***Calcul du barycentre MAILLAGE***
+xb=644507 m
+yb=5.07238e+06 m
+lonb=4.85921903009603 deg E
+latb=45.7898537080073 deg N
+urbain=1
+nurbain=1636/2535
+fraction urbaine = 64 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7819387471197
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.85976360936593 deg E
+latc=45.8089265131075 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=55
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=644872 m
+yb=5.07359e+06 m
+lonb=4.86427564181568 deg E
+latb=45.8006622486528 deg N
+urbain=1
+nurbain=52/55
+fraction urbaine = 94 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8089265131075
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.86156309225858 deg E
+latc=45.8629016197930 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=14
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=644411 m
+yb=5.08031e+06 m
+lonb=4.86036010811427 deg E
+latb=45.8612110851943 deg N
+urbain=0
+nurbain=4/14
+fraction urbaine = 28 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8629016197930
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.86246475814810 deg E
+latc=45.8898889604472 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=941
+recepteurs brins=215
+***Calcul du barycentre MAILLAGE***
+xb=645420 m
+yb=5.08472e+06 m
+lonb=4.87468564601391 deg E
+latb=45.9006698551620 deg N
+urbain=0
+nurbain=5/941
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8898889604472
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 644500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.86336771001308 deg E
+latc=45.9168761592801 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/644500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1788
+recepteurs brins=440
+***Calcul du barycentre MAILLAGE***
+xb=644057 m
+yb=5.08547e+06 m
+lonb=4.85734893451106 deg E
+latb=45.9077035287706 deg N
+urbain=0
+nurbain=0/1788
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9168761592801
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.89015233489680 deg E
+latc=45.5654020050029 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=23
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=646980 m
+yb=5.04717e+06 m
+lonb=4.88339314358178 deg E
+latb=45.5625433120373 deg N
+urbain=0
+nurbain=0/23
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5654020050029
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5050500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5050500 m
+dx=3000 m
+lonc=4.89105839569983 deg E
+latc=45.5923903147838 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5050500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=23
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=646883 m
+yb=5.05075e+06 m
+lonb=4.88322756555907 deg E
+latb=45.5947699916628 deg N
+urbain=0
+nurbain=4/23
+fraction urbaine = 17 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5923903147838
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5053500 m
+dx=3000 m
+lonc=4.89196574400619 deg E
+latc=45.6193784824240 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2703
+recepteurs brins=662
+***Calcul du barycentre MAILLAGE***
+xb=647171 m
+yb=5.05357e+06 m
+lonb=4.88776915004921 deg E
+latb=45.6200780039536 deg N
+urbain=0
+nurbain=0/2703
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6193784824240
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.89287438206763 deg E
+latc=45.6463665079003 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1860
+recepteurs brins=457
+***Calcul du barycentre MAILLAGE***
+xb=648038 m
+yb=5.05588e+06 m
+lonb=4.89958616538139 deg E
+latb=45.6406744365015 deg N
+urbain=0
+nurbain=20/1860
+fraction urbaine = 1 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6463665079003
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.89378431214145 deg E
+latc=45.6733543911895 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2809
+recepteurs brins=692
+***Calcul du barycentre MAILLAGE***
+xb=647540 m
+yb=5.06013e+06 m
+lonb=4.89448889906775 deg E
+latb=45.6790133143547 deg N
+urbain=0
+nurbain=984/2809
+fraction urbaine = 35 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6733543911895
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5062500 m
+dx=3000 m
+lonc=4.89469553649054 deg E
+latc=45.7003421322684 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=45
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=646839 m
+yb=5.06195e+06 m
+lonb=4.88604297793748 deg E
+latb=45.6955348344206 deg N
+urbain=1
+nurbain=45/45
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7003421322684
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.89560805738337 deg E
+latc=45.7273297311138 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4728
+recepteurs brins=1214
+***Calcul du barycentre MAILLAGE***
+xb=647481 m
+yb=5.06561e+06 m
+lonb=4.89539749171023 deg E
+latb=45.7283233240858 deg N
+urbain=1
+nurbain=4687/4728
+fraction urbaine = 99 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7273297311138
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.89652187709401 deg E
+latc=45.7543171877029 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2622
+recepteurs brins=635
+***Calcul du barycentre MAILLAGE***
+xb=648329 m
+yb=5.06854e+06 m
+lonb=4.90718728801146 deg E
+latb=45.7544996254256 deg N
+urbain=1
+nurbain=2622/2622
+fraction urbaine = 100 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7543171877029
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.89743699790214 deg E
+latc=45.7813045020125 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4580
+recepteurs brins=1179
+***Calcul du barycentre MAILLAGE***
+xb=647457 m
+yb=5.07181e+06 m
+lonb=4.89697876224655 deg E
+latb=45.7841023667095 deg N
+urbain=1
+nurbain=3086/4580
+fraction urbaine = 67 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7813045020125
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.89835342209310 deg E
+latc=45.8082916740197 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=875
+recepteurs brins=178
+***Calcul du barycentre MAILLAGE***
+xb=648797 m
+yb=5.07503e+06 m
+lonb=4.91520014091521 deg E
+latb=45.8127808517140 deg N
+urbain=0
+nurbain=346/875
+fraction urbaine = 39 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8082916740197
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.89927115195787 deg E
+latc=45.8352787037016 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2045
+recepteurs brins=443
+***Calcul du barycentre MAILLAGE***
+xb=648763 m
+yb=5.07775e+06 m
+lonb=4.91560210679430 deg E
+latb=45.8372561777590 deg N
+urbain=0
+nurbain=405/2045
+fraction urbaine = 19 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8352787037016
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.90019018979312 deg E
+latc=45.8622655910354 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4331
+recepteurs brins=1097
+***Calcul du barycentre MAILLAGE***
+xb=648175 m
+yb=5.08065e+06 m
+lonb=4.90892730339679 deg E
+latb=45.8634700199261 deg N
+urbain=0
+nurbain=1379/4331
+fraction urbaine = 31 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8622655910354
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.90111053790118 deg E
+latc=45.8892523359981 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3920
+recepteurs brins=971
+***Calcul du barycentre MAILLAGE***
+xb=647403 m
+yb=5.08314e+06 m
+lonb=4.89975057290957 deg E
+latb=45.8860347203256 deg N
+urbain=0
+nurbain=0/3920
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8892523359981
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 647500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.90203219859012 deg E
+latc=45.9162389385672 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/647500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=28
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=647475 m
+yb=5.0861e+06 m
+lonb=4.90158705670084 deg E
+latb=45.9126460966466 deg N
+urbain=0
+nurbain=0/28
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9162389385672
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5053500 m
+dx=3000 m
+lonc=4.93042460140429 deg E
+latc=45.6187348487226 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=13
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=650192 m
+yb=5.05365e+06 m
+lonb=4.92652244704133 deg E
+latb=45.6201509021493 deg N
+urbain=0
+nurbain=5/13
+fraction urbaine = 38 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6187348487226
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.93135168206450 deg E
+latc=45.6457222715063 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1502
+recepteurs brins=374
+***Calcul du barycentre MAILLAGE***
+xb=649517 m
+yb=5.05712e+06 m
+lonb=4.91893460840470 deg E
+latb=45.6515122169954 deg N
+urbain=0
+nurbain=0/1502
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6457222715063
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.93228008092104 deg E
+latc=45.6727095515288 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=11
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3417
+recepteurs brins=884
+***Calcul du barycentre MAILLAGE***
+xb=650303 m
+yb=5.05901e+06 m
+lonb=4.92960070187632 deg E
+latb=45.6683443745203 deg N
+urbain=0
+nurbain=1053/3417
+fraction urbaine = 30 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6727095515288
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5062500 m
+dx=3000 m
+lonc=4.93320980028255 deg E
+latc=45.6996966887657 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=556
+recepteurs brins=126
+***Calcul du barycentre MAILLAGE***
+xb=651661 m
+yb=5.06371e+06 m
+lonb=4.94849271734499 deg E
+latb=45.7103280955425 deg N
+urbain=0
+nurbain=22/556
+fraction urbaine = 3 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6996966887657
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.93414084246335 deg E
+latc=45.7266836831929 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3817
+recepteurs brins=943
+***Calcul du barycentre MAILLAGE***
+xb=650667 m
+yb=5.06483e+06 m
+lonb=4.93607751750291 deg E
+latb=45.7206202627890 deg N
+urbain=0
+nurbain=1499/3817
+fraction urbaine = 39 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7266836831929
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.93507320978346 deg E
+latc=45.7536705347862 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=32
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=649748 m
+yb=5.06854e+06 m
+lonb=4.92542217785567 deg E
+latb=45.7541936758439 deg N
+urbain=1
+nurbain=29/32
+fraction urbaine = 90 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7536705347862
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.93600690456866 deg E
+latc=45.7806572435215 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1199
+recepteurs brins=254
+***Calcul du barycentre MAILLAGE***
+xb=650797 m
+yb=5.07271e+06 m
+lonb=4.94020296220497 deg E
+latb=45.7914770313313 deg N
+urbain=0
+nurbain=480/1199
+fraction urbaine = 40 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7806572435215
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.93694192915047 deg E
+latc=45.8076438093747 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=6029
+recepteurs brins=1676
+***Calcul du barycentre MAILLAGE***
+xb=650249 m
+yb=5.07414e+06 m
+lonb=4.93360132170558 deg E
+latb=45.8044601268322 deg N
+urbain=0
+nurbain=473/6029
+fraction urbaine = 7 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8076438093747
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.93787828586619 deg E
+latc=45.8346302323218 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=622
+recepteurs brins=178
+***Calcul du barycentre MAILLAGE***
+xb=649114 m
+yb=5.07666e+06 m
+lonb=4.91978205066822 deg E
+latb=45.8273751833728 deg N
+urbain=0
+nurbain=5/622
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8346302323218
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.93881597705889 deg E
+latc=45.8616165123388 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=31
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=649613 m
+yb=5.08057e+06 m
+lonb=4.92741752392859 deg E
+latb=45.8624394643979 deg N
+urbain=0
+nurbain=0/31
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8616165123388
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.93975500507746 deg E
+latc=45.8886026494019 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1719
+recepteurs brins=438
+***Calcul du barycentre MAILLAGE***
+xb=649620 m
+yb=5.08404e+06 m
+lonb=4.92858761242749 deg E
+latb=45.8936520997182 deg N
+urbain=0
+nurbain=808/1719
+fraction urbaine = 47 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8886026494019
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.94069537227660 deg E
+latc=45.9155886434871 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2722
+recepteurs brins=684
+***Calcul du barycentre MAILLAGE***
+xb=650693 m
+yb=5.08653e+06 m
+lonb=4.94319207995787 deg E
+latb=45.9158162190725 deg N
+urbain=0
+nurbain=785/2722
+fraction urbaine = 28 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9155886434871
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 650500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=650500 m
+yc=5089500 m
+dx=3000 m
+lonc=4.94163708101685 deg E
+latc=45.9425744945706 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/650500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=575
+recepteurs brins=131
+***Calcul du barycentre MAILLAGE***
+xb=651712 m
+yb=5.08831e+06 m
+lonb=4.95688748352030 deg E
+latb=45.9316035466227 deg N
+urbain=0
+nurbain=0/575
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9425744945706
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5056500 m
+dx=3000 m
+lonc=4.96982766386929 deg E
+latc=45.6450650835734 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=11
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=653351 m
+yb=5.05654e+06 m
+lonb=4.96792932542047 deg E
+latb=45.6454578530944 deg N
+urbain=0
+nurbain=0/11
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6450650835734
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5059500 m
+dx=3000 m
+lonc=4.97077452919996 deg E
+latc=45.6720517482156 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1323
+recepteurs brins=321
+***Calcul du barycentre MAILLAGE***
+xb=652551 m
+yb=5.06028e+06 m
+lonb=4.95884248182915 deg E
+latb=45.6792777953693 deg N
+urbain=1
+nurbain=1286/1323
+fraction urbaine = 97 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6720517482156
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5062500 m
+dx=3000 m
+lonc=4.97172274125958 deg E
+latc=45.6990382694854 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=6886
+recepteurs brins=1735
+***Calcul du barycentre MAILLAGE***
+xb=653500 m
+yb=5.06275e+06 m
+lonb=4.97180181979501 deg E
+latb=45.7012871397854 deg N
+urbain=0
+nurbain=1509/6886
+fraction urbaine = 21 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6990382694854
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.97267230240832 deg E
+latc=45.7260246473575 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3716
+recepteurs brins=965
+***Calcul du barycentre MAILLAGE***
+xb=653415 m
+yb=5.06516e+06 m
+lonb=4.97147297089992 deg E
+latb=45.7229850478584 deg N
+urbain=1
+nurbain=3684/3716
+fraction urbaine = 99 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7260246473575
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5068500 m
+dx=3000 m
+lonc=4.97362321501216 deg E
+latc=45.7530108818068 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2861
+recepteurs brins=725
+***Calcul du barycentre MAILLAGE***
+xb=654490 m
+yb=5.06845e+06 m
+lonb=4.98632845924085 deg E
+latb=45.7523405777023 deg N
+urbain=0
+nurbain=35/2861
+fraction urbaine = 1 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7530108818068
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5071500 m
+dx=3000 m
+lonc=4.97457548144293 deg E
+latc=45.7799969728079 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3227
+recepteurs brins=811
+***Calcul du barycentre MAILLAGE***
+xb=653234 m
+yb=5.0712e+06 m
+lonb=4.97106066583140 deg E
+latb=45.7773574343335 deg N
+urbain=1
+nurbain=2103/3227
+fraction urbaine = 65 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7799969728079
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5074500 m
+dx=3000 m
+lonc=4.97552910407832 deg E
+latc=45.8069829203357 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2430
+recepteurs brins=639
+***Calcul du barycentre MAILLAGE***
+xb=653457 m
+yb=5.07559e+06 m
+lonb=4.97532275307910 deg E
+latb=45.8167973470592 deg N
+urbain=0
+nurbain=13/2430
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8069829203357
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5077500 m
+dx=3000 m
+lonc=4.97648408530192 deg E
+latc=45.8339687243649 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1780
+recepteurs brins=450
+***Calcul du barycentre MAILLAGE***
+xb=654740 m
+yb=5.0767e+06 m
+lonb=4.99218390470356 deg E
+latb=45.8264953623314 deg N
+urbain=1
+nurbain=1763/1780
+fraction urbaine = 99 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8339687243649
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5080500 m
+dx=3000 m
+lonc=4.97744042750321 deg E
+latc=45.8609543848706 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=13
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=653500 m
+yb=5.08037e+06 m
+lonb=4.97739895776542 deg E
+latb=45.8597850092239 deg N
+urbain=0
+nurbain=1/13
+fraction urbaine = 7 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8609543848706
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5083500 m
+dx=3000 m
+lonc=4.97839813307759 deg E
+latc=45.8879399018275 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=13
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=653417 m
+yb=5.08349e+06 m
+lonb=4.97732583188849 deg E
+latb=45.8878684619689 deg N
+urbain=0
+nurbain=0/13
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8879399018275
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5086500 m
+dx=3000 m
+lonc=4.97935720442640 deg E
+latc=45.9149252752108 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=18
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=653048 m
+yb=5.0868e+06 m
+lonb=4.97362794226624 deg E
+latb=45.9177245979905 deg N
+urbain=0
+nurbain=0/18
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9149252752108
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 653500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=653500 m
+yc=5089500 m
+dx=3000 m
+lonc=4.98031764395693 deg E
+latc=45.9419105049954 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/653500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2808
+recepteurs brins=734
+***Calcul du barycentre MAILLAGE***
+xb=653304 m
+yb=5.08975e+06 m
+lonb=4.97787055181304 deg E
+latb=45.9442030512358 deg N
+urbain=0
+nurbain=0/2808
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9419105049954
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5056500 m
+dx=3000 m
+lonc=5.00830230130409 deg E
+latc=45.6443949452765 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=14
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=656186 m
+yb=5.05655e+06 m
+lonb=5.00429139842023 deg E
+latb=45.6449154627513 deg N
+urbain=0
+nurbain=2/14
+fraction urbaine = 14 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6443949452765
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5059500 m
+dx=3000 m
+lonc=5.00926763075456 deg E
+latc=45.6713809824265 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1847
+recepteurs brins=436
+***Calcul du barycentre MAILLAGE***
+xb=656948 m
+yb=5.06061e+06 m
+lonb=5.01537435759872 deg E
+latb=45.6812644645886 deg N
+urbain=0
+nurbain=12/1847
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6713809824265
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5062500 m
+dx=3000 m
+lonc=5.01023433315217 deg E
+latc=45.6983668756059 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3647
+recepteurs brins=883
+***Calcul du barycentre MAILLAGE***
+xb=656226 m
+yb=5.06226e+06 m
+lonb=5.00663974617749 deg E
+latb=45.6962698638193 deg N
+urbain=0
+nurbain=876/3647
+fraction urbaine = 24 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6983668756059
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5065500 m
+dx=3000 m
+lonc=5.01120241090289 deg E
+latc=45.7253526247883 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=24
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=656150 m
+yb=5.06542e+06 m
+lonb=5.00668152643430 deg E
+latb=45.7247120764775 deg N
+urbain=0
+nurbain=8/24
+fraction urbaine = 33 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7253526247883
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5068500 m
+dx=3000 m
+lonc=5.01217186641864 deg E
+latc=45.7523382299473 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2812
+recepteurs brins=697
+***Calcul du barycentre MAILLAGE***
+xb=656602 m
+yb=5.06851e+06 m
+lonb=5.01348573238275 deg E
+latb=45.7524050830083 deg N
+urbain=0
+nurbain=372/2812
+fraction urbaine = 13 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7523382299473
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5071500 m
+dx=3000 m
+lonc=5.01314270211729 deg E
+latc=45.7793236910563 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=30
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=656592 m
+yb=5.07106e+06 m
+lonb=5.01418284923905 deg E
+latb=45.7753449823899 deg N
+urbain=1
+nurbain=24/30
+fraction urbaine = 80 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.7793236910563
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5074500 m
+dx=3000 m
+lonc=5.01411492042270 deg E
+latc=45.8063090080891 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=46
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=656119 m
+yb=5.07517e+06 m
+lonb=5.00943138798475 deg E
+latb=45.8124220360147 deg N
+urbain=0
+nurbain=6/46
+fraction urbaine = 13 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8063090080891
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5077500 m
+dx=3000 m
+lonc=5.01508852376473 deg E
+latc=45.8332941810194 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5890
+recepteurs brins=1515
+***Calcul du barycentre MAILLAGE***
+xb=656658 m
+yb=5.07747e+06 m
+lonb=5.01711189991686 deg E
+latb=45.8329884430689 deg N
+urbain=0
+nurbain=2487/5890
+fraction urbaine = 42 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8332941810194
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5080500 m
+dx=3000 m
+lonc=5.01606351457923 deg E
+latc=45.8602792098210 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=40
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=656919 m
+yb=5079654 m
+lonb=5.02118193956407 deg E
+latb=45.8525741336601 deg N
+urbain=0
+nurbain=0/40
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8602792098210
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 656500_5089500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=656500 m
+yc=5089500 m
+dx=3000 m
+lonc=5.01899683630686 deg E
+latc=45.9412334311906 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/656500_5089500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=22
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=656052 m
+yb=5.08976e+06 m
+lonb=5.01330551610177 deg E
+latb=45.9436740383835 deg N
+urbain=0
+nurbain=0/22
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9412334311906
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5056500 m
+dx=3000 m
+lonc=5.04677556819683 deg E
+latc=45.6437118578132 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=28
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=659781 m
+yb=5.05702e+06 m
+lonb=5.05054988293443 deg E
+latb=45.6483246808517 deg N
+urbain=0
+nurbain=3/28
+fraction urbaine = 10 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6437118578132
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5059500 m
+dx=3000 m
+lonc=5.04775935936706 deg E
+latc=45.6706972553614 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4506
+recepteurs brins=1128
+***Calcul du barycentre MAILLAGE***
+xb=659719 m
+yb=5.05981e+06 m
+lonb=5.05067107857692 deg E
+latb=45.6734353136589 deg N
+urbain=0
+nurbain=1319/4506
+fraction urbaine = 29 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6706972553614
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5062500 m
+dx=3000 m
+lonc=5.04874454969670 deg E
+latc=45.6976825083292 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3199
+recepteurs brins=825
+***Calcul du barycentre MAILLAGE***
+xb=659621 m
+yb=5.06151e+06 m
+lonb=5.04997225205668 deg E
+latb=45.6887495244641 deg N
+urbain=1
+nurbain=3124/3199
+fraction urbaine = 97 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6976825083292
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5065500 m
+dx=3000 m
+lonc=5.04973114163751 deg E
+latc=45.7246676166891 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=15
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=659427 m
+yb=5.06542e+06 m
+lonb=5.04876731044211 deg E
+latb=45.7239648379236 deg N
+urbain=0
+nurbain=0/15
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7246676166891
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5068500 m
+dx=3000 m
+lonc=5.05071913764731 deg E
+latc=45.7516525804134 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=130
+recepteurs brins=14
+***Calcul du barycentre MAILLAGE***
+xb=658304 m
+yb=5.06922e+06 m
+lonb=5.03558734543450 deg E
+latb=45.7584039154531 deg N
+urbain=0
+nurbain=5/130
+fraction urbaine = 3 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7516525804134
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5071500 m
+dx=3000 m
+lonc=5.05170854019002 deg E
+latc=45.7786373994745 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=36
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=659761 m
+yb=5.07153e+06 m
+lonb=5.05507361915876 deg E
+latb=45.7788469238793 deg N
+urbain=0
+nurbain=2/36
+fraction urbaine = 5 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7786373994745
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5074500 m
+dx=3000 m
+lonc=5.05269935173562 deg E
+latc=45.8056220738450 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2454
+recepteurs brins=586
+***Calcul du barycentre MAILLAGE***
+xb=659941 m
+yb=5.07514e+06 m
+lonb=5.05858328404363 deg E
+latb=45.8112766881912 deg N
+urbain=0
+nurbain=923/2454
+fraction urbaine = 37 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8056220738450
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5077500 m
+dx=3000 m
+lonc=5.05369157476022 deg E
+latc=45.8326066034972 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=3855
+recepteurs brins=965
+***Calcul du barycentre MAILLAGE***
+xb=659096 m
+yb=5.07796e+06 m
+lonb=5.04864499341942 deg E
+latb=45.8368375851533 deg N
+urbain=0
+nurbain=1646/3855
+fraction urbaine = 42 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8326066034972
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 659500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=659500 m
+yc=5080500 m
+dx=3000 m
+lonc=5.05468521174605 deg E
+latc=45.8595909884039 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/659500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2569
+recepteurs brins=642
+***Calcul du barycentre MAILLAGE***
+xb=659725 m
+yb=5.07936e+06 m
+lonb=5.05720350187333 deg E
+latb=45.8492848152318 deg N
+urbain=1
+nurbain=2550/2569
+fraction urbaine = 99 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.8595909884039
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5056500 m
+dx=3000 m
+lonc=5.08524743838133 deg E
+latc=45.6430158224045 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1340
+recepteurs brins=328
+***Calcul du barycentre MAILLAGE***
+xb=663149 m
+yb=5057763 m
+lonb=5.09399345424434 deg E
+latb=45.6542240790301 deg N
+urbain=1
+nurbain=806/1340
+fraction urbaine = 60 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.6430158224045
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5059500 m
+dx=3000 m
+lonc=5.08624968882563 deg E
+latc=45.6700005682431 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4548
+recepteurs brins=1102
+***Calcul du barycentre MAILLAGE***
+xb=662236 m
+yb=5.05916e+06 m
+lonb=5.08274912089992 deg E
+latb=45.6670041262813 deg N
+urbain=0
+nurbain=1888/4548
+fraction urbaine = 41 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6700005682431
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5062500 m
+dx=3000 m
+lonc=5.08725336463555 deg E
+latc=45.6969851688802 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2932
+recepteurs brins=740
+***Calcul du barycentre MAILLAGE***
+xb=662569 m
+yb=5.06262e+06 m
+lonb=5.08817924441501 deg E
+latb=45.6980483578703 deg N
+urbain=0
+nurbain=23/2932
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6969851688802
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5065500 m
+dx=3000 m
+lonc=5.08825846830864 deg E
+latc=45.7239696242868 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2634
+recepteurs brins=610
+***Calcul du barycentre MAILLAGE***
+xb=663131 m
+yb=5.06553e+06 m
+lonb=5.09637196538381 deg E
+latb=45.7240910030367 deg N
+urbain=0
+nurbain=224/2634
+fraction urbaine = 8 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7239696242868
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5068500 m
+dx=3000 m
+lonc=5.08926500234862 deg E
+latc=45.7509539344342 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2652
+recepteurs brins=635
+***Calcul du barycentre MAILLAGE***
+xb=662779 m
+yb=5.06851e+06 m
+lonb=5.09285305860426 deg E
+latb=45.7509782471173 deg N
+urbain=0
+nurbain=135/2652
+fraction urbaine = 5 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7509539344342
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5071500 m
+dx=3000 m
+lonc=5.09027296926542 deg E
+latc=45.7779380992936 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2515
+recepteurs brins=622
+***Calcul du barycentre MAILLAGE***
+xb=661877 m
+yb=5.07148e+06 m
+lonb=5.08225784123241 deg E
+latb=45.7779044959312 deg N
+urbain=0
+nurbain=0/2515
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7779380992936
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5074500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5074500 m
+dx=3000 m
+lonc=5.09128237157512 deg E
+latc=45.8049221188362 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5074500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1004
+recepteurs brins=252
+***Calcul du barycentre MAILLAGE***
+xb=661316 m
+yb=5.0736e+06 m
+lonb=5.07575434063134 deg E
+latb=45.7971046544322 deg N
+urbain=0
+nurbain=0/1004
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8049221188362
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5077500 m
+dx=3000 m
+lonc=5.09229321180008 deg E
+latc=45.8319059930334 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=191
+recepteurs brins=36
+***Calcul du barycentre MAILLAGE***
+xb=661405 m
+yb=5.07876e+06 m
+lonb=5.07862590532584 deg E
+latb=45.8434965110854 deg N
+urbain=0
+nurbain=0/191
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8319059930334
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5080500 m
+dx=3000 m
+lonc=5.09330549246888 deg E
+latc=45.8588897218566 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4721
+recepteurs brins=1238
+***Calcul du barycentre MAILLAGE***
+xb=662564 m
+yb=5.07964e+06 m
+lonb=5.09383892754842 deg E
+latb=45.8511393027174 deg N
+urbain=0
+nurbain=1484/4721
+fraction urbaine = 31 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8588897218566
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 662500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=662500 m
+yc=5083500 m
+dx=3000 m
+lonc=5.09431921611636 deg E
+latc=45.8858733052771 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/662500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=12
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=662289 m
+yb=5.08329e+06 m
+lonb=5.09153074114648 deg E
+latb=45.8840342513717 deg N
+urbain=0
+nurbain=0/12
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8858733052771
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5053500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5053500 m
+dx=3000 m
+lonc=5.12269862749918 deg E
+latc=45.6153226124665 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5053500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=26
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=665791 m
+yb=5.05394e+06 m
+lonb=5.12657805922765 deg E
+latb=45.6192109037438 deg N
+urbain=0
+nurbain=11/26
+fraction urbaine = 42 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6153226124665
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5056500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5056500 m
+dx=3000 m
+lonc=5.12371788569752 deg E
+latc=45.6423068402943 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5056500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=4964
+recepteurs brins=1285
+***Calcul du barycentre MAILLAGE***
+xb=665627 m
+yb=5.05706e+06 m
+lonb=5.12553700387938 deg E
+latb=45.6473135755178 deg N
+urbain=0
+nurbain=2124/4964
+fraction urbaine = 42 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6423068402943
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5059500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5059500 m
+dx=3000 m
+lonc=5.12473859292449 deg E
+latc=45.6692909223178 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5059500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=502
+recepteurs brins=116
+***Calcul du barycentre MAILLAGE***
+xb=664302 m
+yb=5.05823e+06 m
+lonb=5.10893970804125 deg E
+latb=45.6581525052448 deg N
+urbain=0
+nurbain=8/502
+fraction urbaine = 1 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6692909223178
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5062500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5062500 m
+dx=3000 m
+lonc=5.12576075171716 deg E
+latc=45.6962748585069 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5062500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=25
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=664820 m
+yb=5062911 m
+lonb=5.11717211170801 deg E
+latb=45.7001338076435 deg N
+urbain=0
+nurbain=3/25
+fraction urbaine = 12 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.6962748585069
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5065500 m
+dx=3000 m
+lonc=5.12678436461884 deg E
+latc=45.7232586488316 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=20
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=664848 m
+yb=5065205 m
+lonb=5.11831120212578 deg E
+latb=45.7207608577366 deg N
+urbain=0
+nurbain=9/20
+fraction urbaine = 45 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7232586488316
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5068500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5068500 m
+dx=3000 m
+lonc=5.12780943417912 deg E
+latc=45.7502422932619 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5068500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=12
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=665274 m
+yb=5.06849e+06 m
+lonb=5.12490238947849 deg E
+latb=45.7502064107385 deg N
+urbain=0
+nurbain=1/12
+fraction urbaine = 8 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7502422932619
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5071500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5071500 m
+dx=3000 m
+lonc=5.12883596295391 deg E
+latc=45.7772257917677 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5071500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=12
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=665268 m
+yb=5.0715e+06 m
+lonb=5.12585380992145 deg E
+latb=45.7772813409098 deg N
+urbain=0
+nurbain=2/12
+fraction urbaine = 16 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.7772257917677
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5077500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5077500 m
+dx=3000 m
+lonc=5.13089340840218 deg E
+latc=45.8311923508865 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5077500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=25
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=665133 m
+yb=5.07803e+06 m
+lonb=5.12635301604753 deg E
+latb=45.8360473851956 deg N
+urbain=0
+nurbain=9/25
+fraction urbaine = 36 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8311923508865
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5080500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5080500 m
+dx=3000 m
+lonc=5.13192433021913 deg E
+latc=45.8581754114396 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5080500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5462
+recepteurs brins=1427
+***Calcul du barycentre MAILLAGE***
+xb=665514 m
+yb=5.08059e+06 m
+lonb=5.13213550099465 deg E
+latb=45.8589815368812 deg N
+urbain=0
+nurbain=829/5462
+fraction urbaine = 15 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8581754114396
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5083500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5083500 m
+dx=3000 m
+lonc=5.13295672153754 deg E
+latc=45.8851583259488 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5083500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=41
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=666053 m
+yb=5.08277e+06 m
+lonb=5.13982655345097 deg E
+latb=45.8784593076335 deg N
+urbain=0
+nurbain=3/41
+fraction urbaine = 7 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.8851583259488
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 665500_5086500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=665500 m
+yc=5086500 m
+dx=3000 m
+lonc=5.13399058494511 deg E
+latc=45.9121410943841 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=9
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/665500_5086500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=14
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=665298 m
+yb=5.08648e+06 m
+lonb=5.13138089126948 deg E
+latb=45.9120098067815 deg N
+urbain=0
+nurbain=0/14
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.9121410943841
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+/mnt/mod4/appli/CARTOPROX/interface_PREVALP
+./export_vers_SIRANE_CARTOPROX.sh region_ARN /mnt/mod4/appli/CARTOPROX/scripts/liste_domaines_prevalp.txt /mnt/mod4/appli/CARTOPROX/inputs/PREVALP_V3/region_ARN/20110806_20110812 20110806_20110812
+[1;32m **** Entre dans le script ./export_vers_SIRANE_CARTOPROX.sh **** [0;39m
+Utilise le fichier /mnt/mod4/appli/CARTOPROX/cartoprox.inc
+ChemOut=/mnt/mod4/appli/CARTOPROX/inputs/PREVALP_V3/region_ARN/20110806_20110812
+periode=20110806_20110812
+Utilise /mnt/mod4/appli/CARTOPROX/cartoprox.inc pour les noms de fichiers ENTREE
+Repertoire temporaire: /mnt/mod3/scratch/tmp.interface_prevalp_cartoprox.region_ARN
+Lit les stations dans /mnt/mod4/appli/CARTOPROX/scripts/liste_domaines_prevalp.txt
+ Ouverture de coord_utm.txt OK
+Trouve points:     164
+ -> Ecrit coord_geo.txt
+/mnt/mod4/appli/CARTOPROX/interface_PREVALP/coordonnees_stations/CARTOPROX_coordonnees_stations_SIRANE.txt OK
+Trouve 164 stations valides sur 164 dans /mnt/mod4/appli/CARTOPROX/scripts/liste_domaines_prevalp.txt
+ERREUR : pas de fichier /mnt/mod3/data/PREVALP_DATA/out/2011080600_2011081200.ncep/WRF.op_wrf/wrfout_wrf_med_6.nc

@@ -1,0 +1,8 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v6.1  
+ ! Linux(g77) 2.6.9-22. - 03/26/08
+ ! 16-Sep-10 09:57     
+
+use " ../prevalp_traf_lyon.nc"
+sh d
+sha NO2

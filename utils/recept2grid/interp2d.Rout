@@ -1,0 +1,57 @@
+
+R version 2.15.0 (2012-03-30)
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-unknown-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> #Interpolation de données a des points X, Y, Z vers une grille 
+> #reguliere definie par :
+> #xmin,xmax,ymin,ymax,dx,dy,nx,ny
+> 
+> rm(list=ls())
+> 
+> #--------------------------------
+> # chargement des package utilises 
+> #--------------------------------
+> library(chron)
+> library(akima)
+> #library(geoR)
+> 
+> #--------
+> #polluant
+> #--------
+> pol <- "test"
+> 
+> #----------
+> #Parametres
+> #----------
+> interpolation2d <- T
+> 
+> #-----------------------------------------------------------------
+> #chargement des données aux points X,Y,Z (fichier)
+> #colonne 1 : X
+> #colonne 2 : Y
+> #colonne 3 : Z
+> #-----------------------------------------------------------------
+> data_points_dir <- "./"
+> data_points_fic <- paste(data_points_dir,"points.xyz",sep="/")
+> 
+> points <- read.csv(data_points_fic,sep=";",header=F)
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file './/points.xyz': No such file or directory
+Execution halted

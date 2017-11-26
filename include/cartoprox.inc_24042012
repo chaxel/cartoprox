@@ -1,0 +1,489 @@
+#!/bin/bash
+############################################################################################
+#
+# ##### ##### #### ##### #### ##### #### #### #    #           
+# #     #   # #  #   #   #  # #   # #  # #  #  #  #               ####
+# #     ##### # #    #   #  # ####  # #  #  #   ##      #     #      #
+# #     #   # ##     #   #  # #     ##   #  #   ##       #   #    ####  
+# #     #   # # #    #   #  # #     # #  #  #  #  #       # #        #
+# ##### #   # #  #   #   #### #     #  # #### #    #       #  #   ####
+#
+############################################################################################
+cartoprox_version=31 # version -> change le repertoire des sorties et le traitement cartoprox
+
+############## Annee de calcul##############
+case $# in
+1)periode_loc=$1;;
+*)periode_loc=9999
+echo "cartoprox.inc:periode_loc=${periode_loc}"
+;;
+esac
+
+############################################################################################
+#COMMON
+############################################################################################
+source ${cartoprox}/include/common.inc
+
+############################################################################################
+# 1. Charge les parametres du domaines
+############################################################################################
+fic_domaine_inc=${cartoprox}/include/domaine_${cartoprox_domaine}.inc
+if [ "${cartoprox_domaine}" == "" ] ; then
+  echo -e "$ROUGE" "Specifier export cartoprox_domaine=" "$NORMAL"
+  exit 1
+else
+  if [ -f ${fic_domaine_inc} ] ; then
+    export code_maille=${cartoprox_domaine} #compatibilité
+    source ${fic_domaine_inc}   
+  else
+    echo -e "$ROUGE" "Creer un fichier de parametres pour le domaine: ${fic_domaine_inc}" "$NORMAL"
+    exit 1
+  fi
+fi
+
+params_mailles=${cartoprox}/selections/mailles_${cartoprox_domaine}${selection}.txt
+if [ ! -f ${params_mailles} ] ; then
+  echo -e "$ROUGE" "Creer un fichier de mailles pour le domaine: ${params_mailles}" "$NORMAL"
+  exit 1
+fi
+
+############################################################################################
+# 2. Parametres generaux
+############################################################################################
+#export cartoprox=`pwd | gawk -F '/scripts' '{print $1}'`
+scripts=${cartoprox}/scripts
+vcadastre=2007v150    #2009v89
+version_num=1.16
+version_src=diag 
+#diag=meteo diagnostique WRF (vitesse, température, HCL, flux chaleur, monin-obukov, nebulosité)
+#mto=données mto sol (vitesse, temperature, precipitation, nebulosité)
+
+############################################################################################
+# 3. Parametres de SIRANE par defaut
+############################################################################################
+
+# fichier de parametres SIRANE
+input_sed=${cartoprox}/include/input_sirane.sed
+
+# Choix du polluant
+#..0 = polluant passif sans reaction chimique
+#..1 = melange NO/NO2, les emissions sont données en NOX equivalent NO2
+#..2 = particules de meme diametre et de meme masse volumique
+#polluant=2
+if [ "${polluant}" == "" ] ; then
+echo "Fixer le polluant polluant=[0/1/2]"
+#exit 1
+fi 
+
+#..par defaut
+var_pm="PM10"
+
+#..nom du polluant PM
+case ${polluant} in
+2)export var_pm="PM10";;
+3)export var_pm="PM25";;
+esac
+
+#..parametres PM
+case ${var_pm} in
+PM25)
+pm_diametre=2.5e-6
+pm_massvol=1000.
+;;
+PM10)
+pm_diametre=10.0e-6
+pm_massvol=1000.
+;;
+*)#Erreur
+echo "Erreur sur definition des PM dans cartoprox.inc"
+exit 1
+;;
+esac
+
+############################################################################################
+# 4. Noms des repertoires SORTIES + EXECUTABLES
+############################################################################################
+
+#Scripts de preparation des emissions (base sur scripts de Florence) 
+# -> encore un peu tordu cette declaration de variables
+ChemProg=${scripts}/util_GEOM
+if [ "${cartoprox_scratch}" == "" ] ; then
+  cartoprox_scratch=/mnt/mod5/scratch #/data/CARTOPROX/tmp
+fi
+
+# Fichiers de noeuds/rues INPUT (generes sur Mapinfo par ML Nguyen)
+ChemData=/mnt/mod8/data/CARTOPROX
+
+# Repertoire resultats -> VERSION 2 ou 3
+if [ "${ChemRes1}" == "" ] ; then
+  ChemRes1=${ChemData}/res_V${cartoprox_version}_${cartoprox_domaine}_${periode_loc} #${selection}
+fi
+
+# MASQUE DES AGGLOS
+fichier_masque=aucun #${cartoprox}/inputs/MASQUES/infos_recepteurs${selection}_utm_masque.txt
+
+#Mailleur optimal
+#mailleur_exe=${cartoprox}/utils/mailleur_optimal/src_V1.03/mailleur.exe
+#test
+mailleur_version=1.03 #Cartoprox 2009
+#mailleur_version=1.2 #en TEST 09/11/2011
+mailleur_exe=${cartoprox}/utils/mailleur_optimal/src_V${mailleur_version}/mailleur.exe
+
+# Convertisseur geographique
+conversion_exe=${cartoprox}/utils/conversion_geographique/src/conversion.exe
+
+# Export de grille CHIMERE
+extract_val_grille_exe=${cartoprox}/utils/extract_val_grille_V5/extract_val_grille.exe
+
+# Calcul CARTOPROX -> VERSION 2 ou 3
+calc_cartoprox_nc_exe=${cartoprox}/utils/calc_cartoprox_nc_V33/calc_cartoprox_nc.exe
+
+calc_suremis_nc_exe=${cartoprox}/utils/calc_cartoprox_nc_V33/calc_suremis_nc.exe
+
+# STATISTIQUES
+statistics_exe=${cartoprox}/utils/statistics_netcdf/src_v1.22/statistics.exe
+
+# Repertoire resultats STATISTIQUES
+StatRes=${ChemData}/stat_V${cartoprox_version}_${cartoprox_domaine}${selection}
+
+# Repertoire des zooms
+ZoomRes=/mnt/mod4/data/CARTOPROX/carto_V${cartoprox_version}
+
+# NCO
+if [ "${NCO}" == "" ] ; then
+  export NCO=/opt/nco
+fi
+export NCO_BIN=${NCO}/bin
+export ncks=${NCO}/bin/ncks
+export ncap=${NCO}/bin/ncap
+export ncra=${NCO}/bin/ncra
+
+############################################################################################
+# 5. Scripts run/plot
+############################################################################################
+sirane_prevalp=${cartoprox}/inputs/PREVALP_V3 #${cartoprox_version}
+sirane_input=${cartoprox}/inputs/COMMON
+sirane_evol=${cartoprox}/inputs/EVOL
+sirane_geom=${cartoprox}/inputs/GEOM
+sirane_emis=${cartoprox}/inputs/EMIS
+sirane_emisrues=${cartoprox}/inputs/EMISRUES
+sirane_emisponct=${cartoprox}/inputs/PONCTUELLES
+sirane_mif=${cartoprox}/inputs/MIF
+sirane_recept=${cartoprox}/inputs/RECEPT_${mailleur_version} # Marie-Laure
+sirane_recept_user=${cartoprox}/inputs/SITE_CAMPAGNE # Marie-Laure
+prevalp_raster=${cartoprox}/inputs/RASTER
+
+############################################################################################
+# 6. Scripts CARTOPROX
+############################################################################################
+# A executer 1 fois/an
+emis_script="./2_prepare_emis_domaine.sh"
+maillage_script="./3_prepare_maillage_domaine.sh"
+regional_script="./4_prepare_regional.sh"
+
+# A executer 1 fois/campagne
+run_script="./5a_calcul_sirane_domaine.sh"
+suremis_script="./5b_calcul_suremission.sh"
+cartoprox_script="./5c_calcul_cartoprox_domaine_4.sh" #DEBUG
+#cartoprox_script="./5c_calcul_cartoprox_domaine.sh"
+stat_script="./5d_calcul_stat_domaine.sh"
+raster_script="./6a_map_recepteur.sh"
+zoom_script="./6b_zoom_raster.sh"
+map_script="./6c_map_raster.sh"
+#agglo_script="./6b_plot_agglos_CARTOPROX.sh"
+campagnes_stat_script="./7_stat_campagnes.sh"
+
+############################################################################################
+# 8. Fichiers entrees PREVALP utilisé pour la cartographie
+############################################################################################
+# les fichiers PREVALP pour le fond SIRANE sont dans interface_PREVALP
+case ${polluant} in 
+1)pol_type="gaz";;
+2)pol_type="aer";;
+3)pol_type="pm25";;
+esac
+
+case ${periode_loc} in
+
+#CAMPAGNES A6_89 et A7
+#ATTENTION les dates de fin sont J-1 par rapport au dates PREVALP
+20110222_20110307|20110308_20110322|20110623_20110707|20110708_20110721|20110310_20110325|20110330_20110413|20110420_20110504)
+version_simulation=campagnes
+reg_deb_j=`echo ${periode_loc} | gawk -F "_" '{print $1}'`
+reg_fin_j=`echo ${periode_loc} | gawk -F "_" '{print $2}'`
+reg_fin_j=`date -d "${reg_fin_j} 1 day" +%Y%m%d`
+reg_deb_h=00
+reg_fin_h=00
+mto_deb_j=`date -d "${reg_deb_j} 1 day ago" +%Y%m%d`
+mto_fin_j=${reg_fin_j}
+mto_deb_h=00
+mto_fin_h=00
+reg_deb_a=`date -d "${reg_deb_j}" +%Y`
+mto_deb_a=`date -d "${mto_deb_j}" +%Y`
+;;
+
+#Calcul 2007
+2007*)#2 calculs differents
+case ${pol_type} in
+gaz)
+version_simulation=emi2007v31 #carto 2007 NO, NO2, O3 krigée pour les ZAPAs 2007v05 #version utilisée pour les données réglementaires
+prefix_fic_chimie=ana_h;;
+aer)
+version_simulation=emi2007v31 #version emi2007v31 PM10 utilisée dans le cadre des PPA/SRACE en 2011
+prefix_fic_chimie=ana_avg24;;
+pm25)
+version_simulation=emi2007v31
+prefix_fic_chimie=out;;
+esac
+reg_deb_j=20070101
+reg_fin_j=20071231
+;;
+
+#Calcul 2009 
+2009*)
+version_simulation=2009v08
+prefix_fic_chimie=ana_h
+reg_deb_j=20090101
+reg_fin_j=20091231
+;;
+
+#Calcul 2010 
+20100101_20100131)#2 calculs differents
+version_simulation=paca
+reg_deb_j=20100101
+reg_fin_j=20100201
+;;
+
+#Calcul 2010 
+2010*)#2 calculs differents
+case ${pol_type} in
+gaz)
+version_simulation=2010v02_gaz
+prefix_fic_chimie=ana_h;;
+aer)
+version_simulation=emi2007v31
+prefix_fic_chimie=ana_avg24;;
+pm25)
+version_simulation=emi2007v31
+prefix_fic_chimie=out;;
+esac
+reg_deb_j=20100101
+reg_fin_j=20101231
+;;
+
+2011*)#PREVISION
+version_simulation=periode
+reg_deb_h=00
+reg_fin_h=00
+reg_deb_j=${deb_j}
+reg_fin_j=`date -d "${fin_j} 1 day" +%Y%m%d`
+;;
+
+#Autres
+9999)
+version_simulation=aucune
+;;
+
+esac
+
+case ${periode_loc} in
+2007|2009|2010)
+annee=${periode_loc}
+anneeplus1=`expr ${annee} \+ 1`
+deb_j=${annee}0101
+fin_j=${anneeplus1}0101
+;;
+9999)#aucune date
+echo "$0: aucune periode (AAAAMMJJ_AAAAMMJJ) specifie dans cartoprox.inc"
+;;
+*)#Format YYYYMMDD_YYYYMMDD
+deb_j=`echo ${periode_loc} | gawk -F "_" '{print $1}'`
+fin_j=`echo ${periode_loc} | gawk -F "_" '{print $2}'`
+annee=`date -d "${deb_j}" +%Y`
+;;
+esac
+
+#Type de repertoire
+case ${version_simulation} in
+
+paca)
+ChemArchMet=/mnt/mod8/data/CARTOPROX/paca/chm
+ChemArchChim=/mnt/mod8/data/CARTOPROX/paca/chm
+
+dom_mto_wrf="d03" 
+dom_mto_chimere="PACA3-A7"
+dom_chimere="PACA3-A7" 
+fichier_mto_wrf=${ChemArchMet}/wrfout_${dom_mto_wrf}_2010-01-01_00_00_00
+fichier_mto_diag=${ChemArchChim}/meteo.${reg_deb_j}_${reg_fin_j}_${dom_mto_chimere}.nc
+fichier_chimie=${ChemArchChim}/out.${reg_deb_j}_${reg_fin_j}_${dom_chimere}.nc
+fichier_stat=${ChemArchChim}/stat_out.${reg_deb_j}_${reg_fin_j}_${dom_chimere}.nc
+
+#Option d'export PREVALP -> SIRANE
+option_chimie=1
+# option_chimie=1 : option de la version 1 : utilise l'interpolation au centre de la maille (recommandé pour des grosses mailles dom_chimere > 1 km)
+# option_chimie=2 : utilise la moyenne sur n mailles autour du point (recommandé pour des mailles dom_chimere ~ 1 km)
+option_chimie_n=1
+;;
+
+periode) #Version pour l'opertationnel
+ChemArchMet=/mnt/mod3/data/PREVALP_DATA/out/${reg_deb_j}${reg_deb_h}_${reg_fin_j}${reg_deb_h}.ncep/WRF.op_wrf
+ChemArchChim=/mnt/mod3/data/PREVALP_DATA/out/${reg_deb_j}${reg_deb_h}_${reg_fin_j}${reg_deb_h}.ncep/CHIMERE.op_wrf.aerosols
+dom_mto_wrf="wrf_med_6" 
+dom_mto_chimere="MED06KM" 
+dom_chimere="MED06KM" 
+fichier_mto_wrf=${ChemArchMet}/wrfout_${dom_mto_wrf}.nc
+fichier_mto_diag=${ChemArchChim}/meteo_niveau1.${reg_deb_j}_${reg_fin_j}_${dom_mto_chimere}.nc
+fichier_chimie=${ChemArchChim}/out.${reg_deb_j}_${reg_fin_j}_${dom_chimere}.nc
+
+#Option d'export PREVALP -> SIRANE
+option_chimie=1
+# option_chimie=1 : option de la version 1 : utilise l'interpolation au centre de la maille (recommandé pour des grosses mailles dom_chimere > 1 km)
+# option_chimie=2 : utilise la moyenne sur n mailles autour du point (recommandé pour des mailles dom_chimere ~ 1 km)
+option_chimie_n=1
+;;
+
+campagnes) #Version les campagnes 
+config=wrf
+meteo=wrf_3km_fddao
+chimie=emi2007v31
+data_mto_wrf=/mnt/mod5/data/PREVALP_DATA/${mto_deb_a}_meteo/${mto_deb_j}${mto_deb_h}_${mto_fin_j}${mto_deb_h}.${config}/WRF.${meteo}
+data_mto_diag=/mnt/mod5/data/PREVALP_DATA/${reg_deb_a}_chimere/chimere.${meteo}.${chimie}
+data_chimere=/mnt/mod5/data/PREVALP_DATA/${reg_deb_a}_assimilation/assimilation.${meteo}.${chimie}
+dom_mto_wrf="WRFREG03KM" 
+dom_mto_diag="REG04KM" 
+dom_chimere="REG01KM" 
+case ${pol_type} in
+gaz)prefix_fic_chimie=ana_h;;
+aer)prefix_fic_chimie=ana_avg24;;
+pm25)
+#pas d'assimilation de données pour PM2.5
+data_chimere=/mnt/mod7/data/PREVALP_DATA/${reg_deb_a}_giraf/giraf.${meteo}.${chimie}
+prefix_fic_chimie=out
+;;
+esac
+fichier_mto_wrf=${data_mto_wrf}/wrfout_${dom_mto_wrf}.nc
+fichier_mto_diag=${data_mto_diag}/meteo_niveau1.${reg_deb_j}_${reg_fin_j}_${dom_mto_diag}.nc
+fichier_chimie=${data_chimere}/${prefix_fic_chimie}.${reg_deb_j}_${reg_fin_j}_${dom_chimere}.nc
+
+#Option d'export PREVALP -> SIRANE
+option_chimie=2
+#option_chimie=1: option de la version 1 : utilise l'interpolation au centre de la maille (recommandé pour des grosses mailles dom_chimere > 1 km)
+#option_chimie=2: utilise la moyenne sur n mailles autour du point (recommandé pour des mailles dom_chimere ~ 1 km)
+option_chimie_n=1
+;;
+
+*)
+#Calcul ANNUEL PREVALP
+#Annees disponibles 2007, 2009, 2010
+ChemArchMet=/mnt/mod4/data/PREVALP_DATA/cartos/carto_${annee}_annuel/meteo
+ChemArchChim=/mnt/mod4/data/PREVALP_DATA/cartos/carto_${annee}_annuel/${version_simulation}
+dom_mto_wrf="WRFREG03KM" 
+dom_mto_chimere="REG03KM" 
+dom_chimere="REG01KM"
+fichier_mto_wrf=${ChemArchMet}/wrfout.${reg_deb_j}_${reg_fin_j}_${dom_mto_wrf}.nc
+fichier_mto_diag=${ChemArchMet}/meteo.${reg_deb_j}_${reg_fin_j}_${dom_mto_chimere}.nc
+fichier_chimie=${ChemArchChim}/${prefix_fic_chimie}.${reg_deb_j}_${reg_fin_j}_${dom_chimere}.nc
+fichier_stat=${ChemArchChim}/stat_${prefix_fic_chimie}.${reg_deb_j}_${reg_fin_j}_${dom_chimere}.nc
+
+#Option d'export PREVALP -> SIRANE
+option_chimie=2
+# option_chimie=1 : option de la version 1 : utilise l'interpolation au centre de la maille (recommandé pour des grosses mailles dom_chimere > 1 km)
+# option_chimie=2 : utilise la moyenne sur n mailles autour du point (recommandé pour des mailles dom_chimere ~ 1 km)
+option_chimie_n=1
+;;
+esac
+
+#Parametres de la grille PREVALP pour l'extraction du FOND
+case ${dom_chimere} in
+REG01KM)
+fond_xmin=553000
+fond_ymin=4887000
+fond_dx=1000
+dom_landuse="REG01KM" 
+;;
+MED06KM)
+fond_xmin=380000   
+fond_ymin=4680000
+fond_dx=6000
+dom_landuse="REG01KM"
+;;
+REG06KM)
+fond_xmin=550000
+fond_ymin=4884000
+fond_dx=6000
+dom_landuse="REG01KM"
+;;
+PACA3-A7)
+#Parametres de la grille PREVALP pour l'extraction du FOND
+fond_xmin=586000   
+fond_ymin=4734000
+fond_dx=3000
+dom_landuse="PACA1-A7"
+;;
+esac
+fond_dy=${fond_dx}
+
+#Parametres du LANDUSE
+case ${dom_landuse} in
+REG01KM)
+landuse_xmin=553000
+landuse_ymin=4887000
+landuse_dx=1000
+;;
+PACA1-A7)
+landuse_xmin=586000
+landuse_ymin=4734000
+landuse_dx=1000
+;;
+esac
+
+fond_fic=${fichier_chimie}
+#fond_fic_moy=${ChemArchChim}/moy_${prefix_fic_chimie}.${deb_j}_${fin_j}_${dom_chimere}.nc
+fond_fic_stat=${fichier_stat}
+
+#Fonctionnalité pour corriger la vitesse du vent avec la vitesse du vent w10m de meteo_fic
+met_fin_xmin=553000.
+met_fin_ymin=4887000.
+met_fin_dx=1000.
+
+#met_coa_xmin=550000.
+#met_coa_ymin=4884000.
+#met_coa_dx=3000.
+
+#Meteo fine (pour 2009 seulement)
+meteo_fin_fic=aucun
+case ${periode_loc} in
+2009)
+prevalp_meteo_dir=/mnt/mod4/data/PREVALP_DATA/cartos/carto_2009_annuel/meteo
+meteo_fin_fic=${prevalp_meteo_dir}/fac_w10m.20090101_20100101_REG01KM.nc
+;;
+esac
+
+# PARAMETRES DE L'INTERFACE REGIONALE (PREVALP)
+interface_regional=${cartoprox}/interface_PREVALP
+script_regional=./export_vers_SIRANE_CARTOPROX.sh
+prefix_pression=pression
+prefix_evolmeteo=evol-meteo
+prefix_fond=fond
+prefix_meteo=meteo
+
+# PARAMETRES DE L'OCCUPATION DES SOLS
+landuse_fic=${prevalp}/domains/${dom_landuse}/${dom_landuse}_corine.cdf
+# Fraction de la maille à partir de laquelle elle est considérée comme urbaine
+fraction_urbain=50 # %
+
+############################################################################################
+# 9.PARAMETRES DU MAILLEUR (DEFAUT)
+############################################################################################
+# Le mailleur est utilise :
+# 1. pour caluler le centre d'un domaine de calcul SIRANE en Lambert 2 etendu a partir des données X, Y UTM
+# 2. calculer l'emplacement des recepteurs (ATTENTION: necessite Classout=1)
+if [ "${mailleur}" == "" ] ; then
+mailleur=optimal   # optimal/ : espacement des points varie avec distance a l'axe ?
+domaine=mini       # full/mini
+#dx=3000           # largeur x hauteur d'un mini-domaine (taille des mailles CHIMERE/WRF)
+brin_dx=5          # discretisation des brins pour le calcul des recepteurs
+recept_dx=10       # espacement minimum des recepteurs a proximité de l'axe
+#cadre_dx=3000     # cadre autour du domaine calcule par le mailleur (par defaut prendre 100 m pour s'assurer des pb de projection geo)
+nrecept_max=500000 # nombre max. de recepteurs
+fi

@@ -1,0 +1,142 @@
+      subroutine calcul_recept
+
+      use params
+
+      implicit none
+      
+      ! local
+      integer :: ibrin, ipt, ic, ir, ir2, iter
+      integer :: i, j, nx, ny
+      real :: x1,x2,y1,y2
+      real :: a_reg,b_reg
+      real :: d, dist_recept_pt, d2p
+      real :: dist_recept_recept
+      
+      integer :: irecept
+      
+      integer :: niter
+      
+      real, allocatable :: recept_y_temp(:)
+      real, allocatable :: recept_x_temp(:)      
+      integer :: nrecept_tmp
+  
+      !defini la relation distance au brin, distance inter recepteurs
+      do ic = 1, nclass_recept
+          dy_recept(ic) = a_recept * dx_recept(ic) + b_recept	  
+      end do
+      
+      ! cree la grille de sortie a partir de l'ecart minimum entre 2 recepteur
+      nx = (xmax-xmin) / dx_recept(1)
+      ny = (ymax-ymin) / dx_recept(1)     
+
+      ! defini le nombre de points initials
+      nrecept = nx * ny
+      
+      allocate (recept_x(nrecept))
+      allocate (recept_y(nrecept))
+      
+      ! initialisation des recepteurs
+      write(*,'("Grille ",I6," x ",I6)') nx, ny
+      write(*,'("Points ",I12)')   nrecept
+      do j=1,ny      
+        do i=1,nx
+	  ir = (j-1) * nx + i
+	  recept_x(ir) = xmin + (i-1) * dx_recept(1)
+	  recept_y(ir) = ymin + (j-1) * dx_recept(1)
+	end do
+      end do
+      
+      ! c'est parti pour l'optimisation
+      
+      !1. regarde a quel distance se trouve un point des autres et de la chaussee
+     
+      irecept = 0
+      
+      niter = nrecept 
+     
+      do iter=1, niter
+      
+      if (mod(iter,10000).eq.0) &
+         write(*,'("Iteration",I7," sur ",I7," pts (K) ",I7,F6.2," %" )') iter/1000,niter/1000,nrecept/1000,1.0*iter/niter
+
+      do ir= nrecept , 1, -1 
+      
+	! on se place a un point, on va enlever tous les points qui se trouvent à une distance inferieure a ce point
+	
+	! on declare un tablea temporaire qu'on va completer avec les points qui ne sont plus loin que la distance voulue	
+	nrecept_tmp = nrecept
+	allocate(recept_x_temp(nrecept_tmp))
+	allocate(recept_y_temp(nrecept_tmp))
+	
+	recept_x_temp= recept_x(1:nrecept_tmp)
+	recept_y_temp= recept_y(1:nrecept_tmp)
+		
+	x1 = recept_x(ir)
+	y1 = recept_y(ir)     
+	dist_recept_pt = 1.E6
+	
+	! calcule la distance du recepteur au pt le plus proche 
+	do ibrin= 1, nbrins     
+	 do ipt= 1, brin_npts(ibrin)
+	  x2 = brin_xd(ibrin,ipt) 
+	  y2 = brin_yd(ibrin,ipt) 	  
+	  d = d2p(x1,y1,x2,y2)	  
+	  if ( d .lt. dist_recept_pt ) dist_recept_pt = d
+	 end do
+	end do
+	
+	dist_recept_recept = a_recept * dist_recept_pt + b_recept
+	
+	!write(*,'("Iter ",I5," point",I10," recept-pt:",F10.2," recept-recept:",F10.2)') &
+	 !    iter,ir,dist_recept_pt,dist_recept_recept
+	
+	! si un pt recepteur est plus proche que dist_recept_recept, on le supprime...
+	
+	 do ir2= nrecept, 1, -1  
+	   x2 = recept_x(ir2)
+	   y2 = recept_y(ir2)
+	   d = d2p(x1,y1,x2,y2)
+	   if (  (d.ge.1E-3 ) .and.( d.le.dist_recept_recept ) ) then
+	     ! supprime ce point
+	     irecept = ir
+	     goto 888
+	   end if 
+	 end do
+	
+      end do
+      
+      
+888      continue 
+
+      !write(*,'("Iter ",I6," supprime point ",I10)' ) iter,irecept      
+      nrecept = nrecept - 1   
+      if ( irecept+1.le. nrecept ) then
+       do ir= irecept +1 , nrecept
+        recept_x(ir) = recept_x(ir+1)
+        recept_y(ir) = recept_y(ir+1)    
+       end do
+      end if  
+                 
+        
+      end do ! iter
+      
+      write(*,*) 'Conserve recepteurs:', nrecept
+      
+      ! ecrit le resultats
+      open(unit=10,file='brin_pts.txt',status='unknown')
+      
+      do ir=1 , nrecept
+        write(10,*) recept_x(ir),recept_y(ir)
+      end do         
+      
+      close(10)      
+      
+      
+      end subroutine
+      
+!----------------------
+      real function d2p(x1,y1,x2,y2)      
+      implicit none      
+      real :: x1, x2, y1, y2      
+      d2p = ( (x2 - x1)**2 +  ( y2 - y1 )**2 )**0.5            
+      end function

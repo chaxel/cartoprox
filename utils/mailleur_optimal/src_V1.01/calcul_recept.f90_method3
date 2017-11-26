@@ -1,0 +1,233 @@
+      subroutine calcul_recept
+
+      use params
+
+      implicit none
+      
+      ! local
+      integer :: ibrin, ipt, ic, iter, ix, iy
+      integer :: i, j
+      integer :: i1vois, j1vois, i2vois, j2vois
+      
+      integer :: nx, ny      
+      
+      real :: x1,x2,y1,y2
+      real :: a_reg,b_reg
+      real :: d, dist_recept_pt, d2p
+      real :: dist_recept_recept
+      
+      integer :: irecept
+      
+      integer :: niter
+      
+      !real, allocatable :: recept_y_temp(:)
+      !real, allocatable :: recept_x_temp(:)      
+      !integer :: nrecept_tmp
+            
+      integer :: recept_valid_n  
+      integer :: recept_suppr_n 
+      integer :: y_suppr_n       
+      integer :: iter_suppr_n 
+      
+      !integer :: iter_ntest, iter_ntest_max
+
+      ! parametres des recepteurs
+      ! chaque recepteurs est defini par ses coordonnees 
+      integer :: nrecept
+      real, allocatable :: recept_x(:,:)
+      real, allocatable :: recept_y(:,:)
+      logical,allocatable :: recept_valid(:,:) 
+      logical,allocatable :: recept_ok(:,:)            
+    
+      !defini la relation distance au brin, distance inter recepteurs
+      dx_recept(1) =  dy_recept(1) 
+      do ic = 2, nclass_recept
+          dx_recept(ic) = dx_recept(ic-1) + dy_recept(ic) 
+      end do
+      
+      ! affichage
+      do ic = 1, nclass_recept
+	  write(*,'("Distance voie (m) ",F10.2," distance recepteur (m)",F10.2)') dx_recept(ic),dy_recept(ic)
+      end do
+      
+      ! cree la grille de sortie a partir de l'ecart minimum entre 2 recepteur
+      nx = (xmax-xmin) / dx_recept_ini
+      ny = (ymax-ymin) / dx_recept_ini   
+
+      ! defini le nombre de points initials
+      nrecept = nx * ny
+      
+      allocate (recept_x    (nx,ny))
+      allocate (recept_y    (nx,ny))
+      allocate (recept_valid(nx,ny))  
+      allocate (recept_ok(nx,ny))            
+      
+      ! initialisation des recepteurs
+      write(*,'("Grille ",I6," x ",I6)') nx, ny
+      write(*,'("Points ",I12)')   nrecept
+      do iy=1,ny      
+        do ix=1,nx
+	  recept_x(ix,iy) = xmin + (ix-1) * dx_recept_ini
+	  recept_y(ix,iy) = ymin + (iy-1) * dx_recept_ini
+	end do
+      end do
+      
+      ! c'est parti pour l'optimisation
+      
+      !1. regarde a quel distance se trouve un point des autres et de la chaussee
+     
+      irecept = 0
+      
+      niter = nrecept 
+      
+      recept_valid = .true.
+      recept_ok    = .false.      
+      recept_valid_n = 0! nrecept
+      recept_suppr_n = 0
+      
+      !iter_ntest     = 0
+      !iter_ntest_max = nx
+     
+      do iter=1, niter  
+      
+      !iter_ntest = 0
+      
+      iter_suppr_n = 0
+      
+      ! if (mod(iter,1).eq.0) &
+      
+      if (iter.ge.2) &
+               write(*,'("Iteration",I7," pts (K) ",I10," pts suppr ",I9,F8.2," %" )') &
+	    iter,recept_valid_n,recept_suppr_n,1.0*recept_valid_n/nrecept*100.
+
+      do ix=1, nx
+      
+      do iy=1, ny 
+      
+      irecept = (ix-1)*ny   + iy
+      
+      if (mod(irecept,100000).eq.1) then
+        write(*,'("Iteration",I7," pts (K) ",I10," pts suppr ",I9,F8.2," % dist=",F10.2 )') &
+	    iter,recept_valid_n,recept_suppr_n,100.*irecept/(nx*ny),dist_recept_pt
+	recept_suppr_n = 0
+      end if    
+      
+      if ( recept_valid(ix,iy) ) then
+	! on se place a un point, on va enlever tous les points qui se trouvent à une distance inferieure a ce point	
+	x1 = recept_x(ix,iy)
+	y1 = recept_y(ix,iy)     
+	dist_recept_pt = 1.E6
+	
+	! calcule la distance du recepteur au pt le plus proche 
+	do ibrin= 1, nbrins     
+	 do ipt= 1, brin_npts(ibrin)
+	  x2 = brin_xd(ibrin,ipt) 
+	  y2 = brin_yd(ibrin,ipt) 	  
+	  d = d2p(x1,y1,x2,y2)	
+	  !write(*,*) d  
+	  if ( d .lt. dist_recept_pt ) dist_recept_pt = d
+	 end do
+	end do
+	
+	! distance inter-recepteurs
+	dist_recept_recept = dy_recept(1)
+	do ic = 1, nclass_recept
+	  if ( dist_recept_pt.ge.dx_recept(ic)) dist_recept_recept = dy_recept(ic)
+	end do
+	
+	!dist_recept_recept = a_recept * dist_recept_pt + b_recept
+		  
+	!write(*,'("Iter ",I5," point",I10," recept-pt:",F10.2," recept-recept:",F10.2)') &
+	 !    iter,ir,dist_recept_pt,dist_recept_recept
+	
+	! si un pt recepteur est plus proche que dist_recept_recept, on le supprime...
+	! recept_suppr_n = 0	
+	
+	! travaille sur un voisinage pour la recherche des points a supprimer
+	i1vois = max( 1,int((x1 - 1.01 * dist_recept_recept - xmin) /  dx_recept_ini) + 1)
+	i2vois = min(nx,int((x1 + 1.01 * dist_recept_recept - xmin) /  dx_recept_ini) + 1)
+	
+	j1vois = max( 1,int((y1 - 1.01 * dist_recept_recept - ymin) /  dx_recept_ini) + 1)
+	j2vois = min(ny,int((y1 + 1.01 * dist_recept_recept - ymin) /  dx_recept_ini) + 1)
+	
+! on regarde sur un voisinage si un point est plus proche, sinon on ajoute le point
+	y_suppr_n = 0
+	do i= i1vois, i2vois
+	  do j= j1vois, j2vois
+	   !iter_ntest = iter_ntest + 1	  
+	   if ( recept_valid(i,j) ) then
+	    x2 = recept_x(i,j)
+	    y2 = recept_y(i,j)
+	    d = d2p(x1,y1,x2,y2)
+	    if (  ( d.ge.1E-3 ) .and.( d.lt.dist_recept_recept ) ) then
+	      if ( recept_ok(i,j) ) recept_valid(ix,iy) = .false.
+	      ! supprime ce point
+              !y_suppr_n = 1
+              !recept_suppr_n = recept_suppr_n + 1 ! compte le nb de suppression sur le domaine     	     
+	     end if	    
+	   end if
+	  end do ! i
+      end do !j 
+      
+      ! on a pas trouve de point valide dans le voisinage, on ajoute ce point
+      !if ( y_suppr_n.eq.1)then
+      !  recept_valid(ix,iy) = .true.
+	!recept_valid_n = recept_valid_n + 1 
+      !end if
+      
+      if ( recept_valid(ix,iy) ) then     
+         recept_ok(ix,iy) = .true.
+	 recept_valid_n = recept_valid_n + 1
+	 do i= i1vois, i2vois
+	   do j= j1vois, j2vois 
+	     if ( recept_valid(i,j) ) then
+	      x2 = recept_x(i,j)
+	      y2 = recept_y(i,j)
+	      d = d2p(x1,y1,x2,y2)
+	      if (  ( d.ge.1E-3 ) .and.( d.lt.dist_recept_recept ) ) then
+	        recept_valid(i,j) = .false.  	     
+	     end if	    
+	     end if
+	    end do ! i
+         end do !j 	 	 
+      end if      
+      
+      end if ! valid      
+
+	 end do ! ix  
+      end do !iy   
+      
+      ! on regarde si l'iteration a supprimé des points
+      iter_suppr_n = 0
+      
+      if (iter_suppr_n.eq.0) goto 999
+                         
+      end do ! iter
+      
+999   continue
+
+      write(*,*) 'Conserve recepteurs:', recept_valid_n
+      
+      write(*,*) 'Ecrit brin_pts.txt avec nrecept=',recept_valid_n        
+      
+      ! ecrit le resultats
+      open(unit=10,file='recept_pts.txt',status='unknown')
+      
+
+      do iy=1, ny
+      do ix=1, nx  
+        if ( recept_valid(ix,iy) ) &
+        write(10,*) recept_x(ix,iy),recept_y(ix,iy)
+      end do   
+      end do  
+                  
+      close(10) 
+                     
+      end subroutine
+      
+!----------------------
+      real function d2p(x1,y1,x2,y2)      
+      implicit none      
+      real :: x1, x2, y1, y2      
+      d2p = ( (x2 - x1)**2 +  ( y2 - y1 )**2 )**0.5            
+      end function

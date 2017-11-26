@@ -1,0 +1,45 @@
+#!/bin/ksh
+###############################
+#...parametres sirane
+tauxno2=0.15
+output=0
+EVOL=0 #carte ou pas  # attention : si calcul grille =>> PAS DE STAT !!
+Classout=1 #
+CALCSTAT=1 # calcul des stat
+#
+altvent=
+rugmesure=0.1
+depmesure=0.0
+#...
+Latitude=_LATGRID_ #45.598351
+Rug_quartier=_RUGGRIDQUART_ #0.9
+Epaisseur_deplacement=_DEPGRID_ #13.0
+Hmoyenne=_HMOYGRID_ #20.0
+Rugo_bati=_RUGGRID_ #0.05
+
+#...Maillage de sortie
+            Xout=_Xout_
+            Yout=_Yout_
+            Xmin=_Xmin_
+            Xmax=_Xmin_
+            Ymin=_Ymin_
+            Ymax=_Ymax_
+#...maillage de calcul
+            Xcnpt=_Xcnpt_
+            Ycnpt=_Ycnpt_
+            Xcmin=_Xcmin_
+            Xcmax=_Xcmax_
+            Ycmin=_Ycmin_
+            Ycmax=_Ycmax_ 
+#...Ratio d'interpolation de la grille de sortie
+  Rinterp=4
+#...Nombre de cellules d'influence du maillage de calcul :
+  Ncinf=1
+
+REPRES=RESULTAT_$run
+REPSURF=SURFER_${run}
+
+
+
+
+

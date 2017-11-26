@@ -1,0 +1,43 @@
+Travaille dans /data/SCRATCH/sirane2netcdf.sh.3972
+nrecepts=8281
+Trouve 8281 recepteurs
+-> Conversion du format SIRANE tab au format csv...
+ Ouverture de /data/SCRATCH/sirane2netcdf.sh.3972/recept_tmp.xyutm OK
+Trouve points:    8281
+ -> Ecrit /data/SCRATCH/sirane2netcdf.sh.3972/recept_tmp.xylamb2
+pt_1 806370.0 1986546. 653804.98 4967999.95
+pt_2 806380.0 1986546. 653814.95 4967999.86
+pt_3 806390.0 1986546. 653824.91 4967999.77
+pt_4 806400.0 1986545. 653834.98 4967999.67
+pt_5 806410.0 1986546. 653844.94 4967999.58
+pt_6 806420.0 1986546. 653854.9 4967999.49
+pt_7 806430.0 1986546. 653864.98 4967999.4
+pt_8 806440.0 1986546. 653874.94 4967999.3
+pt_9 806450.0 1986545. 653884.9 4967999.21
+pt_10 806460.0 1986545. 653894.86 4967999.12
+-> Compilation
+make: Nothing to be done for `target'.
+-> Creation du NetCDF 
+ Open /data/SCRATCH/sirane2netcdf.sh.3972/recept_tmp.list
+ Open /data/SCRATCH/sirane2netcdf.sh.3972/var.txt
+ pts=        8281
+ vars=           1
+ Create /mnt/mod4/data/CARTOPROX/inputs/AGGLOS/temp/valence/tmp.nc
+ Dimensions OK
+ Variables x_pts et y_pts OK
+ Variables easting_pts et northing_pts OK
+ Noms points OK
+ Noms variables OK
+ Variable Times OK
+ Variable nb_dep_50_jour OK
+ Ecriture X et Y OK
+ Ecriture points OK
+ Ecriture variables OK
+ Fichier NetCDF creer : /mnt/mod4/data/CARTOPROX/inputs/AGGLOS/temp/valence/tmp.
+ nc
+-> Remplissage NetCDF
+ Dimensions OK
+ fichier /mnt/mod4/data/CARTOPROX/inputs/AGGLOS/temp/tmp.utm31.653500_4966500
+ points OK=        8281
+0
+OK... Fichier de sortie : /mnt/mod4/data/CARTOPROX/inputs/AGGLOS/temp/valence/tmp.nc

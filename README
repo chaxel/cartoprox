@@ -1,0 +1,52 @@
+############################################################################################
+#
+# ##### ##### #### ##### #### ##### #### #### #    #           
+# #     #   # #  #   #   #  # #   # #  # #  #  #  #               ####
+# #     ##### # #    #   #  # ####  # #  #  #   ##      #     #      #
+# #     #   # ##     #   #  # #     ##   #  #   ##       #   #    ####  
+# #     #   # # #    #   #  # #     # #  #  #  #  #       # #        #
+# ##### #   # #  #   #   #### #     #  # #### #    #       #  #   ####
+#
+############################################################################################
+CARTOPROX version 3 (07/2011)
+
+Principe :
+------------------------------------------------------------------------------------------------------
+declarer une variable :
+export cartoprox=/mnt/mod4/appli/CARTOPROX_V3
+export cartoprox_domaine=A7
+
+Les fichiers de parametres pour le domaine ${cartoprox_domaine} se trouve dans 
+${cartoprox}/include/domaine_${cartoprox_domaine}.inc
+
+La liste des domaines dans ${cartoprox}/selections/mailles_${cartoprox_domaine}${selection}.txt
+ou ${selection} est une selection de mailles (ex: _vienne)
+
+Lancement d'un calcul :
+------------------------------------------------------------------------------------------------------
+cd ${cartoprox}/scripts
+
+Preparation des données d'entree :
+./lance_CARTOPROX_region.sh prep deb_j deb_h fin_j fin_h
+
+Lancement de calcul GAZ (NOx + O3) :
+./lance_CARTOPROX_region.sh gaz  deb_j deb_h fin_j fin_h
+
+Lancement de calcul AER (PM10) :
+./lance_CARTOPROX_region.sh aer  deb_j deb_h fin_j fin_h
+
+ou deb_j=20100101 deb_h=00 et fin_j=20101231 fin_h=23
+
+Historique :
+------------------------------------------------------------------------------------------------------
+Version 2 : Version utilisée pour "Cartographie CARTOPROX 2009"
+
+Version 3 : Version utilisée pour projet "Observatoire A7"
+* calcul de la suremission de SIRANE pondere de l'aire représentative des recepteurs : ${cartoprox}/utils/calc_cartoprox_nc_V3
+* gestion de fichiers PREVALP non annuel -> version PREVISION (aout 2011)
+
+Version 3.5.2
+05/11/2012 : * Modification du calcul suremis pour prendre en compte une aire minimale pour la pondération des points SIRANE
+             * Correction d'un bug dans ./utils/export_au_point.sh
+31/08/2012 : Modification des traitements 5a (sirane) et 5d (stat) pour relancer un calcul avec un SIRANE eroné.
+

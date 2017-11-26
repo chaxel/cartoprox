@@ -1,0 +1,51 @@
+	## 
+      #####	    # 
+     ########	  ###	 # 
+##  ########## #######  ### 
+###########################################################
+# PREVALP - Générateur de maillage optimal
+# Atmo Rhone-Alpes 2009
+# version 1.0
+# contact: echaxel@atmo-rhonealpes.org									       
+###########################################################
+# # ## ### #### ##### ####### ######## ######### ##########
+
+Requis : 
+*****************
+Un compilateur fortran 90 declare dans la variable F90.
+
+Compilation : 
+*****************
+Utiliser le script install.sh
+
+Aide : 
+*****************
+Pour avoir de l'aide sur le mailleur :
+mailleur.e -h
+
+Exemples :
+*****************
+1. Modelisation regionale
+Generer un maillage optimal de stations virtuelles sur Rhone-Alpes a 10 km des grands
+axes :
+mailleur.e -optimal -i data/RA_autoroute_nat.MIF  50. 5000. 10000.
+
+2. Modelisation urbaine
+Generer un maillage optimal de stations virtuelles pour l'axe Lyon-Valence a 10 m de
+resolution
+mailleur.e -optimal data/reseau_LyonValence.MIF 10.   10. 5000.
+
+Generer un maillage optimal de stations virtuelles pour Valence a 10 m de resolution (cadre de 0 m autour)
+mailleur.e -optimal data/reseau_sirane_valence_v1.MIF   5. 10. 0.
+
+10 m resolution : 341758 recepteurs
+
+Generer un maillage optimal de stations virtuelles pour Bourgoin a 10 m de resolution (cadre de 0 m autour)
+mailleur.e -optimal /appli/SIRANE/inputs/MIF/bourgoin_toutes/sirane_BJ_LII.MIF   5. 10. 0.
+
+mailleur.e -optimal -i /appli/SIRANE/inputs/MIF/bourgoin_toutes/sirane_BJ_LII.MIF -o recept.txt   -brin_dx 5. -recept_dx 10. -xc 829412. -yc 2070464. -dx 4000.
+
+
+10 m resolution : 341758 recepteurs
+
+**** Bonne utilisation !

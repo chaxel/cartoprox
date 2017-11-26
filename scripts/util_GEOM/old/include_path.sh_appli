@@ -1,0 +1,55 @@
+#!/bin/ksh
+ChemDisk=/mnt/mod2
+ChemProg=$ChemDisk/appli/CARTOPROX/Util
+ChemData=$ChemDisk/appli/CARTOPROX
+ChemTMP=$ChemDisk/data/CARTOPROX/tmp
+ChemSir=$ChemDisk/appli/CARTOPROX/$vsirane
+
+ChemDataSrc=$ChemDisk/appli/CARTOPROX/GEOM_RA
+
+dx=5km
+ChemRes=$ChemDisk/data/CARTOPROX/LYON_VALENCE/${grid}_$dx
+ChemWork=$ChemDisk/data/CARTOPROX/LYON_VALENCE/work
+ChemGrid=$ChemDisk/data/CARTOPROX/LYON_VALENCE/${grid}_$dx
+ChemWorkRecept=$ChemDisk/data/CARTOPROX/recepteurs
+
+if [ $grid ]  
+then
+  if [ ! -d $ChemRes ] ; then
+    mkdir -p $ChemRes 
+  fi
+  if [ ! -d $ChemWork ] ; then
+    mkdir -p $ChemWork
+  fi
+fi
+
+ficnoeudsrc=$ChemDisk/appli/CARTOPROX/GEOM_RA/noeuds_ANdecoupe.txt
+#ficreceptsrc=$ChemDisk/data/CARTOPROX/recepteurs/r_lyon_valence.txt.ok
+#ficreceptsrc=$ChemDisk/appli/CARTOPROX/GEOM/r_lyon_valence.txt.ok
+#ficreceptsrc=$ChemDisk/appli/CARTOPROX/GEOM/r_lyon_valence.tube.txt
+#ficreceptsrc=$ChemDisk/appli/CARTOPROX/GEOM/r_lyon_valence.tubesA7.txt
+ficreceptsrc=$ChemDisk/appli/CARTOPROX/GEOM/recept_AE42AF42.tubesA7.TXT
+ficrue=rues.txt
+ficgrid=Grille3km_lyonValence.txt #liste_mailles3km.txt
+
+ficemisruesRA=$ChemData/EMIS-RUES/nox2008v85-AN-decoupe.dat
+ficemisrues=emis_rues_$grid.txt
+ficemisnoeuds=emis_noeuds_$grid.txt
+
+ChemInput=$ChemDisk/data/CARTOPROX/LYON_VALENCE/INPUT-MINI
+
+REPRES=RESULTAT_$grid
+REPSURF=SURFER_$grid
+
+ficlog=$ChemDisk/data/CARTOPROX/LYON_VALENCE/log.txt
+
+RESRUN=RESULTAT_${grid}_$run
+
+case $dx in
+ 3km ) grillesizex=3000
+       grillesizey=3000 ;;
+ 5km ) grillesizex=5000
+       grillesizey=5000 ;;
+esac
+
+ipWRF=172.16.30.93

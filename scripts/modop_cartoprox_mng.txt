@@ -1,0 +1,42 @@
+
+login : oper
+mdp : applioper
+repertoire des scripts : /mnt/mod4/appli/CARTOPROX_V352/scripts
+Configurer le calcul, la commande ./00_check_paths.sh permet de verifier la config. Il faut que le rouge passe au vert.
+Pour cela, il faut taper :
+export cartoprox=/mnt/mod4/appli/CARTOPROX_V352
+export cartoprox_domaine=A7 ou export cartoprox_domaine=region_A6_A89
+export periode=20110101_20111231
+POur verifier l'existence des domaines et des selctions : /mnt/mod4/appli/CARTOPROX_V352/selections
+
+
+Il y a un script général : lance_CARTOPROX_region.sh auquel on ajoute des arguments en fonction de l etape du calcul
+./lance_CARTOPROX_region.sh grid  normalement deja fait
+./lance_CARTOPROX_region.sh prep 
+./lance_CARTOPROX_region.sh emis
+./lance_CARTOPROX_region.sh sirane_gaz
+./lance_CARTOPROX_region.sh sirane_pm10
+./lance_CARTOPROX_region.sh sirane_pm25
+./lance_CARTOPROX_region.sh suremis
+./lance_CARTOPROX_region.sh cartoprox_gaz
+./lance_CARTOPROX_region.sh cartoprox_pm10
+./lance_CARTOPROX_region.sh cartoprox_pm25
+./lance_CARTOPROX_region.sh stat
+./lance_CARTOPROX_region.sh zoom
+Les etapes sirane et cartoprox sont parallelisables. Donc pour chaque onglet, il faut configuer le calcul.
+
+Remarque: 
+le répertoire : /mnt/mod4/appli/CARTOPROX_V352/statut_calcul permet de suivre le calcul.
+Il existe 4 statuts : RUN OK SKIP PB
+Si RUN , calcul en cours
+Si OK , calcul terminé
+Si SKIP et PB, il y a un problème. Il faut identifier et régler le pb puis avant de relancer le calcul bien effacer ces statuts (rm *PB)
+
+
+POur la création des cartos, il faut R :
+./6a
+./6b_
+./6c_
+
+
+Les donnees entrees sont dans /mnt/mod4/appli/CARTOPROX_V352/inputs

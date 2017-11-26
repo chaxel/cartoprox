@@ -1,0 +1,19 @@
++++++++++++++++++ MAILLE region_ARN ++++++++++DOMAINE 620500_5065500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=620500 m
+yc=5065500 m
+dx=3000 m
+lonc=4.54875770539231 deg E
+latc=45.7325595229377 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=7
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/region_ARN/620500_5065500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=825
+recepteurs brins=197
+***Calcul du barycentre MAILLAGE***
+xb=619472 m
+yb=5.06678e+06 m
+lonb=4.53586566682848 deg E
+latb=45.7442546662654 deg N

@@ -1,0 +1,360 @@
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 641500_5041500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5041500 m
+dx=3000 m
+lonc=4.81156955458793 deg E
+latc=45.5126687384411 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/641500_5041500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=407
+recepteurs brins=97
+***Calcul du barycentre MAILLAGE***
+xb=642718 m
+yb=5.04025e+06 m
+lonb=4.82679127725754 deg E
+latb=45.5011747458309 deg N
+urbain=0
+nurbain=0/407
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5126687384411
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 641500_5041500 (1 sur 9)
+ Nb recept : 407+97 (campagnes 0)
+ Occup. sol: RURALE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:20:37 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 641500_5044500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5044500 m
+dx=3000 m
+lonc=4.81243636382091 deg E
+latc=45.5396584970703 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/641500_5044500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1668
+recepteurs brins=407
+***Calcul du barycentre MAILLAGE***
+xb=642531 m
+yb=5.04546e+06 m
+lonb=4.82591510174316 deg E
+latb=45.5480848773392 deg N
+urbain=0
+nurbain=0/1668
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5396584970703
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 641500_5044500 (2 sur 9)
+ Nb recept : 1668+407 (campagnes 0)
+ Occup. sol: RURALE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:21:01 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 641500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=641500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.81330440404967 deg E
+latc=45.5666481147108 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/641500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=5433
+recepteurs brins=1328
+***Calcul du barycentre MAILLAGE***
+xb=641357 m
+yb=5.0473e+06 m
+lonb=4.81141495141422 deg E
+latb=45.5648778779593 deg N
+urbain=1
+nurbain=4439/5433
+fraction urbaine = 81 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5666481147108
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 641500_5047500 (3 sur 9)
+ Nb recept : 5433+1328 (campagnes 0)
+ Occup. sol: URBAINE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:21:28 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 644500_5041500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5041500 m
+dx=3000 m
+lonc=4.84995743811228 deg E
+latc=45.5120532954787 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/644500_5041500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=8053
+recepteurs brins=2250
+***Calcul du barycentre MAILLAGE***
+xb=644674 m
+yb=5.04145e+06 m
+lonb=4.85216913749340 deg E
+latb=45.5115673838390 deg N
+urbain=1
+nurbain=5236/8053
+fraction urbaine = 65 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5120532954787
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 644500_5041500 (4 sur 9)
+ Nb recept : 8053+2250 (campagnes 0)
+ Occup. sol: URBAINE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:22:01 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 644500_5044500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5044500 m
+dx=3000 m
+lonc=4.85084259008851 deg E
+latc=45.5390424778195 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/644500_5044500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=8738
+recepteurs brins=2311
+***Calcul du barycentre MAILLAGE***
+xb=644780 m
+yb=5.04454e+06 m
+lonb=4.85443894082740 deg E
+latb=45.5393441782896 deg N
+urbain=0
+nurbain=4308/8738
+fraction urbaine = 49 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5390424778195
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 644500_5044500 (5 sur 9)
+ Nb recept : 8738+2311 (campagnes 0)
+ Occup. sol: RURALE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:22:49 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 644500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=644500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.85172899907354 deg E
+latc=45.5660315186247 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/644500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=2581
+recepteurs brins=630
+***Calcul du barycentre MAILLAGE***
+xb=645082 m
+yb=5.04748e+06 m
+lonb=4.85917728814869 deg E
+latb=45.5657304771519 deg N
+urbain=0
+nurbain=526/2581
+fraction urbaine = 20 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5660315186247
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 644500_5047500 (6 sur 9)
+ Nb recept : 2581+630 (campagnes 0)
+ Occup. sol: RURALE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:23:35 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 647500_5041500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5041500 m
+dx=3000 m
+lonc=4.88834406682137 deg E
+latc=45.5114249591123 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/647500_5041500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=282
+recepteurs brins=66
+***Calcul du barycentre MAILLAGE***
+xb=646187 m
+yb=5.04272e+06 m
+lonb=4.87190767786713 deg E
+latb=45.5226770315403 deg N
+urbain=0
+nurbain=2/282
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5114249591123
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 647500_5041500 (7 sur 9)
+ Nb recept : 282+66 (campagnes 0)
+ Occup. sol: RURALE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:24:02 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 647500_5044500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5044500 m
+dx=3000 m
+lonc=4.88924755935088 deg E
+latc=45.5384135531046 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/647500_5044500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=1764
+recepteurs brins=435
+***Calcul du barycentre MAILLAGE***
+xb=646246 m
+yb=5.04388e+06 m
+lonb=4.87300919508679 deg E
+latb=45.5331003311004 deg N
+urbain=1
+nurbain=1740/1764
+fraction urbaine = 98 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=1 --> maille URBAINE
+***Parametres physiques***
+Latitude=45.5384135531046
+Rugosite quartier=0.5
+Epaisseur deplacement=1.0
+Hauteur moyenne bati=6.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 647500_5044500 (8 sur 9)
+ Nb recept : 1764+435 (campagnes 0)
+ Occup. sol: URBAINE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:24:37 UTC 2011
+******************************************************************
++++++++++++++++++ MAILLE A7 ++++++++++DOMAINE 647500_5047500 ++++++++++++++++++++++++++++++++
+***Infos sur le mini-domaine***
+xc=647500 m
+yc=5047500 m
+dx=3000 m
+lonc=4.89015233489680 deg E
+latc=45.5654020050029 deg N
+cadre_dx=3000 m (TAMPON)
+profil emissions (V2)=6
++++++++++++++++++++++++++++++++++  Maillage OPTIMAL OK ++++++++++++++++++++++++++++++++
+->/mnt/mod4/appli/CARTOPROX/inputs/RECEPT/A7/647500_5047500/recept_pts_dx3000_brin5_recept10_cadre3000.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+recepteurs champ=23
+recepteurs brins=0
+***Calcul du barycentre MAILLAGE***
+xb=646980 m
+yb=5.04717e+06 m
+lonb=4.88339314358178 deg E
+latb=45.5625433120373 deg N
+urbain=0
+nurbain=0/23
+fraction urbaine = 0 % (seuil 50 %)
+***Calcul d occupation des sols***
+OccupSol=0 --> maille RURALE
+***Parametres physiques***
+Latitude=45.5654020050029
+Rugosite quartier=0.05
+Epaisseur deplacement=0.0
+Hauteur moyenne bati=1.0
+Rugosite bati=0.05
+******************************************************************
+ Run       : A7
+ Selection : _vienne
+ Dates     : 20090201 00 TU au 20090203 23 TU
+ Mini-domaine 647500_5047500 (9 sur 9)
+ Nb recept : 23+0 (campagnes 0)
+ Occup. sol: RURALE
+ Profil emi: 6  
+ Nous sommes le : Thu Aug 11 13:25:15 UTC 2011
+******************************************************************

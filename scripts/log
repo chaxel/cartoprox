@@ -1,0 +1,345 @@
+polluant=1
+infos_domaines.sh: recepteurs champ=7764
+infos_domaines.sh: recepteurs brins=2081
+=====================================================================================================
+Domaine region_A6_A89 mini-domaine 632500_5080500 xc=632500 yc=5080500 dx=3000 cadre_dx=3000
+=====================================================================================================
+*** info: Liste des iterations : 1 ->  360 (niter=360)
+[1;32m /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/sirane_nox.2011030800_2011032223.nc OK [0;39m
+[1;31m /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/cartoprox_nox.2011030800_2011032223.nc INDISPONIBLE [0;39m
+do_cartoprox=1
+drop_sirane=0
+drop_input=1
+drop_output_suremis=1
+drop_output_reg=1
+Supprime /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc
+Supprime /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc
+Genere /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc a partir de /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/sirane_nox.2011030800_2011032223.nc
+[1;32m Fichier STATIONS/DATE /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc OK [0;39m
+Genere /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc a partir de /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc
+[1;32m Fichier STATIONS/DATE /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc OK [0;39m
+[0;34m Extrait les valeurs de PREVALP aux recepteurs [0;39m
+[1;32m Fichier REGIONAL /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc OK [0;39m
+Extrait O3 de /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc
+-> /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.O3
+/mnt/mod4/appli/CARTOPROX/utils/extract_val_grille_V6/src/extract_val_grille.exe -i /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.O3 -xmin 630000 -ymin 5069000 -dx 1000 -datestr1 2011-03-08_00:00:00 -datestr2 2011-03-22_23:00:00 -s /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc -var O3
+ datestr1=2011-03-08_00:00:00
+ datestr2=2011-03-22_23:00:00
+ Stations au format NetCDF
+ ihour= T
+ Creation des variables NO, NO2, O3  en cours...
+ Creation OK
+Date:2011-03-08_00:00:00 var:   O3 steps:    1 ->    1 val max:     10.04
+Date:2011-03-09_00:00:00 var:   O3 steps:   25 ->   25 val max:     29.08
+Date:2011-03-10_00:00:00 var:   O3 steps:   49 ->   49 val max:     13.41
+Date:2011-03-11_00:00:00 var:   O3 steps:   73 ->   73 val max:     22.97
+Date:2011-03-12_00:00:00 var:   O3 steps:   97 ->   97 val max:     37.69
+Date:2011-03-13_00:00:00 var:   O3 steps:  121 ->  121 val max:     26.85
+Date:2011-03-14_00:00:00 var:   O3 steps:  145 ->  145 val max:     29.94
+Date:2011-03-15_00:00:00 var:   O3 steps:  169 ->  169 val max:     20.68
+Date:2011-03-16_00:00:00 var:   O3 steps:  193 ->  193 val max:     15.93
+Date:2011-03-17_00:00:00 var:   O3 steps:  217 ->  217 val max:     23.60
+Date:2011-03-18_00:00:00 var:   O3 steps:  241 ->  241 val max:     30.29
+Date:2011-03-19_00:00:00 var:   O3 steps:  265 ->  265 val max:     25.29
+Date:2011-03-20_00:00:00 var:   O3 steps:  289 ->  289 val max:     25.89
+Date:2011-03-21_00:00:00 var:   O3 steps:  313 ->  313 val max:     20.85
+Date:2011-03-22_00:00:00 var:   O3 steps:  337 ->  337 val max:     14.07
+-> O3 OK
+Extrait NO de /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc
+-> /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO
+/mnt/mod4/appli/CARTOPROX/utils/extract_val_grille_V6/src/extract_val_grille.exe -i /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO -xmin 630000 -ymin 5069000 -dx 1000 -datestr1 2011-03-08_00:00:00 -datestr2 2011-03-22_23:00:00 -s /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc -var NO
+ datestr1=2011-03-08_00:00:00
+ datestr2=2011-03-22_23:00:00
+ Stations au format NetCDF
+ ihour= T
+Date:2011-03-08_00:00:00 var:   NO steps:    1 ->    1 val max:      1.55
+Date:2011-03-09_00:00:00 var:   NO steps:   25 ->   25 val max:      0.26
+Date:2011-03-10_00:00:00 var:   NO steps:   49 ->   49 val max:      1.84
+Date:2011-03-11_00:00:00 var:   NO steps:   73 ->   73 val max:      1.05
+Date:2011-03-12_00:00:00 var:   NO steps:   97 ->   97 val max:      0.86
+Date:2011-03-13_00:00:00 var:   NO steps:  121 ->  121 val max:      0.29
+Date:2011-03-14_00:00:00 var:   NO steps:  145 ->  145 val max:      0.42
+Date:2011-03-15_00:00:00 var:   NO steps:  169 ->  169 val max:      1.70
+Date:2011-03-16_00:00:00 var:   NO steps:  193 ->  193 val max:      3.04
+Date:2011-03-17_00:00:00 var:   NO steps:  217 ->  217 val max:      0.17
+Date:2011-03-18_00:00:00 var:   NO steps:  241 ->  241 val max:      0.57
+Date:2011-03-19_00:00:00 var:   NO steps:  265 ->  265 val max:      0.69
+Date:2011-03-20_00:00:00 var:   NO steps:  289 ->  289 val max:      0.32
+Date:2011-03-21_00:00:00 var:   NO steps:  313 ->  313 val max:      0.51
+Date:2011-03-22_00:00:00 var:   NO steps:  337 ->  337 val max:      1.72
+-> NO OK
+Extrait NO2 de /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc
+-> /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO2
+/mnt/mod4/appli/CARTOPROX/utils/extract_val_grille_V6/src/extract_val_grille.exe -i /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/out_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO2 -xmin 630000 -ymin 5069000 -dx 1000 -datestr1 2011-03-08_00:00:00 -datestr2 2011-03-22_23:00:00 -s /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc -var NO2
+ datestr1=2011-03-08_00:00:00
+ datestr2=2011-03-22_23:00:00
+ Stations au format NetCDF
+ ihour= T
+Date:2011-03-08_00:00:00 var:  NO2 steps:    1 ->    1 val max:     13.21
+Date:2011-03-09_00:00:00 var:  NO2 steps:   25 ->   25 val max:      9.40
+Date:2011-03-10_00:00:00 var:  NO2 steps:   49 ->   49 val max:     23.79
+Date:2011-03-11_00:00:00 var:  NO2 steps:   73 ->   73 val max:     13.93
+Date:2011-03-12_00:00:00 var:  NO2 steps:   97 ->   97 val max:      5.53
+Date:2011-03-13_00:00:00 var:  NO2 steps:  121 ->  121 val max:      8.53
+Date:2011-03-14_00:00:00 var:  NO2 steps:  145 ->  145 val max:      5.87
+Date:2011-03-15_00:00:00 var:  NO2 steps:  169 ->  169 val max:     24.90
+Date:2011-03-16_00:00:00 var:  NO2 steps:  193 ->  193 val max:     17.96
+Date:2011-03-17_00:00:00 var:  NO2 steps:  217 ->  217 val max:      8.44
+Date:2011-03-18_00:00:00 var:  NO2 steps:  241 ->  241 val max:      6.16
+Date:2011-03-19_00:00:00 var:  NO2 steps:  265 ->  265 val max:      6.03
+Date:2011-03-20_00:00:00 var:  NO2 steps:  289 ->  289 val max:      6.12
+Date:2011-03-21_00:00:00 var:  NO2 steps:  313 ->  313 val max:     10.33
+Date:2011-03-22_00:00:00 var:  NO2 steps:  337 ->  337 val max:     19.06
+-> NO2 OK
+[0;34m Extrait les valeurs de PREVALP aux recepteurs [0;39m
+[1;32m Fichier REGIONAL /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc OK [0;39m
+Extrait O3 de /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc
+-> /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.O3
+/mnt/mod4/appli/CARTOPROX/utils/extract_val_grille_V6/src/extract_val_grille.exe -i /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.O3 -xmin 630000 -ymin 5069000 -dx 1000 -datestr1 2011-03-08_00:00:00 -datestr2 2011-03-22_23:00:00 -s /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc -var O3
+ datestr1=2011-03-08_00:00:00
+ datestr2=2011-03-22_23:00:00
+ Stations au format NetCDF
+ ihour= T
+ Creation des variables NO, NO2, O3  en cours...
+ Creation OK
+Date:2011-03-08_00:00:00 var:   O3 steps:    1 ->    1 val max:      1.89
+Date:2011-03-09_00:00:00 var:   O3 steps:   25 ->   25 val max:      0.16
+Date:2011-03-10_00:00:00 var:   O3 steps:   49 ->   49 val max:      1.87
+Date:2011-03-11_00:00:00 var:   O3 steps:   73 ->   73 val max:      0.15
+Date:2011-03-12_00:00:00 var:   O3 steps:   97 ->   97 val max:     -0.15
+Date:2011-03-13_00:00:00 var:   O3 steps:  121 ->  121 val max:     -0.01
+Date:2011-03-14_00:00:00 var:   O3 steps:  145 ->  145 val max:     -0.02
+Date:2011-03-15_00:00:00 var:   O3 steps:  169 ->  169 val max:      2.73
+Date:2011-03-16_00:00:00 var:   O3 steps:  193 ->  193 val max:      0.15
+Date:2011-03-17_00:00:00 var:   O3 steps:  217 ->  217 val max:      0.39
+Date:2011-03-18_00:00:00 var:   O3 steps:  241 ->  241 val max:     -0.01
+Date:2011-03-19_00:00:00 var:   O3 steps:  265 ->  265 val max:     -0.04
+Date:2011-03-20_00:00:00 var:   O3 steps:  289 ->  289 val max:      0.20
+Date:2011-03-21_00:00:00 var:   O3 steps:  313 ->  313 val max:      0.61
+Date:2011-03-22_00:00:00 var:   O3 steps:  337 ->  337 val max:      1.27
+-> O3 OK
+Extrait NO de /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc
+-> /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO
+/mnt/mod4/appli/CARTOPROX/utils/extract_val_grille_V6/src/extract_val_grille.exe -i /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO -xmin 630000 -ymin 5069000 -dx 1000 -datestr1 2011-03-08_00:00:00 -datestr2 2011-03-22_23:00:00 -s /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc -var NO
+ datestr1=2011-03-08_00:00:00
+ datestr2=2011-03-22_23:00:00
+ Stations au format NetCDF
+ ihour= T
+Date:2011-03-08_00:00:00 var:   NO steps:    1 ->    1 val max:      2.12
+Date:2011-03-09_00:00:00 var:   NO steps:   25 ->   25 val max:      0.47
+Date:2011-03-10_00:00:00 var:   NO steps:   49 ->   49 val max:      2.77
+Date:2011-03-11_00:00:00 var:   NO steps:   73 ->   73 val max:      0.58
+Date:2011-03-12_00:00:00 var:   NO steps:   97 ->   97 val max:     -0.11
+Date:2011-03-13_00:00:00 var:   NO steps:  121 ->  121 val max:      0.67
+Date:2011-03-14_00:00:00 var:   NO steps:  145 ->  145 val max:      0.06
+Date:2011-03-15_00:00:00 var:   NO steps:  169 ->  169 val max:      4.23
+Date:2011-03-16_00:00:00 var:   NO steps:  193 ->  193 val max:      0.84
+Date:2011-03-17_00:00:00 var:   NO steps:  217 ->  217 val max:      0.69
+Date:2011-03-18_00:00:00 var:   NO steps:  241 ->  241 val max:      0.10
+Date:2011-03-19_00:00:00 var:   NO steps:  265 ->  265 val max:      0.04
+Date:2011-03-20_00:00:00 var:   NO steps:  289 ->  289 val max:      0.35
+Date:2011-03-21_00:00:00 var:   NO steps:  313 ->  313 val max:      0.78
+Date:2011-03-22_00:00:00 var:   NO steps:  337 ->  337 val max:      2.66
+-> NO OK
+Extrait NO2 de /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc
+-> /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO2
+/mnt/mod4/appli/CARTOPROX/utils/extract_val_grille_V6/src/extract_val_grille.exe -i /mnt/mod4/appli/CARTOPROX/inputs/RASTER/region_A6_A89/suremis_nox.2011030800_2011032223_REG01KM_2011.nc.632500_5080500.NO2 -xmin 630000 -ymin 5069000 -dx 1000 -datestr1 2011-03-08_00:00:00 -datestr2 2011-03-22_23:00:00 -s /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc -var NO2
+ datestr1=2011-03-08_00:00:00
+ datestr2=2011-03-22_23:00:00
+ Stations au format NetCDF
+ ihour= T
+Date:2011-03-08_00:00:00 var:  NO2 steps:    1 ->    1 val max:     -0.35
+Date:2011-03-09_00:00:00 var:  NO2 steps:   25 ->   25 val max:      0.97
+Date:2011-03-10_00:00:00 var:  NO2 steps:   49 ->   49 val max:      0.33
+Date:2011-03-11_00:00:00 var:  NO2 steps:   73 ->   73 val max:      1.72
+Date:2011-03-12_00:00:00 var:  NO2 steps:   97 ->   97 val max:      1.07
+Date:2011-03-13_00:00:00 var:  NO2 steps:  121 ->  121 val max:      2.15
+Date:2011-03-14_00:00:00 var:  NO2 steps:  145 ->  145 val max:      0.54
+Date:2011-03-15_00:00:00 var:  NO2 steps:  169 ->  169 val max:     -0.57
+Date:2011-03-16_00:00:00 var:  NO2 steps:  193 ->  193 val max:      1.38
+Date:2011-03-17_00:00:00 var:  NO2 steps:  217 ->  217 val max:      1.66
+Date:2011-03-18_00:00:00 var:  NO2 steps:  241 ->  241 val max:      1.01
+Date:2011-03-19_00:00:00 var:  NO2 steps:  265 ->  265 val max:      1.53
+Date:2011-03-20_00:00:00 var:  NO2 steps:  289 ->  289 val max:      0.63
+Date:2011-03-21_00:00:00 var:  NO2 steps:  313 ->  313 val max:      0.06
+Date:2011-03-22_00:00:00 var:  NO2 steps:  337 ->  337 val max:      0.39
+-> NO2 OK
+[0;34m Calcul la concentration CARTOPROX (do_cartoprox=1) [0;39m
+Extraction de x_pts,y_pts,easting_pts,northing_pts,area_pts,Times pour pas de temps 1
+/mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/sirane_nox.2011030800_2011032223.nc -> /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/cartoprox_nox.2011030800_2011032223.nc
+/opt/nco/bin/ncks -O -v x_pts,y_pts,easting_pts,northing_pts,area_pts,Times -d Time,0,0 /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/sirane_nox.2011030800_2011032223.nc /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/cartoprox_nox.2011030800_2011032223.nc
+Calcul CARTOPROX (cartoprox=sirane+grille-fond) en cours
+/mnt/mod4/appli/CARTOPROX/utils/calc_cartoprox_nc_V33/calc_cartoprox_nc.exe /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/sirane_nox.2011030800_2011032223.nc /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/cartoprox_nox.2011030800_2011032223.nc
+ calc_cartoprox_nc.f90 version:          32
+ numPoints=        9845
+ numFrTimes=         360
+PT    num  easting  northing   dist(m)  area(m2)
+PT      1 631005.0 5079005.0      90.0    7014.8
+PT      2 631095.0 5079005.0      90.0    7014.8
+PT      3 631185.0 5079005.0      90.0    7014.8
+PT      4 631275.0 5079005.0      90.0    7014.8
+PT      5 631365.0 5079005.0      90.0    7014.8
+PT      6 631455.0 5079005.0      90.0    7014.8
+PT      7 631545.0 5079005.0      90.0    7014.8
+PT      8 631635.0 5079005.0      90.0    7014.8
+PT      9 631725.0 5079005.0      90.0    7014.8
+PT     10 631995.0 5079005.0     270.0   63133.2
+PT     11 632265.0 5079005.0     270.0   63133.2
+PT     12 632535.0 5079005.0     270.0   63133.2
+PT     13 632805.0 5079005.0      90.0    7014.8
+PT     14 632895.0 5079005.0      90.0    7014.8
+PT     15 632985.0 5079005.0      90.0    7014.8
+PT     16 633075.0 5079005.0      90.0    7014.8
+PT     17 633165.0 5079005.0      30.0     779.4
+PT     18 633195.0 5079005.0      30.0     779.4
+PT     19 633225.0 5079005.0      30.0     779.4
+PT     20 633255.0 5079005.0      30.0     779.4
+PT     21 633285.0 5079005.0      10.0      86.6
+PT     22 633295.0 5079005.0      10.0      86.6
+PT     23 633305.0 5079005.0      10.0      86.6
+PT     24 633315.0 5079005.0      10.0      86.6
+PT     25 633325.0 5079005.0       5.1      22.5
+PT     26 633335.0 5079005.0       5.1      22.5
+PT     27 633345.0 5079005.0      10.0      86.6
+PT     28 633355.0 5079005.0      10.0      86.6
+PT     29 633385.0 5079005.0      30.0     779.4
+PT     30 633415.0 5079005.0      30.0     779.4
+PT     31 633565.0 5079005.0      92.2    7361.2
+PT     32 633295.0 5079015.0      10.0      86.6
+PT     33 633305.0 5079015.0      10.0      86.6
+PT     34 633315.0 5079015.0      10.0      86.6
+PT     35 633325.0 5079015.0       3.0       7.8
+PT     36 633335.0 5079015.0       7.0      42.4
+PT     37 633345.0 5079015.0      10.0      86.6
+PT     38 633295.0 5079025.0      10.0      86.6
+PT     39 633305.0 5079025.0      10.0      86.6
+PT     40 633315.0 5079025.0      10.0      86.6
+PT     41 633335.0 5079025.0      10.0      86.6
+PT     42 633345.0 5079025.0      10.0      86.6
+PT     43 633175.0 5079035.0      30.0     779.4
+PT     44 633205.0 5079035.0      30.0     779.4
+PT     45 633235.0 5079035.0      30.0     779.4
+PT     46 633265.0 5079035.0      30.0     779.4
+PT     47 633295.0 5079035.0      10.0      86.6
+PT     48 633305.0 5079035.0      10.0      86.6
+PT     49 633315.0 5079035.0       7.1      43.3
+PT     50 633325.0 5079035.0       3.2       8.7
+PT     51 633335.0 5079035.0      10.0      86.6
+PT     52 633345.0 5079035.0      10.0      86.6
+PT     53 633375.0 5079035.0      30.0     779.4
+PT     54 633405.0 5079035.0      30.0     779.4
+PT     55 633295.0 5079045.0      10.0      86.6
+PT     56 633305.0 5079045.0      10.0      86.6
+PT     57 633315.0 5079045.0       7.1      43.3
+PT     58 633325.0 5079045.0       3.2       8.7
+PT     59 633335.0 5079045.0      10.0      86.6
+PT     60 633345.0 5079045.0      10.0      86.6
+PT     61 633295.0 5079055.0      10.0      86.6
+PT     62 633305.0 5079055.0      10.0      86.6
+PT     63 633315.0 5079055.0       7.3      45.9
+PT     64 633325.0 5079055.0       3.6      11.3
+PT     65 633335.0 5079055.0      10.0      86.6
+PT     66 633345.0 5079055.0      10.0      86.6
+PT     67 633195.0 5079065.0      30.0     779.4
+PT     68 633225.0 5079065.0      30.0     779.4
+PT     69 633255.0 5079065.0      30.0     779.4
+PT     70 633285.0 5079065.0      10.0      86.6
+PT     71 633295.0 5079065.0      10.0      86.6
+PT     72 633305.0 5079065.0      10.0      86.6
+PT     73 633315.0 5079065.0       7.6      50.2
+PT     74 633325.0 5079065.0       4.2      15.6
+PT     75 633335.0 5079065.0      10.0      86.6
+PT     76 633345.0 5079065.0      10.0      86.6
+PT     77 633375.0 5079065.0      30.0     779.4
+PT     78 633405.0 5079065.0      30.0     779.4
+PT     79 633495.0 5079065.0      90.0    7014.8
+PT     80 633285.0 5079075.0      10.0      86.6
+PT     81 633295.0 5079075.0      10.0      86.6
+PT     82 633305.0 5079075.0      10.0      86.6
+PT     83 633315.0 5079075.0       7.3      45.9
+PT     84 633325.0 5079075.0       3.6      11.3
+PT     85 633335.0 5079075.0      10.0      86.6
+PT     86 633345.0 5079075.0      10.0      86.6
+PT     87 633285.0 5079085.0      10.0      86.6
+PT     88 633295.0 5079085.0      10.0      86.6
+PT     89 633305.0 5079085.0      10.0      86.6
+PT     90 633315.0 5079085.0       8.2      58.9
+PT     91 633325.0 5079085.0       2.8       6.9
+PT     92 633335.0 5079085.0      10.0      86.6
+PT     93 633345.0 5079085.0      10.0      86.6
+PT     94 631005.0 5079095.0      90.0    7014.8
+PT     95 631095.0 5079095.0      90.0    7014.8
+PT     96 631185.0 5079095.0      90.0    7014.8
+PT     97 631275.0 5079095.0      90.0    7014.8
+PT     98 631365.0 5079095.0      90.0    7014.8
+PT     99 631455.0 5079095.0      90.0    7014.8
+ ----- Infos domaine -----------------------------------
+ Nombre de points:        9845
+ Distance max. entre 2 points (m)=   275.8623    
+ Aire max. en un point (m2)=   65904.52    
+ -------------------------------------------------------
+ -> /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080
+ 500/cartoprox_nox.2011030800_2011032223.nc
+   date(unit:ug/m3)      var sirane(ip)   fond(1)grille(ip)suremis(ip
+2011-03-08_00:00:00       NO       3.32      1.84      1.77      0.44
+ Creer NO, NO2, O3, PM10 dans NO
+ Creation de la variable NO en cours...
+ Creation raster NO OK
+ Creation de la variable NO2 en cours...
+ Creation raster NO2 OK
+ Creation de la variable O3 en cours...
+ Creation raster O3 OK
+2011-03-08_00:00:00      NO2      16.65     18.65     12.12     -0.35
+ Creer NO, NO2, O3, PM10 dans NO2
+2011-03-08_00:00:00       O3      13.40     11.25     14.19      0.37
+ Creer NO, NO2, O3, PM10 dans O3
+2011-03-09_00:00:00       NO       0.81      0.30      0.29      0.18
+2011-03-09_00:00:00      NO2      16.71     16.36     14.48      0.11
+2011-03-09_00:00:00       O3      55.88     55.96     56.93     -0.04
+2011-03-10_00:00:00       NO       4.80      2.12      2.00      0.77
+2011-03-10_00:00:00      NO2      40.19     42.76     37.25     -0.20
+2011-03-10_00:00:00       O3      22.52     19.45     24.09      0.33
+2011-03-11_00:00:00       NO       1.53      1.20      1.14      0.05
+2011-03-11_00:00:00      NO2      21.84     20.89     16.81      0.44
+2011-03-11_00:00:00       O3      38.28     38.91     45.27     -0.32
+2011-03-12_00:00:00       NO       0.38      0.75      0.68     -0.14
+2011-03-12_00:00:00      NO2      10.04      8.85      7.63      0.30
+2011-03-12_00:00:00       O3      69.56     70.65     70.89     -0.26
+2011-03-13_00:00:00       NO       0.84      0.32      0.30      0.25
+2011-03-13_00:00:00      NO2      16.13     14.91     14.64      0.54
+2011-03-13_00:00:00       O3      51.05     51.82     53.12     -0.35
+2011-03-14_00:00:00       NO       0.47      0.45      0.41     -0.02
+2011-03-14_00:00:00      NO2       9.80      9.39      7.76      0.11
+2011-03-14_00:00:00       O3      55.19     55.50     58.33     -0.09
+2011-03-15_00:00:00       NO       4.25      1.73      1.62      1.63
+2011-03-15_00:00:00      NO2      36.66     38.96     41.26     -1.14
+2011-03-15_00:00:00       O3      22.93     20.13     17.44      1.25
+2011-03-16_00:00:00       NO       3.49      3.36      3.11      0.11
+2011-03-16_00:00:00      NO2      31.19     30.30     28.74      0.33
+2011-03-16_00:00:00       O3      23.52     24.17     25.19     -0.22
+2011-03-17_00:00:00       NO       0.78      0.21      0.20      0.23
+2011-03-17_00:00:00      NO2      12.88     12.72     11.18      0.28
+2011-03-17_00:00:00       O3      43.75     43.66     45.82     -0.16
+2011-03-18_00:00:00       NO       0.58      0.54      0.47      0.03
+2011-03-18_00:00:00      NO2      12.17     11.07     10.85      0.27
+2011-03-18_00:00:00       O3      56.30     57.16     59.03     -0.20
+2011-03-19_00:00:00       NO       0.61      0.70      0.62     -0.06
+2011-03-19_00:00:00      NO2      10.49      9.31      7.63      0.40
+2011-03-19_00:00:00       O3      45.01     45.97     50.33     -0.32
+2011-03-20_00:00:00       NO       0.63      0.31      0.27      0.13
+2011-03-20_00:00:00      NO2      10.79     10.36      9.65      0.11
+2011-03-20_00:00:00       O3      46.15     46.36     49.90     -0.05
+2011-03-21_00:00:00       NO       1.41      0.56      0.51      0.29
+2011-03-21_00:00:00      NO2      17.17     17.82     17.51     -0.11
+2011-03-21_00:00:00       O3      33.29     32.45     36.68      0.15
+2011-03-22_00:00:00       NO       3.98      1.95      1.80      0.55
+2011-03-22_00:00:00      NO2      28.77     30.01     25.05     -0.10
+2011-03-22_00:00:00       O3      19.72     17.96     25.86      0.20
+ -> /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080
+ 500/cartoprox_nox.2011030800_2011032223.nc
+ Fin du programme calc_cartoprox_nc.exe
+Fichier /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/cartoprox_nox.2011030800_2011032223.nc steps: [1;32m 360/360 [0;39m
+./5c_calcul_cartoprox_domaine_v4.sh: [1;32m SUCCESS [0;39m
+Supprime /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/suremis_nox.2011030800_2011032223.recepts.nc
+Supprime /mnt/mod8/data/CARTOPROX/res_V31_region_A6_A89_20110308_20110322/632500_5080500/reg_nox.2011030800_2011032223.recepts.nc
+*** info: 2011030800_2011032223 : fin du traitement Fri Dec  2 13:46:24 UTC 2011

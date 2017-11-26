@@ -1,0 +1,33 @@
+But du programme :
+---------------------------------------------------------------------------
+Pour une grille CHIMERE reguliere (UTM/Lambert), extrait la valeur au point
+(x,y) pour la variable var.
+
+
+Usage
+---------------------------------------------------------------------------
+fic_nc=/data/PREVALP_DATA/out/carto_2009_annuel/2009v06_gaz/out.20090101_20100101_REG01KM.nc
+xmin=553000.
+ymin=4887000.
+dx=1000.
+x=653000.
+y=4897000.
+
+#cd src ; make clean; make; cd ..
+#cd src ; make; cd ..
+debug= #-debug
+syntaxe="./extract_val_grille.exe -i ${fic_nc} -xmin ${xmin} -ymin ${ymin} -dx ${dx} -x ${x} -y ${y} -it 10 -var $1 ${debug} -hour"
+#echo ${syntaxe}
+${syntaxe} 
+
+
+version 6              : * permet de fixer les pas de temps avec le format CHIMERE. Exemple : '2007-01-01_00:00:00'
+                         * compatibilité avec version 5 non testée
+
+version 5              : * version stable de CARTOPROX v3			 
+			 
+version 3              : * extrait des donnees horaires avec -hour
+
+version 2 (08/12/2010) : * peut utiliser un fichier de stations NetCDF et ecrit directement les variables de 
+                           la grille dans la variable *_grille 
+			 * permet d'utiliser un lissage sur n points avec l'option "-smooth n"

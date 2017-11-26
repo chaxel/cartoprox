@@ -1,0 +1,135 @@
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4933500 (1 sur 15)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:34:21 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4936500 (2 sur 15)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:34:31 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4939500 (3 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:34:40 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4942500 (4 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:34:48 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 638500_4945500 (5 sur 15)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:34:55 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4933500 (6 sur 15)
+ Occup. sol: URBAINE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:35:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4936500 (7 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:35:19 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4939500 (8 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:35:33 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4942500 (9 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:35:44 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 641500_4945500 (10 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:35:55 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4933500 (11 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:36:05 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4936500 (12 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:36:14 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4939500 (13 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:36:26 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4942500 (14 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:36:37 UTC 2011
+******************************************************************
+******************************************************************
+ Emissions : A7
+ Selection : _montelimar
+ Cadastre  : 2009v89
+ Mini-domaine 644500_4945500 (15 sur 15)
+ Occup. sol: RURALE
+ Profil emi: 5
+ Nous sommes le : Sun Aug 14 08:36:47 UTC 2011
+******************************************************************
